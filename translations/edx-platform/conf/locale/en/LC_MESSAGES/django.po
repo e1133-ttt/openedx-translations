@@ -82,19 +82,19 @@ msgstr ""
 #: cms/djangoapps/contentstore/admin.py:45
 #, python-brace-format
 msgid ""
-"Number of course outline regenerations successfully requested: {regenerates}"
+"Number of Micro-experienceoutline regenerations successfully requested: {regenerates}"
 msgstr ""
 
 #: cms/djangoapps/contentstore/admin.py:49
-msgid "Regenerate selected course outlines"
+msgid "Regenerate selected Micro-experienceoutlines"
 msgstr ""
 
 #: cms/djangoapps/contentstore/admin.py:57
-msgid "All course outline regenerations successfully requested."
+msgid "All Micro-experienceoutline regenerations successfully requested."
 msgstr ""
 
 #: cms/djangoapps/contentstore/admin.py:58
-msgid "Regenerate *all* course outlines"
+msgid "Regenerate *all* Micro-experienceoutlines"
 msgstr ""
 
 #: cms/djangoapps/contentstore/asset_storage_handlers.py:548
@@ -136,7 +136,7 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/course_info_model.py:74
 #: cms/djangoapps/contentstore/course_info_model.py:159
-msgid "Invalid course update id."
+msgid "Invalid Micro-experienceupdate id."
 msgstr ""
 
 #: cms/djangoapps/contentstore/course_info_model.py:126
@@ -156,11 +156,11 @@ msgid "(Unnamed)"
 msgstr ""
 
 #: cms/djangoapps/contentstore/errors.py:6
-msgid "Aborting import because a course with this id: {} already exists."
+msgid "Aborting import because a Micro-experiencewith this id: {} already exists."
 msgstr ""
 
 #: cms/djangoapps/contentstore/errors.py:7
-msgid "Permission denied. You do not have write access to this course."
+msgid "Permission denied. You do not have write access to this Micro-experience."
 msgstr ""
 
 #: cms/djangoapps/contentstore/errors.py:8
@@ -189,7 +189,7 @@ msgid "Permission denied"
 msgstr ""
 
 #: cms/djangoapps/contentstore/errors.py:14
-msgid "Unknown error while importing course."
+msgid "Unknown error while importing Micro-experience."
 msgstr ""
 
 #: cms/djangoapps/contentstore/errors.py:15
@@ -237,7 +237,7 @@ msgid "Unable to update or clone git repository."
 msgstr ""
 
 #: cms/djangoapps/contentstore/git_export_utils.py:46
-msgid "Unable to export course to xml."
+msgid "Unable to export Micro-experienceto xml."
 msgstr ""
 
 #: cms/djangoapps/contentstore/git_export_utils.py:47
@@ -257,7 +257,7 @@ msgid ""
 msgstr ""
 
 #: cms/djangoapps/contentstore/git_export_utils.py:52
-msgid "Bad course location provided"
+msgid "Bad Micro-experiencelocation provided"
 msgstr ""
 
 #: cms/djangoapps/contentstore/git_export_utils.py:53
@@ -300,8 +300,8 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/management/commands/git_export.py:33
 msgid ""
-"Take the specified course and attempt to export it to a git repository\n"
-". Course directory must already be a git repository. Usage:  git_export "
+"Take the specified Micro-experienceand attempt to export it to a git repository\n"
+". Micro-experiencedirectory must already be a git repository. Usage:  git_export "
 "<course_loc> <git_url>"
 msgstr ""
 
@@ -367,7 +367,7 @@ msgid "True to hide the tab, and False to show it."
 msgstr ""
 
 #: cms/djangoapps/contentstore/rest_api/v0/views/tabs.py:117
-msgid "Change the visibility of tabs in a course."
+msgid "Change the visibility of tabs in a Micro-experience."
 msgstr ""
 
 #: cms/djangoapps/contentstore/transcript_storage_handlers.py:116
@@ -431,7 +431,7 @@ msgid "Duplicate of '{0}'"
 msgstr ""
 
 #: cms/djangoapps/contentstore/utils.py:1309
-msgid "Invalid prerequisite course key"
+msgid "Invalid prerequisite Micro-experiencekey"
 msgstr ""
 
 #: cms/djangoapps/contentstore/utils.py:1879
@@ -488,7 +488,7 @@ msgid "YouTube Duplicate"
 msgstr ""
 
 #. Translators: This is the status for a video for which an invalid
-#. processing token was provided in the course settings
+#. processing token was provided in the Micro-experiencesettings
 #: cms/djangoapps/contentstore/video_storage_handlers.py:137
 msgid "Invalid Token"
 msgstr ""
@@ -703,39 +703,39 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/views/course.py:892
 msgid ""
-"Special characters not allowed in organization, course number, and course "
+"Special characters not allowed in organization, Micro-experiencenumber, and Micro-experience"
 "run."
 msgstr ""
 
 #: cms/djangoapps/contentstore/views/course.py:928
 msgid ""
-"There is already a course defined with the same organization and course "
-"number. Please change either organization or course number to be unique."
+"There is already a Micro-experiencedefined with the same organization and Micro-experience"
+"number. Please change either organization or Micro-experiencenumber to be unique."
 msgstr ""
 
 #: cms/djangoapps/contentstore/views/course.py:933
 #: cms/djangoapps/contentstore/views/course.py:936
 msgid ""
-"Please change either the organization or course number so that it is unique."
+"Please change either the organization or Micro-experiencenumber so that it is unique."
 msgstr ""
 
 #: cms/djangoapps/contentstore/views/course.py:941
 #, python-brace-format
 msgid ""
-"Unable to create course '{name}'.\n"
+"Unable to create Micro-experience'{name}'.\n"
 "\n"
 "{err}"
 msgstr ""
 
 #: cms/djangoapps/contentstore/views/course.py:953
 msgid ""
-"User does not have the permission to create courses in this organization or "
+"User does not have the permission to create Micro-experiencesin this organization or "
 "course creation is disabled"
 msgstr ""
 
 #: cms/djangoapps/contentstore/views/course.py:970
 msgid ""
-"You must link this course to an organization in order to continue. "
+"You must link this Micro-experienceto an organization in order to continue. "
 "Organization you selected does not exist in the system, you will need to add "
 "it to the system"
 msgstr ""
@@ -767,7 +767,7 @@ msgid "Entrance Exam - Subsection"
 msgstr ""
 
 #: cms/djangoapps/contentstore/views/entrance_exam.py:253
-msgid "Completed Course Entrance Exam"
+msgid "Completed Micro-experienceEntrance Exam"
 msgstr ""
 
 #: cms/djangoapps/contentstore/views/export_git.py:47
@@ -982,7 +982,7 @@ msgstr ""
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:1039
 #, python-brace-format
 msgid ""
-"Students must score {score}{pct_sign} or higher to access course materials."
+"Students must score {score}{pct_sign} or higher to access Micro-experiencematerials."
 msgstr ""
 
 #. Translators: This is the percent sign. It will be used to represent
@@ -1021,21 +1021,21 @@ msgid "The date when state was last updated"
 msgstr ""
 
 #: cms/djangoapps/course_creators/models.py:50
-msgid "Current course creator state"
+msgid "Current Micro-experiencecreator state"
 msgstr ""
 
 #: cms/djangoapps/course_creators/models.py:51
 msgid ""
-"Optional notes about this user (for example, why course creation access was "
+"Optional notes about this user (for example, why Micro-experiencecreation access was "
 "denied)"
 msgstr ""
 
 #: cms/djangoapps/course_creators/models.py:54
-msgid "Organizations under which the user is allowed to create courses."
+msgid "Organizations under which the user is allowed to create Micro-experiences."
 msgstr ""
 
 #: cms/djangoapps/course_creators/models.py:57
-msgid "Grant the user the permission to create courses in ALL organizations"
+msgid "Grant the user the permission to create Micro-experiencesin ALL organizations"
 msgstr ""
 
 #: cms/djangoapps/maintenance/views.py:35
@@ -1045,9 +1045,9 @@ msgstr ""
 
 #: cms/djangoapps/maintenance/views.py:38
 msgid ""
-"Sometimes the draft and published branches of a course can get out of sync. "
-"Force publish course command resets the published branch of a course to "
-"point to the draft branch, effectively force publishing the course. This "
+"Sometimes the draft and published branches of a Micro-experiencecan get out of sync. "
+"Force publish Micro-experiencecommand resets the published branch of a Micro-experienceto "
+"point to the draft branch, effectively force publishing the Micro-experience. This "
 "view dry runs the force publish command"
 msgstr ""
 
@@ -1062,19 +1062,19 @@ msgid ""
 msgstr ""
 
 #: cms/djangoapps/maintenance/views.py:56
-msgid "Please provide course id."
+msgid "Please provide Micro-experienceid."
 msgstr ""
 
 #: cms/djangoapps/maintenance/views.py:57
-msgid "Invalid course key."
+msgid "Invalid Micro-experiencekey."
 msgstr ""
 
 #: cms/djangoapps/maintenance/views.py:58
-msgid "No matching course found."
+msgid "No matching Micro-experiencefound."
 msgstr ""
 
 #: cms/djangoapps/maintenance/views.py:199
-msgid "Force publishing course is not supported with old mongo courses."
+msgid "Force publishing Micro-experienceis not supported with old mongo Micro-experiences."
 msgstr ""
 
 #: cms/djangoapps/maintenance/views.py:213
@@ -1095,7 +1095,7 @@ msgid "Content is not linked to a Content Library."
 msgstr ""
 
 #: cms/lib/xblock/upstream_sync.py:137
-msgid "Cannot update content because it does not belong to a course."
+msgid "Cannot update content because it does not belong to a Micro-experience."
 msgstr ""
 
 #: cms/lib/xblock/upstream_sync.py:139
@@ -1222,7 +1222,7 @@ msgstr ""
 msgid ""
 "OPTIONAL: After this date/time, users will no longer be able to enroll in "
 "this mode. Leave this blank if users can enroll in this mode until "
-"enrollment closes for the course."
+"enrollment closes for the Micro-experience."
 msgstr ""
 
 #: common/djangoapps/course_modes/models.py:94
@@ -1239,21 +1239,21 @@ msgstr ""
 #: common/djangoapps/course_modes/models.py:121
 msgid ""
 "OPTIONAL: This is the SKU (stock keeping unit) of this mode in the external "
-"ecommerce service.  Leave this blank if the course has not yet been migrated "
+"ecommerce service.  Leave this blank if the Micro-experiencehas not yet been migrated "
 "to the ecommerce service."
 msgstr ""
 
 #: common/djangoapps/course_modes/models.py:133
 msgid ""
 "OPTIONAL: This is the Android SKU registered on play store for this mode of "
-"the course. Leave this blank if the course has not yet been migrated to the "
+"the Micro-experience. Leave this blank if the Micro-experiencehas not yet been migrated to the "
 "ecommerce service."
 msgstr ""
 
 #: common/djangoapps/course_modes/models.py:145
 msgid ""
 "OPTIONAL: This is the iOS SKU registered on app store for this mode of the "
-"course.  Leave this blank if the course has not yet been migrated to the "
+"course.  Leave this blank if the Micro-experiencehas not yet been migrated to the "
 "ecommerce service."
 msgstr ""
 
@@ -1271,7 +1271,7 @@ msgstr ""
 #: common/djangoapps/course_modes/models.py:258
 #, python-brace-format
 msgid ""
-"The {course_mode} course mode has a minimum price of {min_price}. You must "
+"The {course_mode} Micro-experiencemode has a minimum price of {min_price}. You must "
 "set a price greater than or equal to {min_price}."
 msgstr ""
 
@@ -1285,15 +1285,15 @@ msgid "{currency_symbol}{price}"
 msgstr ""
 
 #. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
-#. Translators: This refers to the cost of the course. In this case, the
-#. course costs nothing so it is free.
+#. Translators: This refers to the cost of the Micro-experience. In this case, the
+#. Micro-experiencecosts nothing so it is free.
 #: common/djangoapps/course_modes/models.py:928
 #: lms/templates/course_modes/track_selection.html:150
 msgid "Free"
 msgstr ""
 
 #: common/djangoapps/course_modes/models.py:983
-msgid "The time period before a course ends in which a course mode will expire"
+msgid "The time period before a Micro-experienceends in which a Micro-experiencemode will expire"
 msgstr ""
 
 #: common/djangoapps/course_modes/views.py:209
@@ -1610,12 +1610,12 @@ msgstr ""
 
 #: common/djangoapps/student/views/dashboard.py:755
 #, python-brace-format
-msgid "The course you are looking for does not start until {date}."
+msgid "The Micro-experienceyou are looking for does not start until {date}."
 msgstr ""
 
 #: common/djangoapps/student/views/dashboard.py:759
 #, python-brace-format
-msgid "The course you are looking for is closed for enrollment as of {date}."
+msgid "The Micro-experienceyou are looking for is closed for enrollment as of {date}."
 msgstr ""
 
 #: common/djangoapps/student/views/management.py:367
@@ -1623,7 +1623,7 @@ msgid "Course id not specified"
 msgstr ""
 
 #: common/djangoapps/student/views/management.py:378
-msgid "Invalid course id"
+msgid "Invalid Micro-experienceid"
 msgstr ""
 
 #: common/djangoapps/student/views/management.py:393
@@ -1701,7 +1701,7 @@ msgstr ""
 msgid ""
 "{html_start}Success! You have {activated_or_confirmed} your "
 "{account_or_email}.{html_end}You will now receive email updates and alerts "
-"from us related to the courses you are enrolled in. Sign In to continue."
+"from us related to the Micro-experiencesyou are enrolled in. Sign In to continue."
 msgstr ""
 
 #: common/djangoapps/student/views/management.py:727
@@ -2415,7 +2415,7 @@ msgstr ""
 msgid ""
 "Enabled XBlock/template combinations with full or provisional support can "
 "always be created in Studio. Unsupported XBlock/template combinations "
-"require course author opt-in."
+"require Micro-experienceauthor opt-in."
 msgstr ""
 
 #: common/djangoapps/xblock_django/models.py:27
@@ -2476,7 +2476,7 @@ msgstr ""
 #, python-format
 msgid ""
 "You're almost there! Use the link below to activate your account to access "
-"engaging, high-quality %(platform_name)s courses. Note that you will not be "
+"engaging, high-quality %(platform_name)s Micro-experiences. Note that you will not be "
 "able to log back into your account until you have activated it."
 msgstr ""
 
@@ -2510,7 +2510,7 @@ msgstr ""
 #, python-format
 msgid ""
 "You’re almost there! Use the link below to activate your account to access "
-"engaging, high-quality %(platform_name)s courses. Note that you will not be "
+"engaging, high-quality %(platform_name)s Micro-experiences. Note that you will not be "
 "able to log back into your account until you have activated it."
 msgstr ""
 
@@ -2656,7 +2656,7 @@ msgstr ""
 msgid ""
 "\n"
 "                    You are enrolled in %(course_name)s at "
-"%(platform_name)s. This course contains proctored exams.\n"
+"%(platform_name)s. This Micro-experiencecontains proctored exams.\n"
 "                "
 msgstr ""
 
@@ -2666,7 +2666,7 @@ msgid ""
 "\n"
 "                    Proctored exams are timed exams that you take while "
 "proctoring software monitors your computer's desktop, webcam video, and "
-"audio. Your course uses %(proctoring_provider)s software for proctoring.\n"
+"audio. Your Micro-experienceuses %(proctoring_provider)s software for proctoring.\n"
 "                "
 msgstr ""
 
@@ -2717,7 +2717,7 @@ msgstr ""
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.txt:3
 #, python-format
 msgid ""
-"You are enrolled in %(course_name)s at %(platform_name)s. This course "
+"You are enrolled in %(course_name)s at %(platform_name)s. This Micro-experience"
 "contains proctored exams."
 msgstr ""
 
@@ -2725,7 +2725,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Proctored exams are timed exams that you take while proctoring software "
-"monitors your computer's desktop, webcam video, and audio. Your course uses "
+"monitors your computer's desktop, webcam video, and audio. Your Micro-experienceuses "
 "%(proctoring_provider)s software for proctoring."
 msgstr ""
 
@@ -2786,13 +2786,13 @@ msgstr ""
 #: lms/djangoapps/badges/events/course_complete.py:43
 #, python-brace-format
 msgid ""
-"Completed the course \"{course_name}\" ({course_mode}, {start_date} - "
+"Completed the Micro-experience\"{course_name}\" ({course_mode}, {start_date} - "
 "{end_date})"
 msgstr ""
 
 #: lms/djangoapps/badges/events/course_complete.py:50
 #, python-brace-format
-msgid "Completed the course \"{course_name}\" ({course_mode})"
+msgid "Completed the Micro-experience\"{course_name}\" ({course_mode})"
 msgstr ""
 
 #: lms/djangoapps/badges/models.py:15
@@ -2810,7 +2810,7 @@ msgstr ""
 #. Translators: This string is used across Open edX installations
 #. as a callback to edX. Please do not translate `edX.org`
 #: lms/djangoapps/branding/api.py:117
-msgid "Take free online courses at edX.org"
+msgid "Take free online Micro-experiencesat edX.org"
 msgstr ""
 
 #. Translators: 'edX' and 'Open edX' are trademarks of 'edX Inc.'.
@@ -2978,10 +2978,10 @@ msgstr ""
 msgid "Download the {platform_name} mobile app from Google Play"
 msgstr ""
 
-#. Translators: Bulk email from address e.g. ("Physics 101" Course Staff)
+#. Translators: Bulk email from address e.g. ("Physics 101" Micro-experienceStaff)
 #: lms/djangoapps/bulk_email/tasks.py:384
 #, python-brace-format
-msgid "\"{course_title}\" Course Staff"
+msgid "\"{course_title}\" Micro-experienceStaff"
 msgstr ""
 
 #: lms/djangoapps/ccx/plugins.py:22
@@ -2990,13 +2990,13 @@ msgstr ""
 
 #: lms/djangoapps/ccx/utils.py:50
 msgid ""
-"A CCX can only be created on this course through an external service. "
-"Contact a course admin to give you access."
+"A CCX can only be created on this Micro-experiencethrough an external service. "
+"Contact a Micro-experienceadmin to give you access."
 msgstr ""
 
 #: lms/djangoapps/ccx/utils.py:267
 #, python-brace-format
-msgid "The course is full: the limit is {max_student_enrollments_allowed}"
+msgid "The Micro-experienceis full: the limit is {max_student_enrollments_allowed}"
 msgstr ""
 
 #: lms/djangoapps/ccx/views.py:97
@@ -3009,8 +3009,8 @@ msgstr ""
 
 #: lms/djangoapps/ccx/views.py:180
 msgid ""
-"You cannot create a CCX from a course using a deprecated id. Please create a "
-"rerun of this course in the studio to allow this action."
+"You cannot create a CCX from a Micro-experienceusing a deprecated id. Please create a "
+"rerun of this Micro-experiencein the studio to allow this action."
 msgstr ""
 
 #. Translators: This is a past-tense verb that is used for task action
@@ -3100,7 +3100,7 @@ msgid "Organization of template."
 msgstr ""
 
 #: lms/djangoapps/certificates/models.py:1163
-msgid "The course mode for this template."
+msgid "The Micro-experiencemode for this template."
 msgstr ""
 
 #: lms/djangoapps/certificates/models.py:1166
@@ -3137,7 +3137,7 @@ msgstr ""
 
 #: lms/djangoapps/certificates/views/support.py:118
 #, python-brace-format
-msgid "The course does not exist against the given key '{course_key}'"
+msgid "The Micro-experiencedoes not exist against the given key '{course_key}'"
 msgstr ""
 
 #: lms/djangoapps/certificates/views/support.py:144
@@ -3147,18 +3147,18 @@ msgstr ""
 
 #: lms/djangoapps/certificates/views/support.py:151
 #, python-brace-format
-msgid "{course_key} is not a valid course key"
+msgid "{course_key} is not a valid Micro-experiencekey"
 msgstr ""
 
 #: lms/djangoapps/certificates/views/support.py:192
 #: lms/djangoapps/certificates/views/support.py:257
 #, python-brace-format
-msgid "The course {course_key} does not exist"
+msgid "The Micro-experience{course_key} does not exist"
 msgstr ""
 
 #: lms/djangoapps/certificates/views/support.py:197
 #, python-brace-format
-msgid "User {user_id} is not enrolled in the course {course_key}"
+msgid "User {user_id} is not enrolled in the Micro-experience{course_key}"
 msgstr ""
 
 #: lms/djangoapps/certificates/views/support.py:218
@@ -3167,19 +3167,19 @@ msgstr ""
 
 #: lms/djangoapps/certificates/views/support.py:262
 #, python-brace-format
-msgid "User {username} is not enrolled in the course {course_key}"
+msgid "User {username} is not enrolled in the Micro-experience{course_key}"
 msgstr ""
 
-#. Translators:  This text describes the 'Honor' course certificate type.
+#. Translators:  This text describes the 'Honor' Micro-experiencecertificate type.
 #: lms/djangoapps/certificates/views/webview.py:72
 #, python-brace-format
 msgid ""
 "An {cert_type} certificate signifies that a learner has agreed to abide by "
 "the honor code established by {platform_name} and has completed all of the "
-"required tasks for this course under its guidelines."
+"required tasks for this Micro-experienceunder its guidelines."
 msgstr ""
 
-#. Translators:  This text describes the 'ID Verified' course certificate
+#. Translators:  This text describes the 'ID Verified' Micro-experiencecertificate
 #. type, which is a higher level of
 #. verification offered by edX.  This type of verification is useful for
 #. professional education/certifications
@@ -3188,7 +3188,7 @@ msgstr ""
 msgid ""
 "A {cert_type} certificate signifies that a learner has agreed to abide by "
 "the honor code established by {platform_name} and has completed all of the "
-"required tasks for this course under its guidelines. "
+"required tasks for this Micro-experienceunder its guidelines. "
 msgstr ""
 
 #: lms/djangoapps/certificates/views/webview.py:86
@@ -3198,9 +3198,9 @@ msgid ""
 "has been checked and is valid."
 msgstr ""
 
-#. Translators:  This text describes the 'XSeries' course certificate type.
+#. Translators:  This text describes the 'XSeries' Micro-experiencecertificate type.
 #. An XSeries is a collection of
-#. courses related to each other in a meaningful way, such as a specific topic
+#. Micro-experiencesrelated to each other in a meaningful way, such as a specific topic
 #. or theme, or even an organization
 #: lms/djangoapps/certificates/views/webview.py:93
 #, python-brace-format
@@ -3236,12 +3236,12 @@ msgid ""
 msgstr ""
 
 #. Translators: This text describes the purpose (and therefore, value) of a
-#. course certificate
+#. Micro-experiencecertificate
 #: lms/djangoapps/certificates/views/webview.py:157
 #, python-brace-format
 msgid ""
 "{platform_name} acknowledges achievements through certificates, which are "
-"awarded for course activities that {platform_name} students complete."
+"awarded for Micro-experienceactivities that {platform_name} students complete."
 msgstr ""
 
 #. Translators:  'All rights reserved' is a legal term used in copyrighting to
@@ -3356,24 +3356,24 @@ msgstr ""
 #: lms/djangoapps/certificates/views/webview.py:256
 #, python-brace-format
 msgid ""
-"a course of study offered by {partner_short_name}, an online learning "
+"a Micro-experienceof study offered by {partner_short_name}, an online learning "
 "initiative of {partner_long_name}."
 msgstr ""
 
 #. Translators:  This text represents the description of course
 #: lms/djangoapps/certificates/views/webview.py:264
 #, python-brace-format
-msgid "a course of study offered by {partner_short_name}."
+msgid "a Micro-experienceof study offered by {partner_short_name}."
 msgstr ""
 
 #: lms/djangoapps/certificates/views/webview.py:279
 #, python-brace-format
-msgid "I completed the {course_title} course on {platform_name}."
+msgid "I completed the {course_title} Micro-experienceon {platform_name}."
 msgstr ""
 
 #: lms/djangoapps/certificates/views/webview.py:287
 #, python-brace-format
-msgid "I completed a course at {platform_name}. Take a look at my certificate."
+msgid "I completed a Micro-experienceat {platform_name}. Take a look at my certificate."
 msgstr ""
 
 #: lms/djangoapps/certificates/views/webview.py:324
@@ -3405,7 +3405,7 @@ msgstr ""
 
 #: lms/djangoapps/commerce/api/v1/serializers.py:50
 #, python-brace-format
-msgid "{course_id} is not a valid course key."
+msgid "{course_id} is not a valid Micro-experiencekey."
 msgstr ""
 
 #: lms/djangoapps/commerce/api/v1/serializers.py:57
@@ -3560,10 +3560,10 @@ msgstr ""
 msgid ""
 "These define the context to disable the frontend-app-learning progress page."
 "If no values are set, then the configuration applies globally. If a single "
-"value is set, then the configuration applies to all courses within that "
+"value is set, then the configuration applies to all Micro-experienceswithin that "
 "context. At most one value can be set at a time.<br>If multiple contexts "
-"apply to a course (for example, if configuration is specified for the course "
-"specifically, and for the org that the course is in, then the more specific "
+"apply to a Micro-experience(for example, if configuration is specified for the Micro-experience"
+"specifically, and for the org that the Micro-experienceis in, then the more specific "
 "context overrides the more general context."
 msgstr ""
 
@@ -3572,8 +3572,8 @@ msgstr ""
 msgid ""
 "If any of these values is left empty or \"Unknown\", then their value at "
 "runtime will be retrieved from the next most specific context that applies. "
-"For example, if \"Disabled\" is left as \"Unknown\" in the course context, "
-"then that course will be Disabled only if the org that it is in is Disabled."
+"For example, if \"Disabled\" is left as \"Unknown\" in the Micro-experiencecontext, "
+"then that Micro-experiencewill be Disabled only if the org that it is in is Disabled."
 msgstr ""
 
 #: lms/djangoapps/course_home_api/models.py:20
@@ -3613,7 +3613,7 @@ msgid "Welcome message successfully dismissed."
 msgstr ""
 
 #: lms/djangoapps/course_home_api/outline/views.py:675
-msgid "Your course goal has been successfully set."
+msgid "Your Micro-experiencegoal has been successfully set."
 msgstr ""
 
 #: lms/djangoapps/course_home_api/outline/views.py:676
@@ -3649,7 +3649,7 @@ msgid "Welcome to the {platform_name} Wiki"
 msgstr ""
 
 #: lms/djangoapps/course_wiki/views.py:122
-msgid "Visit a course wiki to add an article."
+msgid "Visit a Micro-experiencewiki to add an article."
 msgstr ""
 
 #: lms/djangoapps/courseware/access_response.py:135
@@ -3671,7 +3671,7 @@ msgid "You do not have access to this course"
 msgstr ""
 
 #: lms/djangoapps/courseware/access_response.py:213
-msgid "You do not have access to this course on a mobile device"
+msgid "You do not have access to this Micro-experienceon a mobile device"
 msgstr ""
 
 #: lms/djangoapps/courseware/access_response.py:253
@@ -3681,9 +3681,9 @@ msgstr ""
 #: lms/djangoapps/courseware/access_response.py:264
 #, python-brace-format
 msgid ""
-"You are enrolled in this course with '{enrollment_enterprise_name}'. "
+"You are enrolled in this Micro-experiencewith '{enrollment_enterprise_name}'. "
 "However, you are currently logged in as a '{active_enterprise_name}' user. "
-"Please log in with '{enrollment_enterprise_name}' to access this course."
+"Please log in with '{enrollment_enterprise_name}' to access this Micro-experience."
 msgstr ""
 
 #: lms/djangoapps/courseware/access_response.py:280
@@ -3762,20 +3762,20 @@ msgstr ""
 
 #: lms/djangoapps/courseware/date_summary.py:298
 msgid ""
-"After this date, the course will be archived, which means you can review the "
+"After this date, the Micro-experiencewill be archived, which means you can review the "
 "course content but can no longer participate in graded assignments or work "
 "towards earning a certificate."
 msgstr ""
 
 #: lms/djangoapps/courseware/date_summary.py:302
 msgid ""
-"After the course ends, the course content will be archived and no longer "
+"After the Micro-experienceends, the Micro-experiencecontent will be archived and no longer "
 "active."
 msgstr ""
 
 #: lms/djangoapps/courseware/date_summary.py:304
 msgid ""
-"This course is archived, which means you can review course content but it is "
+"This Micro-experienceis archived, which means you can review Micro-experiencecontent but it is "
 "no longer active."
 msgstr ""
 
@@ -3813,7 +3813,7 @@ msgstr ""
 #: lms/djangoapps/courseware/date_summary.py:503
 msgid ""
 "You are still eligible to upgrade to a Verified Certificate! Pursue it to "
-"highlight the knowledge and skills you gain in this course."
+"highlight the knowledge and skills you gain in this Micro-experience."
 msgstr ""
 
 #. Translators: This describes the time by which the user
@@ -3861,7 +3861,7 @@ msgstr ""
 #, python-brace-format
 msgid ""
 "There is no user with the username or email address \"{user_identifier}\" "
-"enrolled in this course."
+"enrolled in this Micro-experience."
 msgstr ""
 
 #: lms/djangoapps/courseware/masquerade.py:402
@@ -3872,7 +3872,7 @@ msgstr ""
 
 #: lms/djangoapps/courseware/masquerade.py:479
 msgid ""
-"This type of component cannot be shown while viewing the course as a "
+"This type of component cannot be shown while viewing the Micro-experienceas a "
 "specific student."
 msgstr ""
 
@@ -3883,7 +3883,7 @@ msgid "Number of days a learner has to upgrade after content is made available"
 msgstr ""
 
 #: lms/djangoapps/courseware/models.py:499
-msgid "Disable the dynamic upgrade deadline for this course run."
+msgid "Disable the dynamic upgrade deadline for this Micro-experiencerun."
 msgstr ""
 
 #: lms/djangoapps/courseware/models.py:526
@@ -3905,7 +3905,7 @@ msgid ""
 msgstr ""
 
 #: lms/djangoapps/courseware/models.py:565
-msgid "Percentage of courses allowed to use edx-financial-assistance"
+msgid "Percentage of Micro-experiencesallowed to use edx-financial-assistance"
 msgstr ""
 
 #: lms/djangoapps/courseware/plugins.py:27 lms/djangoapps/courseware/tabs.py:81
@@ -3915,11 +3915,11 @@ msgid "Progress"
 msgstr ""
 
 #: lms/djangoapps/courseware/plugins.py:28
-msgid "Keep learners engaged and on track throughout the course."
+msgid "Keep learners engaged and on track throughout the Micro-experience."
 msgstr ""
 
 #. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
-#. Translators: 'Textbooks' refers to the tab in the course that leads to the
+#. Translators: 'Textbooks' refers to the tab in the Micro-experiencethat leads to the
 #. course' textbooks
 #: lms/djangoapps/courseware/plugins.py:74
 #: lms/djangoapps/courseware/tabs.py:109 cms/templates/textbooks.html:11
@@ -3930,7 +3930,7 @@ msgstr ""
 
 #: lms/djangoapps/courseware/plugins.py:75
 msgid ""
-"Create and manage a library of course readings, textbooks, and chapters."
+"Create and manage a library of Micro-experiencereadings, textbooks, and chapters."
 msgstr ""
 
 #: lms/djangoapps/courseware/plugins.py:125
@@ -3956,7 +3956,7 @@ msgid "Custom pages"
 msgstr ""
 
 #: lms/djangoapps/courseware/plugins.py:220
-msgid "Provide additional course content and resources with custom pages"
+msgid "Provide additional Micro-experiencecontent and resources with custom pages"
 msgstr ""
 
 #: lms/djangoapps/courseware/plugins.py:271
@@ -3992,8 +3992,8 @@ msgstr ""
 #: lms/djangoapps/courseware/views/index.py:231
 #, python-brace-format
 msgid ""
-"You are not signed in. To see additional course content, {sign_in_link} or "
-"{register_link}, and enroll in this course."
+"You are not signed in. To see additional Micro-experiencecontent, {sign_in_link} or "
+"{register_link}, and enroll in this Micro-experience."
 msgstr ""
 
 #: lms/djangoapps/courseware/views/index.py:234
@@ -4013,7 +4013,7 @@ msgstr ""
 
 #: lms/djangoapps/courseware/views/views.py:172
 msgid ""
-"You are enrolled in the audit track for this course. The audit track does "
+"You are enrolled in the audit track for this Micro-experience. The audit track does "
 "not include a certificate."
 msgstr ""
 
@@ -4023,7 +4023,7 @@ msgstr ""
 
 #: lms/djangoapps/courseware/views/views.py:181
 msgid ""
-"You are enrolled in the honor track for this course. The honor track does "
+"You are enrolled in the honor track for this Micro-experience. The honor track does "
 "not include a certificate."
 msgstr ""
 
@@ -4033,7 +4033,7 @@ msgstr ""
 
 #: lms/djangoapps/courseware/views/views.py:196
 msgid ""
-"We're creating your certificate. You can keep working in your courses and a "
+"We're creating your certificate. You can keep working in your Micro-experiencesand a "
 "link to it will appear here and on your Dashboard when it is ready."
 msgstr ""
 
@@ -4042,7 +4042,7 @@ msgid "Your certificate has been invalidated"
 msgstr ""
 
 #: lms/djangoapps/courseware/views/views.py:207
-msgid "Please contact your course team if you have any questions."
+msgid "Please contact your Micro-experienceteam if you have any questions."
 msgstr ""
 
 #: lms/djangoapps/courseware/views/views.py:215
@@ -4051,7 +4051,7 @@ msgstr ""
 
 #: lms/djangoapps/courseware/views/views.py:216
 #: lms/djangoapps/courseware/views/views.py:238
-msgid "You've earned a certificate for this course."
+msgid "You've earned a certificate for this Micro-experience."
 msgstr ""
 
 #: lms/djangoapps/courseware/views/views.py:226
@@ -4060,7 +4060,7 @@ msgstr ""
 
 #: lms/djangoapps/courseware/views/views.py:227
 msgid ""
-"After this course officially ends, you will receive an email notification "
+"After this Micro-experienceofficially ends, you will receive an email notification "
 "with your certificate."
 msgstr ""
 
@@ -4081,7 +4081,7 @@ msgstr ""
 
 #: lms/djangoapps/courseware/views/views.py:553
 #, python-brace-format
-msgid "To see course content, {sign_in_link} or {register_link}."
+msgid "To see Micro-experiencecontent, {sign_in_link} or {register_link}."
 msgstr ""
 
 #: lms/djangoapps/courseware/views/views.py:568
@@ -4101,12 +4101,12 @@ msgstr ""
 #: lms/djangoapps/courseware/views/views.py:584
 #, python-brace-format
 msgid ""
-"You must be enrolled in the course to see course content. {enroll_link_start}"
+"You must be enrolled in the Micro-experienceto see Micro-experiencecontent. {enroll_link_start}"
 "Enroll now{enroll_link_end}."
 msgstr ""
 
 #: lms/djangoapps/courseware/views/views.py:597
-msgid "You must be enrolled in the course to see course content."
+msgid "You must be enrolled in the Micro-experienceto see Micro-experiencecontent."
 msgstr ""
 
 #: lms/djangoapps/courseware/views/views.py:1213
@@ -4133,7 +4133,7 @@ msgid "Course is not valid"
 msgstr ""
 
 #: lms/djangoapps/courseware/views/views.py:1457
-msgid "Your certificate will be available when you pass the course."
+msgid "Your certificate will be available when you pass the Micro-experience."
 msgstr ""
 
 #: lms/djangoapps/courseware/views/views.py:1470
@@ -4148,13 +4148,13 @@ msgstr ""
 msgid ""
 "We plan to use this information to evaluate your application for financial "
 "assistance and to further develop our financial assistance program. \n"
-"Please note that while assistance is available in most courses that offer "
-"verified certificates, a few courses and programs are not eligible. You must "
-"complete a separate application for each course you take. You may be "
+"Please note that while assistance is available in most Micro-experiencesthat offer "
+"verified certificates, a few Micro-experiencesand programs are not eligible. You must "
+"complete a separate application for each Micro-experienceyou take. You may be "
 "approved for financial assistance five (5) times each year (based on 12-"
 "month period from you first approval). \n"
 "To apply for financial assistance: \n"
-"1. Enroll in the audit track for an eligible course that offers Verified "
+"1. Enroll in the audit track for an eligible Micro-experiencethat offers Verified "
 "Certificates. \n"
 "2. Complete this application. \n"
 "3. Check your email, please allow 4 weeks for your application to be "
@@ -4163,9 +4163,9 @@ msgstr ""
 
 #: lms/djangoapps/courseware/views/views.py:2205
 msgid ""
-"Select the course for which you want to earn a verified certificate. If the "
+"Select the Micro-experiencefor which you want to earn a verified certificate. If the "
 "course does not appear in the list, make sure that you have enrolled in the "
-"audit track for the course."
+"audit track for the Micro-experience."
 msgstr ""
 
 #: lms/djangoapps/courseware/views/views.py:2212
@@ -4174,13 +4174,13 @@ msgstr ""
 
 #: lms/djangoapps/courseware/views/views.py:2219
 msgid ""
-"Paying the verified certificate fee for the above course would cause me "
+"Paying the verified certificate fee for the above Micro-experiencewould cause me "
 "economic hardship"
 msgstr ""
 
 #: lms/djangoapps/courseware/views/views.py:2231
 msgid ""
-"I will work diligently to complete the course work and receive a certificate"
+"I will work diligently to complete the Micro-experiencework and receive a certificate"
 msgstr ""
 
 #: lms/djangoapps/courseware/views/views.py:2243
@@ -4321,7 +4321,7 @@ msgstr ""
 
 #: lms/djangoapps/edxnotes/plugins.py:58
 msgid ""
-"Allow learners to highlight passages and make notes right in the course."
+"Allow learners to highlight passages and make notes right in the Micro-experience."
 msgstr ""
 
 #: lms/djangoapps/grades/rest_api/v1/gradebook_views.py:1147
@@ -4376,7 +4376,7 @@ msgstr ""
 #, python-brace-format
 msgid ""
 "Data in row #{row_num} must have between four and six columns: email, "
-"username, full name, country, cohort, and course mode. The last two columns "
+"username, full name, country, cohort, and Micro-experiencemode. The last two columns "
 "are optional."
 msgstr ""
 
@@ -4402,14 +4402,14 @@ msgstr ""
 #: lms/djangoapps/instructor/views/api.py:455
 #, python-brace-format
 msgid ""
-"Invalid course mode: {mode}. Falling back to the default mode, or keeping "
+"Invalid Micro-experiencemode: {mode}. Falling back to the default mode, or keeping "
 "the current mode in case the user is already enrolled."
 msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py:461
 #, python-brace-format
 msgid ""
-"Invalid course mode: {mode}.  Failling back to {default_mode}, or resetting "
+"Invalid Micro-experiencemode: {mode}.  Failling back to {default_mode}, or resetting "
 "to {default_mode} in case the user is already enrolled."
 msgstr ""
 
@@ -4487,7 +4487,7 @@ msgstr ""
 #: lms/djangoapps/instructor/views/api.py:1205
 #: lms/djangoapps/instructor/views/api.py:2347
 #: lms/djangoapps/instructor/views/api.py:2557
-msgid "The requesting user lacks access to the course."
+msgid "The requesting user lacks access to the Micro-experience."
 msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py:1340
@@ -4767,7 +4767,7 @@ msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py:2348
 #: lms/djangoapps/instructor/views/api.py:2558
-msgid "The requested course does not exist."
+msgid "The requested Micro-experiencedoes not exist."
 msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py:2520
@@ -4787,7 +4787,7 @@ msgid "List of report downloads"
 msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py:2545
-msgid "ID for the course whose reports need to be listed."
+msgid "ID for the Micro-experiencewhose reports need to be listed."
 msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py:2551
@@ -4845,7 +4845,7 @@ msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py:3278
 msgid ""
-"Certificate generation task for all students of this course has been "
+"Certificate generation task for all students of this Micro-experiencehas been "
 "started. You can view the status of the generation task in the \"Pending "
 "Tasks\" section."
 msgstr ""
@@ -4869,7 +4869,7 @@ msgstr ""
 #: lms/djangoapps/instructor/views/api.py:3384
 #, python-brace-format
 msgid ""
-"Student {user} is not enrolled in this course. Please check your spelling "
+"Student {user} is not enrolled in this Micro-experience. Please check your spelling "
 "and retry."
 msgstr ""
 
@@ -4930,7 +4930,7 @@ msgstr ""
 #: lms/djangoapps/instructor/views/api.py:3670
 #, python-brace-format
 msgid ""
-"The student {student} appears on the Certificate Exception list in course "
+"The student {student} appears on the Certificate Exception list in Micro-experience"
 "{course}. Please remove them from the Certificate Exception list before "
 "attempting to invalidate their certificate."
 msgstr ""
@@ -4964,8 +4964,8 @@ msgstr ""
 #: lms/djangoapps/instructor/views/api.py:3806
 #, python-brace-format
 msgid ""
-"The student {student} does not have certificate for the course {course}. "
-"Kindly verify student username/email and the selected course are correct and "
+"The student {student} does not have certificate for the Micro-experience{course}. "
+"Kindly verify student username/email and the selected Micro-experienceare correct and "
 "try again."
 msgstr ""
 
@@ -4977,7 +4977,7 @@ msgstr ""
 #, python-brace-format
 msgid ""
 "To gain insights into student enrollment and participation {link_start}visit "
-"{analytics_dashboard_name}, our new course analytics product{link_end}."
+"{analytics_dashboard_name}, our new Micro-experienceanalytics product{link_end}."
 msgstr ""
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py:322
@@ -4992,7 +4992,7 @@ msgid "Certificates"
 msgstr ""
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py:419
-msgid "Please Enter the numeric value for the course price"
+msgid "Please Enter the numeric value for the Micro-experienceprice"
 msgstr ""
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py:428
@@ -5097,7 +5097,7 @@ msgid "Couldn't find module for url: {0}"
 msgstr ""
 
 #: lms/djangoapps/instructor/views/tools.py:171
-msgid "Could not find student enrollment in the course."
+msgid "Could not find student enrollment in the Micro-experience."
 msgstr ""
 
 #: lms/djangoapps/instructor/views/tools.py:199
@@ -5486,7 +5486,7 @@ msgstr ""
 
 #: lms/djangoapps/lms_xblock/mixin.py:80
 msgid ""
-"Enter the tab that is selected in the XBlock. If not set, the Course tab is "
+"Enter the tab that is selected in the XBlock. If not set, the Micro-experiencetab is "
 "selected."
 msgstr ""
 
@@ -5499,7 +5499,7 @@ msgid "Enter the source file name for LaTeX."
 msgstr ""
 
 #: lms/djangoapps/lms_xblock/mixin.py:91 xmodule/modulestore/inheritance.py:58
-msgid "If true, can be seen only by course staff, regardless of start date."
+msgid "If true, can be seen only by Micro-experiencestaff, regardless of start date."
 msgstr ""
 
 #: lms/djangoapps/lms_xblock/mixin.py:97
@@ -5641,7 +5641,7 @@ msgstr ""
 
 #: lms/djangoapps/teams/views.py:427 lms/djangoapps/teams/views.py:1007
 #, python-brace-format
-msgid "The supplied course id {course_id} is not valid."
+msgid "The supplied Micro-experienceid {course_id} is not valid."
 msgstr ""
 
 #: lms/djangoapps/teams/views.py:443
@@ -5692,7 +5692,7 @@ msgid "teamset_id requires course_id to also be provided."
 msgstr ""
 
 #: lms/djangoapps/teams/views.py:1386 lms/djangoapps/teams/views.py:1399
-msgid "No teamset found in given course with given id"
+msgid "No teamset found in given Micro-experiencewith given id"
 msgstr ""
 
 #: lms/djangoapps/teams/views.py:1420
@@ -5723,7 +5723,7 @@ msgstr ""
 #: lms/djangoapps/teams/views.py:1505
 #, python-brace-format
 msgid ""
-"The user {username} is not enrolled in the course associated with this team."
+"The user {username} is not enrolled in the Micro-experienceassociated with this team."
 msgstr ""
 
 #: lms/djangoapps/teams/views.py:1631
@@ -5748,7 +5748,7 @@ msgid "Your {platform_name} ID verification was approved!"
 msgstr ""
 
 #: lms/djangoapps/verify_student/models.py:1093
-msgid "The course for which this deadline applies"
+msgid "The Micro-experiencefor which this deadline applies"
 msgstr ""
 
 #: lms/djangoapps/verify_student/models.py:1098
@@ -5791,7 +5791,7 @@ msgid "Selected price is not valid number."
 msgstr ""
 
 #: lms/djangoapps/verify_student/views.py:788
-msgid "This course doesn't support paid certificates"
+msgid "This Micro-experiencedoesn't support paid certificates"
 msgstr ""
 
 #: lms/djangoapps/verify_student/views.py:794
@@ -5865,7 +5865,7 @@ msgstr ""
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:30
 msgid ""
 "\n"
-"            To stop receiving email like this, update your course email "
+"            To stop receiving email like this, update your Micro-experienceemail "
 "settings\n"
 "          "
 msgstr ""
@@ -5893,7 +5893,7 @@ msgstr ""
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.txt:9
 #, python-format
 msgid ""
-"To stop receiving email like this, update your course email settings here "
+"To stop receiving email like this, update your Micro-experienceemail settings here "
 "%(email_settings_url)s"
 msgstr ""
 
@@ -5935,7 +5935,7 @@ msgid "It is recommended that you change your password."
 msgstr ""
 
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.html:48
-msgid "You may access your course."
+msgid "You may access your Micro-experience."
 msgstr ""
 
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.html:56
@@ -5953,7 +5953,7 @@ msgstr ""
 
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.txt:11
 #, python-format
-msgid "You may access your course at: %(course_url)s."
+msgid "You may access your Micro-experienceat: %(course_url)s."
 msgstr ""
 
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/subject.txt:3
@@ -5973,16 +5973,16 @@ msgid ""
 msgstr ""
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html:20
-msgid "The invitation has been sent by a member of the course staff."
+msgid "The invitation has been sent by a member of the Micro-experiencestaff."
 msgstr ""
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html:28
-msgid "To start accessing course materials, please visit:"
+msgid "To start accessing Micro-experiencematerials, please visit:"
 msgstr ""
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html:37
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html:49
-msgid "To enroll in this course and begin the beta test:"
+msgid "To enroll in this Micro-experienceand begin the beta test:"
 msgstr ""
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html:42
@@ -6022,24 +6022,24 @@ msgstr ""
 #, python-format
 msgid ""
 "You have been invited to be a beta tester for %(course_name)s at "
-"%(site_name)s by a member of the course staff."
+"%(site_name)s by a member of the Micro-experiencestaff."
 msgstr ""
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.txt:5
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.txt:5
 #, python-format
-msgid "To start accessing course materials, please visit %(course_url)s"
+msgid "To start accessing Micro-experiencematerials, please visit %(course_url)s"
 msgstr ""
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.txt:7
 #, python-format
 msgid ""
-"Visit %(course_about_url)s to enroll in this course and begin the beta test."
+"Visit %(course_about_url)s to enroll in this Micro-experienceand begin the beta test."
 msgstr ""
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.txt:9
 #, python-format
-msgid "Visit %(site_name)s to enroll in this course and begin the beta test."
+msgid "Visit %(site_name)s to enroll in this Micro-experienceand begin the beta test."
 msgstr ""
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/subject.txt:3
@@ -6078,15 +6078,15 @@ msgstr ""
 #, python-format
 msgid ""
 "You have been invited to join %(course_name)s at %(site_name)s by a member "
-"of the course staff."
+"of the Micro-experiencestaff."
 msgstr ""
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.html:28
-msgid "To access this course click on the button below and login:"
+msgid "To access this Micro-experienceclick on the button below and login:"
 msgstr ""
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.html:37
-msgid "To access this course visit it and register:"
+msgid "To access this Micro-experiencevisit it and register:"
 msgstr ""
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.html:47
@@ -6126,13 +6126,13 @@ msgstr ""
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.txt:4
 #, python-format
-msgid "To access this course visit %(course_url)s and login."
+msgid "To access this Micro-experiencevisit %(course_url)s and login."
 msgstr ""
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.txt:6
 #, python-format
 msgid ""
-"To access this course visit %(course_about_url)s and register for this "
+"To access this Micro-experiencevisit %(course_about_url)s and register for this "
 "course."
 msgstr ""
 
@@ -6148,7 +6148,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Once you have registered and activated your account, visit "
-"%(course_about_url)s to join this course."
+"%(course_about_url)s to join this Micro-experience."
 msgstr ""
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/subject.txt:3
@@ -6159,7 +6159,7 @@ msgstr ""
 #: lms/templates/instructor/edx_ace/allowedenroll/push/body.txt:3
 #, python-format
 msgid ""
-"You have been enrolled in %(course_name)s at %(site_name)s. This course will "
+"You have been enrolled in %(course_name)s at %(site_name)s. This Micro-experiencewill "
 "now appear on your %(site_name)s dashboard."
 msgstr ""
 
@@ -6181,7 +6181,7 @@ msgstr ""
 #: lms/templates/instructor/edx_ace/allowedunenroll/email/body.txt:3
 #, python-format
 msgid ""
-"You have been unenrolled from the course %(course_name)s by a member of the "
+"You have been unenrolled from the Micro-experience%(course_name)s by a member of the "
 "course staff. Please disregard the invitation previously sent."
 msgstr ""
 
@@ -6192,7 +6192,7 @@ msgstr ""
 #: lms/templates/instructor/edx_ace/allowedunenroll/push/body.txt:3
 #, python-format
 msgid ""
-"You have been unenrolled from the course %(course_name)s. Please disregard "
+"You have been unenrolled from the Micro-experience%(course_name)s. Please disregard "
 "the invitation previously sent."
 msgstr ""
 
@@ -6209,7 +6209,7 @@ msgstr ""
 #, python-format
 msgid ""
 "You have been unenrolled from %(course_name)s at %(site_name)s by a member "
-"of the course staff. This course will no longer appear on your %(site_name)s "
+"of the Micro-experiencestaff. This Micro-experiencewill no longer appear on your %(site_name)s "
 "dashboard."
 msgstr ""
 
@@ -6217,7 +6217,7 @@ msgstr ""
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.txt:5
 #: lms/templates/instructor/edx_ace/removebetatester/email/body.html:33
 #: lms/templates/instructor/edx_ace/removebetatester/email/body.txt:5
-msgid "Your other courses have not been affected."
+msgid "Your other Micro-experienceshave not been affected."
 msgstr ""
 
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.html:35
@@ -6231,7 +6231,7 @@ msgstr ""
 #: lms/templates/instructor/edx_ace/enrolledunenroll/push/body.txt:4
 #, python-format
 msgid ""
-"You have been unenrolled from %(course_name)s at %(site_name)s. This course "
+"You have been unenrolled from %(course_name)s at %(site_name)s. This Micro-experience"
 "will no longer appear on your %(site_name)s dashboard."
 msgstr ""
 
@@ -6248,12 +6248,12 @@ msgstr ""
 #, python-format
 msgid ""
 "You have been enrolled in %(course_name)s at %(site_name)s by a member of "
-"the course staff. This course will now appear on your %(site_name)s "
+"the Micro-experiencestaff. This Micro-experiencewill now appear on your %(site_name)s "
 "dashboard."
 msgstr ""
 
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.html:27
-msgid "Access the Course Materials Now"
+msgid "Access the Micro-experienceMaterials Now"
 msgstr ""
 
 #: lms/templates/instructor/edx_ace/enrollenrolled/push/body.txt:4
@@ -6271,12 +6271,12 @@ msgstr ""
 #, python-format
 msgid ""
 "You have been removed as a beta tester for %(course_name)s at %(site_name)s "
-"by a member of the course staff."
+"by a member of the Micro-experiencestaff."
 msgstr ""
 
 #: lms/templates/instructor/edx_ace/removebetatester/email/body.html:26
 msgid ""
-"This course will remain on your dashboard, but you will no longer be part of "
+"This Micro-experiencewill remain on your dashboard, but you will no longer be part of "
 "the beta testing group."
 msgstr ""
 
@@ -6284,7 +6284,7 @@ msgstr ""
 #, python-format
 msgid ""
 "You have been removed as a beta tester for %(course_name)s at %(site_name)s "
-"by a member of the course staff. This course will remain on your dashboard, "
+"by a member of the Micro-experiencestaff. This Micro-experiencewill remain on your dashboard, "
 "but you will no longer be part of the beta testing group."
 msgstr ""
 
@@ -6297,7 +6297,7 @@ msgstr ""
 #, python-format
 msgid ""
 "You have been removed as a beta tester for %(course_name)s at %(site_name)s. "
-"This course will remain on your dashboard, but you will no longer be part of "
+"This Micro-experiencewill remain on your dashboard, but you will no longer be part of "
 "the beta testing group."
 msgstr ""
 
@@ -6359,7 +6359,7 @@ msgstr ""
 
 #: lms/templates/oauth2_provider/authorize.html:32
 msgid ""
-"These permissions will be granted for data from your courses associated with "
+"These permissions will be granted for data from your Micro-experiencesassociated with "
 "the following content providers:"
 msgstr ""
 
@@ -6393,7 +6393,7 @@ msgstr ""
 #: lms/templates/support/edx_ace/wholecoursereset/email/body.html:11
 #: lms/templates/support/edx_ace/wholecoursereset/email/subject.txt:3
 #, python-format
-msgid "The course %(course_title)s has been reset !"
+msgid "The Micro-experience%(course_title)s has been reset !"
 msgstr ""
 
 #: lms/templates/support/edx_ace/wholecoursereset/email/body.html:16
@@ -6409,13 +6409,13 @@ msgstr ""
 #: lms/templates/support/edx_ace/wholecoursereset/email/body.html:21
 #: lms/templates/support/edx_ace/wholecoursereset/email/body.txt:3
 #, python-format
-msgid "Your progress in course %(course_title)s has been reset on your behalf."
+msgid "Your progress in Micro-experience%(course_title)s has been reset on your behalf."
 msgstr ""
 
 #: lms/templates/support/edx_ace/wholecoursereset/email/body.html:25
 #: lms/templates/support/edx_ace/wholecoursereset/email/body.txt:4
 msgid ""
-"You will be able to re-attempt this course and earn a verified certificate "
+"You will be able to re-attempt this Micro-experienceand earn a verified certificate "
 "upon successful completion."
 msgstr ""
 
@@ -7240,7 +7240,7 @@ msgstr ""
 
 #: openedx/core/djangoapps/catalog/models.py:53
 msgid ""
-"Username created for Course Catalog Integration, e.g. "
+"Username created for Micro-experienceCatalog Integration, e.g. "
 "lms_catalog_service_user."
 msgstr ""
 
@@ -7259,10 +7259,10 @@ msgstr ""
 msgid ""
 "These define the context to enable this configuration on. If no values are "
 "set, then the configuration applies globally. If a single value is set, then "
-"the configuration applies to all courses within that context. At most one "
-"value can be set at a time.{br}If multiple contexts apply to a course (for "
-"example, if configuration is specified for the course specifically, and for "
-"the org that the course is in, then the more specific context overrides the "
+"the configuration applies to all Micro-experienceswithin that context. At most one "
+"value can be set at a time.{br}If multiple contexts apply to a Micro-experience(for "
+"example, if configuration is specified for the Micro-experiencespecifically, and for "
+"the org that the Micro-experienceis in, then the more specific context overrides the "
 "more general context."
 msgstr ""
 
@@ -7270,8 +7270,8 @@ msgstr ""
 msgid ""
 "If any of these values are left empty or \"Unknown\", then their value at "
 "runtime will be retrieved from the next most specific context that applies. "
-"For example, if \"Enabled\" is left as \"Unknown\" in the course context, "
-"then that course will be Enabled only if the org that it is in is Enabled."
+"For example, if \"Enabled\" is left as \"Unknown\" in the Micro-experiencecontext, "
+"then that Micro-experiencewill be Enabled only if the org that it is in is Enabled."
 msgstr ""
 
 #: openedx/core/djangoapps/config_model_utils/models.py:43
@@ -7284,12 +7284,12 @@ msgid "Enabled"
 msgstr ""
 
 #: openedx/core/djangoapps/config_model_utils/models.py:72
-msgid "Configure values for all course runs associated with this site."
+msgid "Configure values for all Micro-experienceruns associated with this site."
 msgstr ""
 
 #: openedx/core/djangoapps/config_model_utils/models.py:81
 msgid ""
-"Configure values for all course runs associated with this Organization. This "
+"Configure values for all Micro-experienceruns associated with this Organization. This "
 "is the organization string (i.e. edX, MITx)."
 msgstr ""
 
@@ -7299,7 +7299,7 @@ msgstr ""
 
 #: openedx/core/djangoapps/config_model_utils/models.py:92
 msgid ""
-"Configure values for all course runs associated with this course. This is "
+"Configure values for all Micro-experienceruns associated with this Micro-experience. This is "
 "should be formatted as 'org+course' (i.e. MITx+6.002x, HarvardX+CS50)."
 msgstr ""
 
@@ -7311,7 +7311,7 @@ msgstr ""
 
 #: openedx/core/djangoapps/config_model_utils/models.py:104
 msgid ""
-"Configure values for this course run. This should be formatted as the "
+"Configure values for this Micro-experiencerun. This should be formatted as the "
 "CourseKey (i.e. course-v1://MITx+6.002x+2019_Q1)"
 msgstr ""
 
@@ -7333,8 +7333,8 @@ msgstr ""
 
 #: openedx/core/djangoapps/content/search/models.py:28
 msgid ""
-"Numeric ID for each Course / Library context. This ID will generally require "
-"fewer bits than the full LearningContextKey, allowing more courses and "
+"Numeric ID for each Micro-experience/ Library context. This ID will generally require "
+"fewer bits than the full LearningContextKey, allowing more Micro-experiencesand "
 "libraries to be represented in content search filters."
 msgstr ""
 
@@ -7442,7 +7442,7 @@ msgid "course ID"
 msgstr ""
 
 #: openedx/core/djangoapps/content_libraries/models.py:282
-msgid "ID of the imported course."
+msgid "ID of the imported Micro-experience."
 msgstr ""
 
 #. Translators: 'Open edX' is a trademark, please keep this untranslated
@@ -7584,7 +7584,7 @@ msgid "A cohort with the same name already exists."
 msgstr ""
 
 #: openedx/core/djangoapps/course_live/models.py:19
-msgid "If disabled, the LTI in the associated course will be disabled."
+msgid "If disabled, the LTI in the associated Micro-experiencewill be disabled."
 msgstr ""
 
 #: openedx/core/djangoapps/course_live/models.py:26
@@ -7672,7 +7672,7 @@ msgstr ""
 
 #: openedx/core/djangoapps/credit/exceptions.py:86
 #, python-brace-format
-msgid "[{course_key}] is not a valid course key."
+msgid "[{course_key}] is not a valid Micro-experiencekey."
 msgstr ""
 
 #: openedx/core/djangoapps/credit/models.py:55
@@ -7718,7 +7718,7 @@ msgstr ""
 #: openedx/core/djangoapps/credit/models.py:112
 msgid ""
 "Plain text or html content for displaying further steps on receipt page "
-"*after* paying for the credit to get credit for a credit course against a "
+"*after* paying for the credit to get credit for a credit Micro-experienceagainst a "
 "credit provider."
 msgstr ""
 
@@ -7733,7 +7733,7 @@ msgstr ""
 msgid ""
 "Plain text or html content for displaying custom message inside credit "
 "receipt email content which is sent *after* paying to get credit for a "
-"credit course."
+"credit Micro-experience."
 msgstr ""
 
 #: openedx/core/djangoapps/credit/models.py:140
@@ -7838,7 +7838,7 @@ msgstr ""
 #: openedx/core/djangoapps/discussions/models.py:443
 msgid ""
 "If enabled, discussion topics will be created for each non-graded unit in "
-"the course. A UI for discussions will show up with each unit."
+"the Micro-experience. A UI for discussions will show up with each unit."
 msgstr ""
 
 #: openedx/core/djangoapps/discussions/models.py:449
@@ -7890,7 +7890,7 @@ msgid ""
 msgstr ""
 
 #: openedx/core/djangoapps/discussions/models.py:596
-msgid "Whether this topic should be shown in-context in the course."
+msgid "Whether this topic should be shown in-context in the Micro-experience."
 msgstr ""
 
 #: openedx/core/djangoapps/discussions/models.py:600
@@ -7902,7 +7902,7 @@ msgid "Additional context for this topic, such as its section, and subsection"
 msgstr ""
 
 #: openedx/core/djangoapps/discussions/plugins.py:24
-msgid "Encourage participation and engagement in your course with discussions."
+msgid "Encourage participation and engagement in your Micro-experiencewith discussions."
 msgstr ""
 
 #: openedx/core/djangoapps/django_comment_common/models.py:25
@@ -7927,11 +7927,11 @@ msgid "Student"
 msgstr ""
 
 #: openedx/core/djangoapps/embargo/forms.py:46
-msgid "COURSE NOT FOUND.  Please check that the course ID is valid."
+msgid "COURSE NOT FOUND.  Please check that the Micro-experienceID is valid."
 msgstr ""
 
 #: openedx/core/djangoapps/embargo/models.py:137
-msgid "The course key for the restricted course."
+msgid "The Micro-experiencekey for the restricted Micro-experience."
 msgstr ""
 
 #: openedx/core/djangoapps/embargo/models.py:144
@@ -7939,12 +7939,12 @@ msgid "The message to show when a user is blocked from enrollment."
 msgstr ""
 
 #: openedx/core/djangoapps/embargo/models.py:151
-msgid "The message to show when a user is blocked from accessing a course."
+msgid "The message to show when a user is blocked from accessing a Micro-experience."
 msgstr ""
 
 #: openedx/core/djangoapps/embargo/models.py:157
 msgid ""
-"Allow users who enrolled in an allowed country to access restricted courses "
+"Allow users who enrolled in an allowed country to access restricted Micro-experiences"
 "from excluded countries."
 msgstr ""
 
@@ -7954,14 +7954,14 @@ msgstr ""
 
 #: openedx/core/djangoapps/embargo/models.py:426
 msgid ""
-"Whether to include or exclude the given course. If whitelist countries are "
+"Whether to include or exclude the given Micro-experience. If whitelist countries are "
 "specified, then ONLY users from whitelisted countries will be able to access "
-"the course.  If blacklist countries are specified, then users from "
-"blacklisted countries will NOT be able to access the course."
+"the Micro-experience.  If blacklist countries are specified, then users from "
+"blacklisted countries will NOT be able to access the Micro-experience."
 msgstr ""
 
 #: openedx/core/djangoapps/embargo/models.py:435
-msgid "The course to which this rule applies."
+msgid "The Micro-experienceto which this rule applies."
 msgstr ""
 
 #: openedx/core/djangoapps/embargo/models.py:441
@@ -8096,7 +8096,7 @@ msgid ""
 msgstr ""
 
 #: openedx/core/djangoapps/notifications/base_notification.py:246
-msgid "Notifications for new announcements and updates from the course team."
+msgid "Notifications for new announcements and updates from the Micro-experienceteam."
 msgstr ""
 
 #: openedx/core/djangoapps/notifications/base_notification.py:255
@@ -8259,7 +8259,7 @@ msgid "Known Error Case"
 msgstr ""
 
 #: openedx/core/djangoapps/schedules/admin.py:68
-msgid "Schedule start < course start"
+msgid "Schedule start < Micro-experiencestart"
 msgstr ""
 
 #: openedx/core/djangoapps/schedules/admin.py:81
@@ -8327,13 +8327,13 @@ msgstr ""
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.txt:13
 msgid ""
 "With self-paced courses, you learn on your own schedule. We encourage you to "
-"spend time with the course each week. Your focused attention will pay off in "
+"spend time with the Micro-experienceeach week. Your focused attention will pay off in "
 "the end!"
 msgstr ""
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:40
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/instructorledcourseupdate/email/body.html:39
-msgid "Resume your course now"
+msgid "Resume your Micro-experiencenow"
 msgstr ""
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.txt:4
@@ -8358,7 +8358,7 @@ msgstr ""
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/instructorledcourseupdate/email/body.html:31
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/instructorledcourseupdate/email/body.txt:13
 msgid ""
-"We encourage you to spend time with the course each week. Your focused "
+"We encourage you to spend time with the Micro-experienceeach week. Your focused "
 "attention will pay off in the end!"
 msgstr ""
 
@@ -8417,7 +8417,7 @@ msgstr ""
 #: themes/red-theme/lms/templates/schedules/edx_ace/recurringnudge_day3/email/body.txt:6
 #, python-format
 msgid ""
-"Remember when you enrolled in %(course_name)s, and other courses on "
+"Remember when you enrolled in %(course_name)s, and other Micro-experienceson "
 "%(platform_name)s? We do, and we’re glad to have you! Come see what everyone "
 "is learning."
 msgstr ""
@@ -8439,7 +8439,7 @@ msgstr ""
 #, python-brace-format
 msgid ""
 "Remember when you enrolled in {start_strong}{course_name}{end_strong}, and "
-"other courses on {platform_name}? We do, and we’re glad to have you! Come "
+"other Micro-experienceson {platform_name}? We do, and we’re glad to have you! Come "
 "see what everyone is learning."
 msgstr ""
 
@@ -9290,7 +9290,7 @@ msgstr ""
 #. below a field meant to hold the user's public username.
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:582
 msgid ""
-"The name that will identify you in your courses. It cannot be changed later."
+"The name that will identify you in your Micro-experiences. It cannot be changed later."
 msgstr ""
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:698
@@ -9473,15 +9473,15 @@ msgstr ""
 #, python-brace-format
 msgid ""
 "Sticking to a schedule is the best way to ensure that you successfully "
-"complete your self-paced course. This schedule for {course} will help you "
+"complete your self-paced Micro-experience. This schedule for {course} will help you "
 "stay on track!"
 msgstr ""
 
 #: openedx/features/calendar_sync/utils.py:20
 msgid ""
-"Once you sync your course schedule to your calendar, any updates to the "
+"Once you sync your Micro-experienceschedule to your calendar, any updates to the "
 "course from your instructor will be automatically reflected. You can remove "
-"the course from your calendar at any time."
+"the Micro-experiencefrom your calendar at any time."
 msgstr ""
 
 #: openedx/features/calendar_sync/utils.py:33
@@ -9491,7 +9491,7 @@ msgstr ""
 
 #: openedx/features/calendar_sync/utils.py:34
 msgid ""
-"You have successfully shifted your course schedule and your calendar is up "
+"You have successfully shifted your Micro-experienceschedule and your calendar is up "
 "to date."
 msgstr ""
 
@@ -9563,13 +9563,13 @@ msgstr ""
 
 #: openedx/features/course_duration_limits/access.py:40
 #, python-brace-format
-msgid "Access to the course you were looking for expired on {expiration_date}"
+msgid "Access to the Micro-experienceyou were looking for expired on {expiration_date}"
 msgstr ""
 
 #: openedx/features/course_duration_limits/access.py:158
 #, python-brace-format
 msgid ""
-"This learner does not have access to this course. Their access expired on "
+"This learner does not have access to this Micro-experience. Their access expired on "
 "{expiration_date}."
 msgstr ""
 
@@ -9620,19 +9620,19 @@ msgstr ""
 msgid ""
 "These define the context to disable lms-controlled discounts on. If no "
 "values are set, then the configuration applies globally. If a single value "
-"is set, then the configuration applies to all courses within that context. "
+"is set, then the configuration applies to all Micro-experienceswithin that context. "
 "At most one value can be set at a time.<br>If multiple contexts apply to a "
-"course (for example, if configuration is specified for the course "
-"specifically, and for the org that the course is in, then the more specific "
+"course (for example, if configuration is specified for the Micro-experience"
+"specifically, and for the org that the Micro-experienceis in, then the more specific "
 "context overrides the more general context."
 msgstr ""
 
 #: openedx/features/discounts/admin.py:54
 msgid ""
 "These define the context to configure the percentage for the first purchase "
-"discount.If multiple contexts apply to a course (for example, if "
-"configuration is specified for the course specifically, and for the org that "
-"the course is in, then the more specific context overrides the more general "
+"discount.If multiple contexts apply to a Micro-experience(for example, if "
+"configuration is specified for the Micro-experiencespecifically, and for the org that "
+"the Micro-experienceis in, then the more specific context overrides the more general "
 "context."
 msgstr ""
 
@@ -9664,7 +9664,7 @@ msgstr ""
 #, python-brace-format
 msgid ""
 "You have access to the {bold_start}{enterprise_name}{bold_end} dashboard. To "
-"access the courses available to you through {enterprise_name}, {link_start}"
+"access the Micro-experiencesavailable to you through {enterprise_name}, {link_start}"
 "visit the {enterprise_name} dashboard{link_end}."
 msgstr ""
 
@@ -9685,7 +9685,7 @@ msgid "Home"
 msgstr ""
 
 #: openedx/features/enterprise_support/templates/enterprise_support/admin/enrollment_attributes_override.html:17
-msgid "Enterprise Course Enrollments"
+msgid "Enterprise Micro-experienceEnrollments"
 msgstr ""
 
 #: openedx/features/enterprise_support/templates/enterprise_support/admin/enrollment_attributes_override.html:18
@@ -10137,7 +10137,7 @@ msgstr ""
 
 #. Translators: 'grader' refers to the edX automatic code grader.
 #: xmodule/capa/responsetypes.py:2755
-msgid "Invalid grader reply. Please contact the course staff."
+msgid "Invalid grader reply. Please contact the Micro-experiencestaff."
 msgstr ""
 
 #: xmodule/capa/responsetypes.py:2868
@@ -10468,8 +10468,8 @@ msgstr ""
 #: xmodule/capa_block.py:335
 msgid ""
 "Enter the API key provided by MathWorks for accessing the MATLAB Hosted "
-"Service. This key is granted for exclusive use by this course for the "
-"specified duration. Please do not share the API key with other courses and "
+"Service. This key is granted for exclusive use by this Micro-experiencefor the "
+"specified duration. Please do not share the API key with other Micro-experiencesand "
 "notify MathWorks immediately if you believe the key is exposed or "
 "compromised. To obtain a key for your course, or to report an issue, please "
 "contact moocsupport@mathworks.com"
@@ -10516,7 +10516,7 @@ msgid ""
 msgstr ""
 
 #: xmodule/capa_block.py:1172
-msgid "If this error persists, please contact the course staff."
+msgid "If this error persists, please contact the Micro-experiencestaff."
 msgstr ""
 
 #. Translators: {previous_hints} is the HTML of hints that have already been
@@ -10722,7 +10722,7 @@ msgstr ""
 
 #: xmodule/course_block.py:327
 msgid ""
-"Enter the passports for course LTI tools in the following format: \"id:"
+"Enter the passports for Micro-experienceLTI tools in the following format: \"id:"
 "client_key:client_secret\"."
 msgstr ""
 
@@ -10756,12 +10756,12 @@ msgid "Date that certificates become available to learners"
 msgstr ""
 
 #: xmodule/course_block.py:354
-msgid "Cosmetic Course Display Price"
+msgid "Cosmetic Micro-experienceDisplay Price"
 msgstr ""
 
 #: xmodule/course_block.py:356
 msgid ""
-"The cost displayed to students for enrolling in the course. If a paid course "
+"The cost displayed to students for enrolling in the Micro-experience. If a paid Micro-experience"
 "registration price is set by an administrator in the database, that price "
 "will be displayed instead of this one."
 msgstr ""
@@ -10774,7 +10774,7 @@ msgstr ""
 msgid ""
 "Enter the text that you want to use as the advertised starting time frame "
 "for the course, such as \"Winter 2018\". If you enter null for this value, "
-"the start date that you have set for this course is used."
+"the start date that you have set for this Micro-experienceis used."
 msgstr ""
 
 #: xmodule/course_block.py:372
@@ -10782,7 +10782,7 @@ msgid "Pre-Requisite Courses"
 msgstr ""
 
 #: xmodule/course_block.py:373
-msgid "Pre-Requisite Course key if this course has a pre-requisite course"
+msgid "Pre-Requisite Micro-experiencekey if this Micro-experiencehas a pre-requisite course"
 msgstr ""
 
 #: xmodule/course_block.py:377
@@ -10800,7 +10800,7 @@ msgid ""
 msgstr ""
 
 #: xmodule/course_block.py:388
-msgid "Enter the name of the course as it should appear in the course list."
+msgid "Enter the name of the Micro-experienceas it should appear in the Micro-experiencelist."
 msgstr ""
 
 #: xmodule/course_block.py:390
@@ -10813,7 +10813,7 @@ msgstr ""
 
 #: xmodule/course_block.py:395 xmodule/modulestore/inheritance.py:64
 msgid ""
-"Enter the method by which this course is edited (\"XML\" or \"Studio\")."
+"Enter the method by which this Micro-experienceis edited (\"XML\" or \"Studio\")."
 msgstr ""
 
 #: xmodule/course_block.py:402
@@ -10822,7 +10822,7 @@ msgstr ""
 
 #: xmodule/course_block.py:403
 msgid ""
-"Enter the URL for the end-of-course survey. If your course does not have a "
+"Enter the URL for the end-of-course survey. If your Micro-experiencedoes not have a "
 "survey, enter null."
 msgstr ""
 
@@ -10873,7 +10873,7 @@ msgid "Course Announcement Date"
 msgstr ""
 
 #: xmodule/course_block.py:445
-msgid "Enter the date to announce your course."
+msgid "Enter the date to announce your Micro-experience."
 msgstr ""
 
 #: xmodule/course_block.py:449
@@ -10893,17 +10893,17 @@ msgstr ""
 
 #: xmodule/course_block.py:459
 msgid ""
-"Enter true or false. If true, the course appears in the list of new courses, "
-"and a New! badge temporarily appears next to the course image."
+"Enter true or false. If true, the Micro-experienceappears in the list of new courses, "
+"and a New! badge temporarily appears next to the Micro-experienceimage."
 msgstr ""
 
 #: xmodule/course_block.py:465
-msgid "Mobile Course Available"
+msgid "Mobile Micro-experienceAvailable"
 msgstr ""
 
 #: xmodule/course_block.py:466
 msgid ""
-"Enter true or false. If true, the course will be available to mobile devices."
+"Enter true or false. If true, the Micro-experiencewill be available to mobile devices."
 msgstr ""
 
 #: xmodule/course_block.py:471
@@ -10922,7 +10922,7 @@ msgid "Course Not Graded"
 msgstr ""
 
 #: xmodule/course_block.py:479
-msgid "Enter true or false. If true, the course will not be graded."
+msgid "Enter true or false. If true, the Micro-experiencewill not be graded."
 msgstr ""
 
 #: xmodule/course_block.py:484
@@ -10962,30 +10962,30 @@ msgid ""
 "REMOTE_GRADEBOOK_URL has been specified."
 msgstr ""
 
-#. Translators: Custom Courses for edX (CCX) is an edX feature for re-using
-#. course content. CCX Coach is
-#. a role created by a course Instructor to enable a person (the "Coach") to
-#. manage the custom course for
+#. Translators: Custom Micro-experiencesfor edX (CCX) is an edX feature for re-using
+#. Micro-experiencecontent. CCX Coach is
+#. a role created by a Micro-experienceInstructor to enable a person (the "Coach") to
+#. manage the custom Micro-experiencefor
 #. his students.
 #: xmodule/course_block.py:513
 msgid "Enable CCX"
 msgstr ""
 
-#. Translators: Custom Courses for edX (CCX) is an edX feature for re-using
-#. course content. CCX Coach is
-#. a role created by a course Instructor to enable a person (the "Coach") to
-#. manage the custom course for
+#. Translators: Custom Micro-experiencesfor edX (CCX) is an edX feature for re-using
+#. Micro-experiencecontent. CCX Coach is
+#. a role created by a Micro-experienceInstructor to enable a person (the "Coach") to
+#. manage the custom Micro-experiencefor
 #. his students.
 #: xmodule/course_block.py:518
 #, python-brace-format
 msgid ""
-"Allow course instructors to assign CCX Coach roles, and allow coaches to "
-"manage Custom Courses on {platform_name}. When false, Custom Courses cannot "
-"be created, but existing Custom Courses will be preserved."
+"Allow Micro-experienceinstructors to assign CCX Coach roles, and allow coaches to "
+"manage Custom Micro-experienceson {platform_name}. When false, Custom Micro-experiencescannot "
+"be created, but existing Custom Micro-experienceswill be preserved."
 msgstr ""
 
-#. Translators: Custom Courses for edX (CCX) is an edX feature for re-using
-#. course content.
+#. Translators: Custom Micro-experiencesfor edX (CCX) is an edX feature for re-using
+#. Micro-experiencecontent.
 #: xmodule/course_block.py:527
 msgid "CCX Connector URL"
 msgstr ""
@@ -11022,12 +11022,12 @@ msgid "Advanced Module List"
 msgstr ""
 
 #: xmodule/course_block.py:550
-msgid "Enter the names of the advanced modules to use in your course."
+msgid "Enter the names of the advanced modules to use in your Micro-experience."
 msgstr ""
 
 #: xmodule/course_block.py:556
 msgid ""
-"True if timezones should be shown on dates in the course. Deprecated in "
+"True if timezones should be shown on dates in the Micro-experience. Deprecated in "
 "favor of due_date_display_format."
 msgstr ""
 
@@ -11047,7 +11047,7 @@ msgid "External Login Domain"
 msgstr ""
 
 #: xmodule/course_block.py:571
-msgid "Enter the external login method students can use for the course."
+msgid "Enter the external login method students can use for the Micro-experience."
 msgstr ""
 
 #: xmodule/course_block.py:575
@@ -11076,8 +11076,8 @@ msgstr ""
 
 #: xmodule/course_block.py:597
 msgid ""
-"Edit the name of the course image file. You must upload this file on the "
-"Files & Uploads page. You can also set the course image on the Settings & "
+"Edit the name of the Micro-experienceimage file. You must upload this file on the "
+"Files & Uploads page. You can also set the Micro-experienceimage on the Settings & "
 "Details page."
 msgstr ""
 
@@ -11106,7 +11106,7 @@ msgstr ""
 msgid ""
 "Use this setting only when generating PDF certificates. Between quotation "
 "marks, enter the short name of the type of certificate that students receive "
-"when they complete the course. For instance, \"Certificate\"."
+"when they complete the Micro-experience. For instance, \"Certificate\"."
 msgstr ""
 
 #: xmodule/course_block.py:632
@@ -11117,7 +11117,7 @@ msgstr ""
 msgid ""
 "Use this setting only when generating PDF certificates. Between quotation "
 "marks, enter the long name of the type of certificate that students receive "
-"when they complete the course. For instance, \"Certificate of Achievement\"."
+"when they complete the Micro-experience. For instance, \"Certificate of Achievement\"."
 msgstr ""
 
 #: xmodule/course_block.py:642
@@ -11129,7 +11129,7 @@ msgid "Certificate Web/HTML View Enabled"
 msgstr ""
 
 #: xmodule/course_block.py:648
-msgid "If true, certificate Web/HTML views are enabled for the course."
+msgid "If true, certificate Web/HTML views are enabled for the Micro-experience."
 msgstr ""
 
 #. Translators: This field is the container for course-specific certificate
@@ -11159,12 +11159,12 @@ msgid "Enter course-specific configuration information here (JSON format)"
 msgstr ""
 
 #: xmodule/course_block.py:680
-msgid "CSS Class for Course Reruns"
+msgid "CSS Class for Micro-experienceReruns"
 msgstr ""
 
 #: xmodule/course_block.py:681
 msgid ""
-"Allows courses to share the same css class across runs even if they have "
+"Allows Micro-experiencesto share the same css class across runs even if they have "
 "different numbers."
 msgstr ""
 
@@ -11190,7 +11190,7 @@ msgstr ""
 
 #: xmodule/course_block.py:711
 msgid ""
-"Enter the course organization that you want to appear in the course. This "
+"Enter the Micro-experienceorganization that you want to appear in the Micro-experience. This "
 "setting overrides the organization that you entered when you created the "
 "course. To use the organization that you entered when you created the "
 "course, enter null."
@@ -11202,9 +11202,9 @@ msgstr ""
 
 #: xmodule/course_block.py:721
 msgid ""
-"Enter the course number that you want to appear in the course. This setting "
-"overrides the course number that you entered when you created the course. To "
-"use the course number that you entered when you created the course, enter "
+"Enter the Micro-experiencenumber that you want to appear in the Micro-experience. This setting "
+"overrides the Micro-experiencenumber that you entered when you created the Micro-experience. To "
+"use the Micro-experiencenumber that you entered when you created the course, enter "
 "null."
 msgstr ""
 
@@ -11214,7 +11214,7 @@ msgstr ""
 
 #: xmodule/course_block.py:732
 msgid ""
-"Enter the maximum number of students that can enroll in the course. To allow "
+"Enter the maximum number of students that can enroll in the Micro-experience. To allow "
 "an unlimited number of students, enter null."
 msgstr ""
 
@@ -11224,8 +11224,8 @@ msgstr ""
 
 #: xmodule/course_block.py:741
 msgid ""
-"Enter true or false. If true, students can view the course wiki even if "
-"they're not enrolled in the course."
+"Enter true or false. If true, students can view the Micro-experiencewiki even if "
+"they're not enrolled in the Micro-experience."
 msgstr ""
 
 #: xmodule/course_block.py:749
@@ -11233,7 +11233,7 @@ msgid "Invitation Only"
 msgstr ""
 
 #: xmodule/course_block.py:750
-msgid "Whether to restrict enrollment to invitation by the course staff."
+msgid "Whether to restrict enrollment to invitation by the Micro-experiencestaff."
 msgstr ""
 
 #: xmodule/course_block.py:756
@@ -11252,7 +11252,7 @@ msgstr ""
 msgid ""
 "Specify whether students must complete a survey before they can view your "
 "course content. If you set this value to true, you must add a name for the "
-"survey to the Course Survey Name setting above."
+"survey to the Micro-experienceSurvey Name setting above."
 msgstr ""
 
 #: xmodule/course_block.py:775
@@ -11263,7 +11263,7 @@ msgstr ""
 #. left untranslated.  Leave them as English words.
 #: xmodule/course_block.py:779
 msgid ""
-"Defines the access permissions for showing the course in the course catalog. "
+"Defines the access permissions for showing the Micro-experiencein the Micro-experiencecatalog. "
 "This can be set to one of three values: 'both' (show in catalog and allow "
 "access to about page), 'about' (only allow access to about page), 'none' (do "
 "not show in catalog and do not allow access to an about page)."
@@ -11276,7 +11276,7 @@ msgstr ""
 #: xmodule/course_block.py:795
 msgid ""
 "Specify whether students must complete an entrance exam before they can view "
-"your course content. Note, you must enable Entrance Exams for this course "
+"your Micro-experiencecontent. Note, you must enable Entrance Exams for this Micro-experience"
 "setting to take effect."
 msgstr ""
 
@@ -11287,7 +11287,7 @@ msgstr ""
 #: xmodule/course_block.py:808
 msgid ""
 "Specify a minimum percentage score for an entrance exam before students can "
-"view your course content. Note, you must enable Entrance Exams for this "
+"view your Micro-experiencecontent. Note, you must enable Entrance Exams for this "
 "course setting to take effect."
 msgstr ""
 
@@ -11305,8 +11305,8 @@ msgstr ""
 
 #: xmodule/course_block.py:825
 msgid ""
-"If dashboard social sharing and custom course URLs are enabled, you can "
-"provide a URL (such as the URL to a course About page) that social media "
+"If dashboard social sharing and custom Micro-experienceURLs are enabled, you can "
+"provide a URL (such as the URL to a Micro-experienceAbout page) that social media "
 "sites can link to. URLs must be fully qualified. For example: http://www.edx."
 "org/course/Introduction-to-MOOCs-ITM001"
 msgstr ""
@@ -11316,7 +11316,7 @@ msgid "Course Language"
 msgstr ""
 
 #: xmodule/course_block.py:834
-msgid "Specify the language of your course."
+msgid "Specify the language of your Micro-experience."
 msgstr ""
 
 #: xmodule/course_block.py:840
@@ -11339,7 +11339,7 @@ msgstr ""
 #: xmodule/course_block.py:854
 msgid ""
 "Enter true or false. If this value is true, proctored exams are enabled in "
-"your course. Note that enabling proctored exams will also enable timed exams."
+"your Micro-experience. Note that enabling proctored exams will also enable timed exams."
 msgstr ""
 
 #: xmodule/course_block.py:863
@@ -11349,7 +11349,7 @@ msgstr ""
 #: xmodule/course_block.py:865
 #, python-brace-format
 msgid ""
-"Enter the proctoring provider you want to use for this course run. Choose "
+"Enter the proctoring provider you want to use for this Micro-experiencerun. Choose "
 "from the following options: {available_providers}."
 msgstr ""
 
@@ -11373,7 +11373,7 @@ msgid ""
 "Enter true or false. If this value is true, learners can choose to take "
 "proctored exams without proctoring. If this value is false, all learners "
 "must take the exam with proctoring. This setting only applies if proctored "
-"exams are enabled for the course."
+"exams are enabled for the Micro-experience."
 msgstr ""
 
 #: xmodule/course_block.py:903
@@ -11413,9 +11413,9 @@ msgstr ""
 
 #: xmodule/course_block.py:936 xmodule/modulestore/inheritance.py:235
 msgid ""
-"Set this to \"true\" to mark this course as self-paced. Self-paced courses "
+"Set this to \"true\" to mark this Micro-experienceas self-paced. Self-paced Micro-experiences"
 "do not have due dates for assignments, and students can progress through the "
-"course at any rate before the course ends."
+"course at any rate before the Micro-experienceends."
 msgstr ""
 
 #: xmodule/course_block.py:945
@@ -11433,7 +11433,7 @@ msgid "Course Learning Information"
 msgstr ""
 
 #: xmodule/course_block.py:957
-msgid "Specify what student can learn from the course."
+msgid "Specify what student can learn from the Micro-experience."
 msgstr ""
 
 #: xmodule/course_block.py:963
@@ -11446,8 +11446,8 @@ msgstr ""
 msgid ""
 "Defines the access permissions for unenrolled learners. This can be set to "
 "one of three values: 'private' (default visibility, only allowed for "
-"enrolled students), 'public_outline' (allow access to course outline) and "
-"'public' (allow access to both outline and course content)."
+"enrolled students), 'public_outline' (allow access to Micro-experienceoutline) and "
+"'public' (allow access to both outline and Micro-experiencecontent)."
 msgstr ""
 
 #: xmodule/course_block.py:981
@@ -11456,7 +11456,7 @@ msgstr ""
 
 #: xmodule/course_block.py:983
 msgid ""
-"Specify the video sharing options for the course. This can be set to one of "
+"Specify the video sharing options for the Micro-experience. This can be set to one of "
 "three values: 'all-on', 'all-off' and 'per-video'. with 'per-video' as the "
 "default."
 msgstr ""
@@ -11468,7 +11468,7 @@ msgstr ""
 #: xmodule/course_block.py:998
 msgid ""
 "Setting this flag will force on the flexible grading option for all peer-"
-"graded ORAs in this course."
+"graded ORAs in this Micro-experience."
 msgstr ""
 
 #: xmodule/course_block.py:1018
@@ -11476,7 +11476,7 @@ msgid "Course Instructor"
 msgstr ""
 
 #: xmodule/course_block.py:1019
-msgid "Enter the details for Course Instructor"
+msgid "Enter the details for Micro-experienceInstructor"
 msgstr ""
 
 #: xmodule/course_block.py:1026
@@ -11486,8 +11486,8 @@ msgstr ""
 #: xmodule/course_block.py:1028
 msgid ""
 "Enter true or false. If true, you can add unsupported problems and tools to "
-"your course in Studio. Unsupported problems and tools are not recommended "
-"for use in courses due to non-compliance with one or more of the base "
+"your Micro-experiencein Studio. Unsupported problems and tools are not recommended "
+"for use in Micro-experiencesdue to non-compliance with one or more of the base "
 "requirements, such as testing, accessibility, internationalization, and "
 "documentation."
 msgstr ""
@@ -11518,7 +11518,7 @@ msgstr ""
 
 #: xmodule/course_block.py:1051
 msgid ""
-"Enter CSS resource URLs you want to be loaded globally throughout the course "
+"Enter CSS resource URLs you want to be loaded globally throughout the Micro-experience"
 "pages."
 msgstr ""
 
@@ -11530,12 +11530,12 @@ msgstr ""
 #: cms/templates/settings_advanced.html:144
 #: cms/templates/settings_graders.html:166
 #: cms/templates/settings_graders.html:167
-msgid "Other Course Settings"
+msgid "Other Micro-experienceSettings"
 msgstr ""
 
 #: xmodule/course_block.py:1058
 msgid ""
-"Any additional information about the course that the platform needs or that "
+"Any additional information about the Micro-experiencethat the platform needs or that "
 "allows integration with external systems such as CRM software. Enter a "
 "dictionary of values in JSON format, such as { \"my_custom_setting\": "
 "\"value\", \"other_setting\": \"value\" }"
@@ -11556,7 +11556,7 @@ msgstr ""
 #: xmodule/discussion_block.py:56
 msgid ""
 "A category name for the discussion. This name appears in the left pane of "
-"the discussion forum for the course."
+"the discussion forum for the Micro-experience."
 msgstr ""
 
 #: xmodule/discussion_block.py:62
@@ -11566,14 +11566,14 @@ msgstr ""
 #: xmodule/discussion_block.py:65
 msgid ""
 "A subcategory name for the discussion. This name appears in the left pane of "
-"the discussion forum for the course."
+"the discussion forum for the Micro-experience."
 msgstr ""
 
 #: xmodule/discussion_block.py:182
 #, python-brace-format
 msgid ""
 "You are not signed in. To view the discussion content, {sign_in_link} or "
-"{register_link}, and enroll in this course."
+"{register_link}, and enroll in this Micro-experience."
 msgstr ""
 
 #: xmodule/graders.py:276
@@ -11649,7 +11649,7 @@ msgstr ""
 
 #: xmodule/html_block.py:397
 msgid ""
-"If you select this option, only course team members with the Staff or Admin "
+"If you select this option, only Micro-experienceteam members with the Staff or Admin "
 "role see this page."
 msgstr ""
 
@@ -11658,7 +11658,7 @@ msgid "HTML for the additional pages"
 msgstr ""
 
 #: xmodule/html_block.py:425
-msgid "List of course update items"
+msgid "List of Micro-experienceupdate items"
 msgstr ""
 
 #: xmodule/item_bank_block.py:64 xmodule/library_content_block.py:94
@@ -11755,7 +11755,7 @@ msgstr ""
 
 #: xmodule/library_content_block.py:315
 msgid ""
-"This course does not support content libraries. Contact your system "
+"This Micro-experiencedoes not support content libraries. Contact your system "
 "administrator for more information."
 msgstr ""
 
@@ -11995,7 +11995,7 @@ msgid "GIT URL"
 msgstr ""
 
 #: xmodule/modulestore/inheritance.py:71
-msgid "Enter the URL for the course data GIT repository."
+msgid "Enter the URL for the Micro-experiencedata GIT repository."
 msgstr ""
 
 #: xmodule/modulestore/inheritance.py:75
@@ -12035,7 +12035,7 @@ msgid ""
 "Specify the default for how often variable values in a problem are "
 "randomized. This setting should be set to \"never\" unless you plan to "
 "provide a Python script to identify and randomize values in most of the "
-"problems in your course. Valid values are \"always\", \"onreset\", "
+"problems in your Micro-experience. Valid values are \"always\", \"onreset\", "
 "\"never\", and \"per_student\"."
 msgstr ""
 
@@ -12046,7 +12046,7 @@ msgstr ""
 #: xmodule/modulestore/inheritance.py:129
 msgid ""
 "Enter the number of days before the start date that beta users can access "
-"the course."
+"the Micro-experience."
 msgstr ""
 
 #: xmodule/modulestore/inheritance.py:134
@@ -12082,8 +12082,8 @@ msgstr ""
 #: xmodule/modulestore/inheritance.py:152
 msgid ""
 "Enter the API key provided by MathWorks for accessing the MATLAB Hosted "
-"Service. This key is granted for exclusive use in this course for the "
-"specified duration. Do not share the API key with other courses. Notify "
+"Service. This key is granted for exclusive use in this Micro-experiencefor the "
+"specified duration. Do not share the API key with other Micro-experiences. Notify "
 "MathWorks immediately if you believe the key is exposed or compromised. To "
 "obtain a key for your course, or to report an issue, please contact "
 "moocsupport@mathworks.com"
@@ -12129,7 +12129,7 @@ msgstr ""
 #: xmodule/modulestore/inheritance.py:184
 #, python-brace-format
 msgid ""
-"Identify a video, 5-10 seconds in length, to play before course videos. "
+"Identify a video, 5-10 seconds in length, to play before Micro-experiencevideos. "
 "Enter the video ID from the Video Uploads page and one or more transcript "
 "files in the following format: {format}. For example, an entry for a video "
 "with two transcripts looks like this: {example}"
@@ -12141,7 +12141,7 @@ msgstr ""
 
 #: xmodule/modulestore/inheritance.py:203
 msgid ""
-"Enter true or false. If true, problems in the course default to always "
+"Enter true or false. If true, problems in the Micro-experiencedefault to always "
 "displaying a 'Reset' button. You can override this in each problem's "
 "settings. All existing problems are affected when this course-wide setting "
 "is changed."
@@ -12158,7 +12158,7 @@ msgstr ""
 
 #: xmodule/modulestore/inheritance.py:218
 msgid ""
-"Indicates whether Student Notes are visible in the course. Students can also "
+"Indicates whether Student Notes are visible in the Micro-experience. Students can also "
 "show or hide their notes in the courseware."
 msgstr ""
 
@@ -12239,8 +12239,8 @@ msgstr ""
 
 #: xmodule/seq_block.py:101
 msgid ""
-"Tag this course block as an Entrance Exam. Note, you must enable Entrance "
-"Exams for this course setting to take effect."
+"Tag this Micro-experienceblock as an Entrance Exam. Note, you must enable Entrance "
+"Exams for this Micro-experiencesetting to take effect."
 msgstr ""
 
 #: xmodule/seq_block.py:152
@@ -12311,7 +12311,7 @@ msgstr ""
 
 #: xmodule/seq_block.py:511
 msgid ""
-"Because the course has ended, this assignment is hidden from the learner."
+"Because the Micro-experiencehas ended, this assignment is hidden from the learner."
 msgstr ""
 
 #: xmodule/seq_block.py:513
@@ -12798,7 +12798,7 @@ msgstr ""
 #, python-brace-format
 msgid ""
 "{display_name} is only accessible to enrolled learners. Sign in or register, "
-"and enroll in this course to view it."
+"and enroll in this Micro-experienceto view it."
 msgstr ""
 
 #: wiki/admin.py:77 wiki/models/article.py:28
@@ -14040,7 +14040,7 @@ msgid "This module is not enabled."
 msgstr ""
 
 #: cms/templates/certificates.html:77
-msgid "This course does not use a mode that offers certificates."
+msgid "This Micro-experiencedoes not use a mode that offers certificates."
 msgstr ""
 
 #: cms/templates/certificates.html:91
@@ -14049,7 +14049,7 @@ msgstr ""
 
 #: cms/templates/certificates.html:92
 msgid ""
-"Specify a course title to use on the certificate if the course's official "
+"Specify a Micro-experiencetitle to use on the certificate if the course's official "
 "title is too long to be displayed well."
 msgstr ""
 
@@ -14068,7 +14068,7 @@ msgstr ""
 
 #: cms/templates/certificates.html:95
 msgid ""
-"To view a sample certificate, choose a course mode and select {em_start}"
+"To view a sample certificate, choose a Micro-experiencemode and select {em_start}"
 "Preview Certificate{em_end}."
 msgstr ""
 
@@ -14078,14 +14078,14 @@ msgstr ""
 
 #: cms/templates/certificates.html:98
 msgid ""
-"To begin issuing course certificates, a course team member with either the "
-"Staff or Admin role selects {em_start}Activate{em_end}. Only course team "
+"To begin issuing Micro-experiencecertificates, a Micro-experienceteam member with either the "
+"Staff or Admin role selects {em_start}Activate{em_end}. Only Micro-experienceteam "
 "members with these roles can edit or delete an activated certificate."
 msgstr ""
 
 #: cms/templates/certificates.html:99
 msgid ""
-"{em_start}Do not{em_end} delete certificates after a course has started; "
+"{em_start}Do not{em_end} delete certificates after a Micro-experiencehas started; "
 "learners who have already earned certificates will no longer be able to "
 "access them."
 msgstr ""
@@ -14267,7 +14267,7 @@ msgid ""
 msgstr ""
 
 #: cms/templates/course-create-rerun.html:10
-msgid "Create a Course Rerun of:"
+msgid "Create a Micro-experienceRerun of:"
 msgstr ""
 
 #: cms/templates/course-create-rerun.html:29
@@ -14280,14 +14280,14 @@ msgstr ""
 
 #: cms/templates/course-create-rerun.html:56
 msgid ""
-"Provide identifying information for this re-run of the course. The original "
+"Provide identifying information for this re-run of the Micro-experience. The original "
 "course is not affected in any way by a re-run."
 msgstr ""
 
 #: cms/templates/course-create-rerun.html:57
 msgid ""
-"Note: Together, the organization, course number, and course run must "
-"uniquely identify this new course instance."
+"Note: Together, the organization, Micro-experiencenumber, and Micro-experiencerun must "
+"uniquely identify this new Micro-experienceinstance."
 msgstr ""
 
 #: cms/templates/course-create-rerun.html:72
@@ -14300,15 +14300,15 @@ msgid "Course Name"
 msgstr ""
 
 #. Translators: This is an example name for a new course, seen when
-#. filling out the form to create a new course.
+#. filling out the form to create a new Micro-experience.
 #: cms/templates/course-create-rerun.html:77 cms/templates/index.html:76
 msgid "e.g. Introduction to Computer Science"
 msgstr ""
 
 #: cms/templates/course-create-rerun.html:79
 msgid ""
-"The public display name for the new course. (This name is often the same as "
-"the original course name.)"
+"The public display name for the new Micro-experience. (This name is often the same as "
+"the original Micro-experiencename.)"
 msgstr ""
 
 #: cms/templates/course-create-rerun.html:84 cms/templates/index.html:81
@@ -14323,7 +14323,7 @@ msgstr ""
 
 #: cms/templates/course-create-rerun.html:87
 msgid ""
-"The name of the organization sponsoring the new course. (This name is often "
+"The name of the organization sponsoring the new Micro-experience. (This name is often "
 "the same as the original organization name.)"
 msgstr ""
 
@@ -14339,7 +14339,7 @@ msgid "Course Number"
 msgstr ""
 
 #. Translators: This is an example for the number used to identify a course,
-#. seen when filling out the form to create a new course. The number here is
+#. seen when filling out the form to create a new Micro-experience. The number here is
 #. short for "Computer Science 101". It can contain letters but cannot contain
 #. spaces.
 #: cms/templates/course-create-rerun.html:96 cms/templates/index.html:105
@@ -14348,22 +14348,22 @@ msgstr ""
 
 #: cms/templates/course-create-rerun.html:98
 msgid ""
-"The unique number that identifies the new course within the organization.  "
-"(This number will be the same as the original course number and cannot be "
+"The unique number that identifies the new Micro-experiencewithin the organization.  "
+"(This number will be the same as the original Micro-experiencenumber and cannot be "
 "changed.)"
 msgstr ""
 
 #. Translators: This is an example for the "run" used to identify different
 #. instances of a course, seen when filling out the form to create a new
-#. course.
+#. Micro-experience.
 #: cms/templates/course-create-rerun.html:105 cms/templates/index.html:117
 msgid "e.g. 2014_T1"
 msgstr ""
 
 #: cms/templates/course-create-rerun.html:107
 msgid ""
-"The term in which the new course will run. (This value is often different "
-"than the original course run value.)"
+"The term in which the new Micro-experiencewill run. (This value is often different "
+"than the original Micro-experiencerun value.)"
 msgstr ""
 
 #: cms/templates/course-create-rerun.html:120
@@ -14371,11 +14371,11 @@ msgid "Create Re-run"
 msgstr ""
 
 #: cms/templates/course-create-rerun.html:130
-msgid "When will my course re-run start?"
+msgid "When will my Micro-experiencere-run start?"
 msgstr ""
 
 #: cms/templates/course-create-rerun.html:132
-msgid "The new course is set to start on January 1, 2030 at midnight (UTC)."
+msgid "The new Micro-experienceis set to start on January 1, 2030 at midnight (UTC)."
 msgstr ""
 
 #: cms/templates/course-create-rerun.html:137
@@ -14384,9 +14384,9 @@ msgstr ""
 
 #: cms/templates/course-create-rerun.html:139
 msgid ""
-"The new course has the same course outline and content as the original "
+"The new Micro-experiencehas the same Micro-experienceoutline and content as the original "
 "course. All problems, videos, announcements, and other files are duplicated "
-"to the new course."
+"to the new Micro-experience."
 msgstr ""
 
 #: cms/templates/course-create-rerun.html:144
@@ -14401,7 +14401,7 @@ msgid ""
 msgstr ""
 
 #: cms/templates/course-create-rerun.html:151
-msgid "Learn more about Course Re-runs"
+msgid "Learn more about Micro-experienceRe-runs"
 msgstr ""
 
 #: cms/templates/course_info.html:13 cms/templates/course_info.html:40
@@ -14414,7 +14414,7 @@ msgstr ""
 
 #: cms/templates/course_info.html:57
 msgid ""
-"Use course updates to notify students of important dates or exams, highlight "
+"Use Micro-experienceupdates to notify students of important dates or exams, highlight "
 "particular discussions in the forums, announce schedule changes, and respond "
 "to student questions. You add or edit updates in HTML."
 msgstr ""
@@ -14426,20 +14426,20 @@ msgstr ""
 
 #: cms/templates/course_outline.html:52
 msgid ""
-"This course was created as a re-run. Some manual configuration is needed."
+"This Micro-experiencewas created as a re-run. Some manual configuration is needed."
 msgstr ""
 
 #: cms/templates/course_outline.html:54
 msgid ""
-"No course content is currently visible, and no learners are enrolled. Be "
-"sure to review and reset all dates, including the Course Start Date; set up "
-"the course team; review course updates and other assets for dated material; "
+"No Micro-experiencecontent is currently visible, and no learners are enrolled. Be "
+"sure to review and reset all dates, including the Micro-experienceStart Date; set up "
+"the Micro-experienceteam; review Micro-experienceupdates and other assets for dated material; "
 "and seed the discussions and wiki."
 msgstr ""
 
 #: cms/templates/course_outline.html:76
 msgid ""
-"This course run is using an upgraded version of edx discussion forum. In "
+"This Micro-experiencerun is using an upgraded version of edx discussion forum. In "
 "order to display the discussions sidebar, discussions xBlocks will no longer "
 "be visible to learners."
 msgstr ""
@@ -14458,7 +14458,7 @@ msgid "Warning"
 msgstr ""
 
 #: cms/templates/course_outline.html:114
-msgid "This course uses features that are no longer supported."
+msgid "This Micro-experienceuses features that are no longer supported."
 msgstr ""
 
 #: cms/templates/course_outline.html:118
@@ -14476,7 +14476,7 @@ msgstr ""
 #: cms/templates/course_outline.html:138
 msgid ""
 "To avoid errors, {platform_name} strongly recommends that you remove "
-"unsupported features from the course advanced settings. To do this, go to "
+"unsupported features from the Micro-experienceadvanced settings. To do this, go to "
 "the {link_start}Advanced Settings page{link_end}, locate the \"Advanced "
 "Module List\" setting, and then delete the following modules from the list."
 msgstr ""
@@ -14487,7 +14487,7 @@ msgstr ""
 
 #: cms/templates/course_outline.html:164
 #: cms/templates/settings_advanced.html:42
-msgid "This course has proctored exam settings that are incomplete or invalid."
+msgid "This Micro-experiencehas proctored exam settings that are incomplete or invalid."
 msgstr ""
 
 #: cms/templates/course_outline.html:168
@@ -14540,7 +14540,7 @@ msgid "View Live"
 msgstr ""
 
 #: cms/templates/course_outline.html:298
-msgid "Creating your course organization"
+msgid "Creating your Micro-experienceorganization"
 msgstr ""
 
 #: cms/templates/course_outline.html:299
@@ -14549,7 +14549,7 @@ msgstr ""
 
 #: cms/templates/course_outline.html:300
 msgid ""
-"Create a section, then add subsections and units. Open a unit to add course "
+"Create a section, then add subsections and units. Open a unit to add Micro-experience"
 "components."
 msgstr ""
 
@@ -14562,7 +14562,7 @@ msgid "Drag sections, subsections, and units to new locations in the outline."
 msgstr ""
 
 #: cms/templates/course_outline.html:306
-msgid "Learn more about the course outline"
+msgid "Learn more about the Micro-experienceoutline"
 msgstr ""
 
 #: cms/templates/course_outline.html:310
@@ -14616,7 +14616,7 @@ msgid "Pages & Resources"
 msgstr ""
 
 #. Translators: Custom Pages refer to the tabs that appear in the top
-#. navigation of each course.
+#. navigation of each Micro-experience.
 #: cms/templates/edit-tabs.html:62 cms/templates/export.html:201
 #: cms/templates/widgets/header.html:118
 msgid "Pages"
@@ -14646,7 +14646,7 @@ msgid "This page cannot be reordered"
 msgstr ""
 
 #: cms/templates/edit-tabs.html:164
-msgid "You can add additional custom pages to your course."
+msgid "You can add additional custom pages to your Micro-experience."
 msgstr ""
 
 #: cms/templates/edit-tabs.html:164
@@ -14659,7 +14659,7 @@ msgstr ""
 
 #: cms/templates/edit-tabs.html:174
 msgid ""
-"Pages are listed horizontally at the top of your course. Default pages "
+"Pages are listed horizontally at the top of your Micro-experience. Default pages "
 "(Home, Course, Discussion, Wiki, and Progress) are followed by textbooks and "
 "custom pages that you create."
 msgstr ""
@@ -14668,7 +14668,7 @@ msgstr ""
 msgid ""
 "You can create and edit custom pages to provide students with additional "
 "course content. For example, you can create pages for the grading policy, "
-"course slides, and a course calendar. "
+"course slides, and a Micro-experiencecalendar. "
 msgstr ""
 
 #: cms/templates/edit-tabs.html:181
@@ -14677,7 +14677,7 @@ msgstr ""
 
 #: cms/templates/edit-tabs.html:182
 msgid ""
-"Students see the default and custom pages at the top of your course and use "
+"Students see the default and custom pages at the top of your Micro-experienceand use "
 "these links to navigate."
 msgstr ""
 
@@ -14693,7 +14693,7 @@ msgstr ""
 msgid ""
 "You can create and edit custom pages to provide students with additional "
 "course content. For example, you can create pages for the grading policy, "
-"course syllabus, and a course calendar. "
+"course syllabus, and a Micro-experiencecalendar. "
 msgstr ""
 
 #: cms/templates/edit-tabs.html:192
@@ -14702,7 +14702,7 @@ msgstr ""
 
 #: cms/templates/edit-tabs.html:193
 msgid ""
-"Custom pages are listed horizontally at the top of your course after default "
+"Custom pages are listed horizontally at the top of your Micro-experienceafter default "
 "pages."
 msgstr ""
 
@@ -14783,9 +14783,9 @@ msgstr ""
 #. Translators: ".tar.gz" is a file extension, and should not be translated
 #: cms/templates/export.html:71
 msgid ""
-"You can export courses and edit them outside of {studio_name}. The exported "
+"You can export Micro-experiencesand edit them outside of {studio_name}. The exported "
 "file is a .tar.gz file (that is, a .tar file compressed with GNU Zip) that "
-"contains the course structure and content. You can also re-import courses "
+"contains the Micro-experiencestructure and content. You can also re-import Micro-experiences"
 "that you've exported."
 msgstr ""
 
@@ -14803,7 +14803,7 @@ msgid "Export My Library Content"
 msgstr ""
 
 #: cms/templates/export.html:87
-msgid "Export My Course Content"
+msgid "Export My Micro-experienceContent"
 msgstr ""
 
 #: cms/templates/export.html:96
@@ -14811,7 +14811,7 @@ msgid "Export Library Content"
 msgstr ""
 
 #: cms/templates/export.html:98
-msgid "Export Course Content"
+msgid "Export Micro-experienceContent"
 msgstr ""
 
 #: cms/templates/export.html:108
@@ -14853,7 +14853,7 @@ msgid "Your exported library can now be downloaded"
 msgstr ""
 
 #: cms/templates/export.html:168
-msgid "Your exported course can now be downloaded"
+msgid "Your exported Micro-experiencecan now be downloaded"
 msgstr ""
 
 #: cms/templates/export.html:176
@@ -14943,10 +14943,10 @@ msgstr ""
 
 #: cms/templates/export.html:245
 msgid ""
-"You may want to edit the XML in your course directly, outside of "
-"{studio_name}. You may want to create a backup copy of your course. Or, you "
-"may want to create a copy of your course that you can later import into "
-"another course instance and customize."
+"You may want to edit the XML in your Micro-experiencedirectly, outside of "
+"{studio_name}. You may want to create a backup copy of your Micro-experience. Or, you "
+"may want to create a copy of your Micro-experiencethat you can later import into "
+"another Micro-experienceinstance and customize."
 msgstr ""
 
 #: cms/templates/export.html:251
@@ -14989,14 +14989,14 @@ msgid ""
 msgstr ""
 
 #: cms/templates/export.html:263 cms/templates/import.html:241
-msgid "The course team"
+msgid "The Micro-experienceteam"
 msgstr ""
 
 #. Translators: ".tar.gz" is a file extension, and should not be translated
 #: cms/templates/export.html:269
 msgid ""
 "Use an archive program to extract the data from the .tar.gz file. Extracted "
-"data includes the course.xml file, as well as subfolders that contain course "
+"data includes the Micro-experience.xml file, as well as subfolders that contain Micro-experience"
 "content."
 msgstr ""
 
@@ -15005,7 +15005,7 @@ msgid "Learn more about exporting a course"
 msgstr ""
 
 #: cms/templates/export_git.html:9
-msgid "Export Course to Git"
+msgid "Export Micro-experienceto Git"
 msgstr ""
 
 #: cms/templates/export_git.html:17 cms/templates/export_git.html:44
@@ -15018,23 +15018,23 @@ msgid "About Export to Git"
 msgstr ""
 
 #: cms/templates/export_git.html:29
-msgid "Use this to export your course to its git repository."
+msgid "Use this to export your Micro-experienceto its git repository."
 msgstr ""
 
 #: cms/templates/export_git.html:30
 msgid ""
 "This will then trigger an automatic update of the main LMS site and update "
-"the contents of your course visible there to students if automatic git "
+"the contents of your Micro-experiencevisible there to students if automatic git "
 "imports are configured."
 msgstr ""
 
 #: cms/templates/export_git.html:35
-msgid "Export Course to Git:"
+msgid "Export Micro-experienceto Git:"
 msgstr ""
 
 #: cms/templates/export_git.html:38
 msgid ""
-"giturl must be defined in your course settings before you can export to git."
+"giturl must be defined in your Micro-experiencesettings before you can export to git."
 msgstr ""
 
 #: cms/templates/export_git.html:53
@@ -15064,22 +15064,22 @@ msgstr ""
 
 #: cms/templates/group_configurations.html:87
 msgid ""
-"Enrollment track groups allow you to offer different course content to "
+"Enrollment track groups allow you to offer different Micro-experiencecontent to "
 "learners in each enrollment track. Learners enrolled in each enrollment "
-"track in your course are automatically included in the corresponding "
+"track in your Micro-experienceare automatically included in the corresponding "
 "enrollment track group."
 msgstr ""
 
 #: cms/templates/group_configurations.html:88
 msgid ""
-"On unit pages in the course outline, you can restrict access to components "
+"On unit pages in the Micro-experienceoutline, you can restrict access to components "
 "to learners based on their enrollment track."
 msgstr ""
 
 #: cms/templates/group_configurations.html:89
 msgid ""
 "You cannot edit enrollment track groups, but you can expand each group to "
-"view details of the course content that is designated for learners in the "
+"view details of the Micro-experiencecontent that is designated for learners in the "
 "group."
 msgstr ""
 
@@ -15087,13 +15087,13 @@ msgstr ""
 msgid ""
 "If you have cohorts enabled in your course, you can use content groups to "
 "create cohort-specific courseware. In other words, you can customize the "
-"content that particular cohorts see in your course."
+"content that particular cohorts see in your Micro-experience."
 msgstr ""
 
 #: cms/templates/group_configurations.html:98
 msgid ""
 "Each content group that you create can be associated with one or more "
-"cohorts. In addition to making course content available to all learners, you "
+"cohorts. In addition to making Micro-experiencecontent available to all learners, you "
 "can restrict access to some content to learners in specific content groups. "
 "Only learners in the cohorts that are associated with the specified content "
 "groups see the additional content."
@@ -15111,7 +15111,7 @@ msgstr ""
 #: cms/templates/group_configurations.html:107
 msgid ""
 "Use experiment group configurations if you are conducting content "
-"experiments, also known as A/B testing, in your course. Experiment group "
+"experiments, also known as A/B testing, in your Micro-experience. Experiment group "
 "configurations define how many groups of learners are in a content "
 "experiment. When you create a content experiment for a course, you select "
 "the group configuration to use."
@@ -15145,7 +15145,7 @@ msgid "{studio_name}'s Many Features"
 msgstr ""
 
 #: cms/templates/howitworks.html:40 cms/templates/howitworks.html:41
-msgid "{studio_name} Helps You Keep Your Courses Organized"
+msgid "{studio_name} Helps You Keep Your Micro-experiencesOrganized"
 msgstr ""
 
 #: cms/templates/howitworks.html:43 cms/templates/howitworks.html:88
@@ -15154,12 +15154,12 @@ msgid "Enlarge image"
 msgstr ""
 
 #: cms/templates/howitworks.html:49
-msgid "Keeping Your Course Organized"
+msgid "Keeping Your Micro-experienceOrganized"
 msgstr ""
 
 #: cms/templates/howitworks.html:50
 msgid ""
-"The backbone of your course is how it is organized. {studio_name} offers an "
+"The backbone of your Micro-experienceis how it is organized. {studio_name} offers an "
 "{strong_start}Outline{strong_end} editor, providing a simple hierarchy and "
 "easy drag and drop to help you and your students stay organized."
 msgstr ""
@@ -15271,7 +15271,7 @@ msgstr ""
 #: cms/templates/howitworks.html:139
 msgid ""
 "When you've finished a {strong_start}section{strong_end}, pick when you want "
-"it to go live and {studio_name} takes care of the rest. Build your course "
+"it to go live and {studio_name} takes care of the rest. Build your Micro-experience"
 "incrementally."
 msgstr ""
 
@@ -15303,8 +15303,8 @@ msgstr ""
 
 #: cms/templates/howitworks.html:180
 msgid ""
-"Simple two-level outline to organize your course. Drag and drop, and see "
-"your course at a glance."
+"Simple two-level outline to organize your Micro-experience. Drag and drop, and see "
+"your Micro-experienceat a glance."
 msgstr ""
 
 #: cms/templates/howitworks.html:190
@@ -15376,17 +15376,17 @@ msgstr ""
 
 #: cms/templates/import.html:54
 msgid ""
-"Be sure you want to import a course before continuing. The contents of the "
-"imported course will replace the contents of the existing course. {em_start}"
-"You cannot undo a course import{em_end}. Before you proceed, we recommend "
+"Be sure you want to import a Micro-experiencebefore continuing. The contents of the "
+"imported Micro-experiencewill replace the contents of the existing Micro-experience. {em_start}"
+"You cannot undo a Micro-experienceimport{em_end}. Before you proceed, we recommend "
 "that you export the current course, so that you have a backup copy of it."
 msgstr ""
 
 #: cms/templates/import.html:55
 msgid ""
-"The course that you import must be in a .tar.gz file (that is, a .tar file "
+"The Micro-experiencethat you import must be in a .tar.gz file (that is, a .tar file "
 "compressed with GNU Zip) or .zip (that is a compressed file). This .tar.gz "
-"or .zip file must contain a course.xml file. It may also contain other files."
+"or .zip file must contain a Micro-experience.xml file. It may also contain other files."
 msgstr ""
 
 #: cms/templates/import.html:56
@@ -15394,7 +15394,7 @@ msgid ""
 "The import process has five stages. During the first two stages, you must "
 "stay on this page. You can leave this page after the Unpacking stage has "
 "completed. We recommend, however, that you don't make important changes to "
-"your course until the import operation has completed."
+"your Micro-experienceuntil the import operation has completed."
 msgstr ""
 
 #: cms/templates/import.html:67
@@ -15402,7 +15402,7 @@ msgid "Select a .tar.gz File to Replace Your Library Content"
 msgstr ""
 
 #: cms/templates/import.html:69
-msgid "Select a .tar.gz or .zip File to Replace Your Course Content"
+msgid "Select a .tar.gz or .zip File to Replace Your Micro-experienceContent"
 msgstr ""
 
 #: cms/templates/import.html:77
@@ -15418,7 +15418,7 @@ msgid "Replace my library with the selected file"
 msgstr ""
 
 #: cms/templates/import.html:92
-msgid "Replace my course with the selected file"
+msgid "Replace my Micro-experiencewith the selected file"
 msgstr ""
 
 #: cms/templates/import.html:100
@@ -15468,8 +15468,8 @@ msgstr ""
 
 #: cms/templates/import.html:165
 msgid ""
-"Integrating your imported content into this course. This process might take "
-"longer with larger courses."
+"Integrating your imported content into this Micro-experience. This process might take "
+"longer with larger Micro-experiences."
 msgstr ""
 
 #: cms/templates/import.html:182
@@ -15506,7 +15506,7 @@ msgstr ""
 #: cms/templates/import.html:215
 msgid ""
 "If you change and import a library that is referenced by randomized content "
-"blocks in one or more courses, those courses do not automatically use the "
+"blocks in one or more courses, those Micro-experiencesdo not automatically use the "
 "updated content. You must manually refresh the randomized content blocks to "
 "bring them up to date with the latest library content."
 msgstr ""
@@ -15522,7 +15522,7 @@ msgstr ""
 #: cms/templates/import.html:225
 msgid ""
 "You may want to run a new version of an existing course, or replace an "
-"existing course altogether. Or, you may have developed a course outside "
+"existing Micro-experiencealtogether. Or, you may have developed a Micro-experienceoutside "
 "{studio_name}."
 msgstr ""
 
@@ -15539,12 +15539,12 @@ msgid "The following content is not imported."
 msgstr ""
 
 #: cms/templates/import.html:246
-msgid "Warning: Importing while a course is running"
+msgid "Warning: Importing while a Micro-experienceis running"
 msgstr ""
 
 #: cms/templates/import.html:247
 msgid ""
-"If you perform an import while your course is running, and you change the "
+"If you perform an import while your Micro-experienceis running, and you change the "
 "URL names (or url_name nodes) of any Problem components, the student data "
 "associated with those Problem components may be lost. This data includes "
 "students' problem scores."
@@ -15585,28 +15585,28 @@ msgstr ""
 
 #: cms/templates/index.html:77
 msgid ""
-"The public display name for your course. This cannot be changed, but you can "
+"The public display name for your Micro-experience. This cannot be changed, but you can "
 "set a different display name in Advanced Settings later."
 msgstr ""
 
 #: cms/templates/index.html:93
 msgid ""
-"The name of the organization sponsoring the course. {strong_start}Note: The "
-"organization name is part of the course URL.{strong_end} This cannot be "
+"The name of the organization sponsoring the Micro-experience. {strong_start}Note: The "
+"organization name is part of the Micro-experienceURL.{strong_end} This cannot be "
 "changed, but you can set a different display name in Advanced Settings later."
 msgstr ""
 
 #: cms/templates/index.html:106
 msgid ""
-"The unique number that identifies your course within your organization. "
-"{strong_start}Note: This is part of your course URL, so no spaces or special "
+"The unique number that identifies your Micro-experiencewithin your organization. "
+"{strong_start}Note: This is part of your Micro-experienceURL, so no spaces or special "
 "characters are allowed and it cannot be changed.{strong_end}"
 msgstr ""
 
 #: cms/templates/index.html:118
 msgid ""
-"The term in which your course will run. {strong_start}Note: This is part of "
-"your course URL, so no spaces or special characters are allowed and it "
+"The term in which your Micro-experiencewill run. {strong_start}Note: This is part of "
+"your Micro-experienceURL, so no spaces or special characters are allowed and it "
 "cannot be changed.{strong_end}"
 msgstr ""
 
@@ -15670,7 +15670,7 @@ msgid "Organization and Library Settings"
 msgstr ""
 
 #: cms/templates/index.html:212
-msgid "Show all courses in organization:"
+msgid "Show all Micro-experiencesin organization:"
 msgstr ""
 
 #: cms/templates/index.html:214
@@ -15697,7 +15697,7 @@ msgid "Course Run:"
 msgstr ""
 
 #: cms/templates/index.html:254
-msgid "This course run is currently being created."
+msgid "This Micro-experiencerun is currently being created."
 msgstr ""
 
 #. Translators: This is a status message, used to inform the user of
@@ -15711,14 +15711,14 @@ msgstr ""
 
 #: cms/templates/index.html:268
 msgid ""
-"The new course will be added to your course list in 5-10 minutes. Return to "
-"this page or {link_start}refresh it{link_end} to update the course list. The "
-"new course will need some manual configuration."
+"The new Micro-experiencewill be added to your Micro-experiencelist in 5-10 minutes. Return to "
+"this page or {link_start}refresh it{link_end} to update the Micro-experiencelist. The "
+"new Micro-experiencewill need some manual configuration."
 msgstr ""
 
-#. Translators: This is a status message for the course re-runs feature.
-#. When a course admin indicates that a course should be re-run, the system
-#. needs to process the request and prepare the new course. The status of
+#. Translators: This is a status message for the Micro-experiencere-runs feature.
+#. When a Micro-experienceadmin indicates that a Micro-experienceshould be re-run, the system
+#. needs to process the request and prepare the new Micro-experience. The status of
 #. the process will follow this text.
 #: cms/templates/index.html:304
 msgid "This re-run processing status:"
@@ -15730,8 +15730,8 @@ msgstr ""
 
 #: cms/templates/index.html:313
 msgid ""
-"A system error occurred while your course was being processed. Please go to "
-"the original course to try the re-run again, or contact your PM for "
+"A system error occurred while your Micro-experiencewas being processed. Please go to "
+"the original Micro-experienceto try the re-run again, or contact your PM for "
 "assistance."
 msgstr ""
 
@@ -15753,8 +15753,8 @@ msgstr ""
 
 #: cms/templates/index.html:385
 msgid ""
-"The course creator must give you access to the course. Contact the course "
-"creator or administrator for the course you are helping to author."
+"The Micro-experiencecreator must give you access to the Micro-experience. Contact the Micro-experience"
+"creator or administrator for the Micro-experienceyou are helping to author."
 msgstr ""
 
 #: cms/templates/index.html:393 cms/templates/index.html:401
@@ -15762,25 +15762,25 @@ msgid "Create Your First Course"
 msgstr ""
 
 #: cms/templates/index.html:395
-msgid "Your new course is just a click away!"
+msgid "Your new Micro-experienceis just a click away!"
 msgstr ""
 
 #: cms/templates/index.html:414
-msgid "Becoming a Course Creator in {studio_name}"
+msgid "Becoming a Micro-experienceCreator in {studio_name}"
 msgstr ""
 
 #: cms/templates/index.html:419
 msgid ""
 "{studio_name} is a hosted solution for our xConsortium partners and selected "
-"guests. Courses for which you are a team member appear above for you to "
-"edit, while course creator privileges are granted by {platform_name}. Our "
+"guests. Micro-experiencesfor which you are a team member appear above for you to "
+"edit, while Micro-experiencecreator privileges are granted by {platform_name}. Our "
 "team will evaluate your request and provide you feedback within 24 hours "
 "during the work week."
 msgstr ""
 
 #: cms/templates/index.html:424 cms/templates/index.html:449
 #: cms/templates/index.html:477
-msgid "Your Course Creator Request Status:"
+msgid "Your Micro-experienceCreator Request Status:"
 msgstr ""
 
 #: cms/templates/index.html:428
@@ -15788,19 +15788,19 @@ msgid "Request the Ability to Create Courses"
 msgstr ""
 
 #: cms/templates/index.html:438 cms/templates/index.html:466
-msgid "Your Course Creator Request Status"
+msgid "Your Micro-experienceCreator Request Status"
 msgstr ""
 
 #: cms/templates/index.html:443
 msgid ""
 "{studio_name} is a hosted solution for our xConsortium partners and selected "
-"guests. Courses for which you are a team member appear above for you to "
-"edit, while course creator privileges are granted by {platform_name}. Our "
+"guests. Micro-experiencesfor which you are a team member appear above for you to "
+"edit, while Micro-experiencecreator privileges are granted by {platform_name}. Our "
 "team is has completed evaluating your request."
 msgstr ""
 
 #: cms/templates/index.html:452 cms/templates/index.html:480
-msgid "Your Course Creator request is:"
+msgid "Your Micro-experienceCreator request is:"
 msgstr ""
 
 #: cms/templates/index.html:456
@@ -15812,8 +15812,8 @@ msgstr ""
 #: cms/templates/index.html:471
 msgid ""
 "{studio_name} is a hosted solution for our xConsortium partners and selected "
-"guests. Courses for which you are a team member appear above for you to "
-"edit, while course creator privileges are granted by {platform_name}. Our "
+"guests. Micro-experiencesfor which you are a team member appear above for you to "
+"edit, while Micro-experiencecreator privileges are granted by {platform_name}. Our "
 "team is currently  evaluating your request."
 msgstr ""
 
@@ -15861,24 +15861,24 @@ msgstr ""
 
 #: cms/templates/index.html:570 cms/templates/index.html:582
 #: cms/templates/index.html:588
-msgid "Can I create courses in {studio_name}?"
+msgid "Can I create Micro-experiencesin {studio_name}?"
 msgstr ""
 
 #: cms/templates/index.html:571
 msgid ""
-"In order to create courses in {studio_name}, you must {link_start}contact "
+"In order to create Micro-experiencesin {studio_name}, you must {link_start}contact "
 "{platform_name} staff to help you create a course{link_end}."
 msgstr ""
 
 #: cms/templates/index.html:583
 msgid ""
-"In order to create courses in {studio_name}, you must have course creator "
-"privileges to create your own course."
+"In order to create Micro-experiencesin {studio_name}, you must have Micro-experiencecreator "
+"privileges to create your own Micro-experience."
 msgstr ""
 
 #: cms/templates/index.html:589
 msgid ""
-"Your request to author courses in {studio_name} has been denied. Please "
+"Your request to author Micro-experiencesin {studio_name} has been denied. Please "
 "{link_start}contact {platform_name} Staff with further questions{link_end}."
 msgstr ""
 
@@ -15950,7 +15950,7 @@ msgstr ""
 
 #: cms/templates/library.html:94
 msgid ""
-"Use library content in courses by adding the {em_start}"
+"Use library content in Micro-experiencesby adding the {em_start}"
 "library_content{em_end} policy key to the Advanced Module List in the "
 "course's Advanced Settings, then adding a Randomized Content Block to your "
 "courseware. In the settings for each Randomized Content Block, select this "
@@ -16003,7 +16003,7 @@ msgstr ""
 
 #: cms/templates/manage_users.html:85
 msgid ""
-"Adding team members makes course authoring collaborative. Users must be "
+"Adding team members makes Micro-experienceauthoring collaborative. Users must be "
 "signed up for {studio_name} and have an active account."
 msgstr ""
 
@@ -16017,20 +16017,20 @@ msgstr ""
 
 #: cms/templates/manage_users.html:101
 msgid ""
-"Course team members with the Staff role are course co-authors. They have "
-"full writing and editing privileges on all course content."
+"Course team members with the Staff role are Micro-experienceco-authors. They have "
+"full writing and editing privileges on all Micro-experiencecontent."
 msgstr ""
 
 #: cms/templates/manage_users.html:103
 msgid ""
-"Admins are course team members who can add and remove other course team "
+"Admins are Micro-experienceteam members who can add and remove other Micro-experienceteam "
 "members."
 msgstr ""
 
 #: cms/templates/manage_users.html:104
 msgid ""
-"All course team members can access content in Studio, the LMS, and Insights, "
-"and they are automatically enrolled in the course."
+"All Micro-experienceteam members can access content in Studio, the LMS, and Insights, "
+"and they are automatically enrolled in the Micro-experience."
 msgstr ""
 
 #: cms/templates/manage_users.html:109
@@ -16039,7 +16039,7 @@ msgstr ""
 
 #: cms/templates/manage_users.html:111
 msgid ""
-"Every course must have an Admin. If you are the Admin and you want to "
+"Every Micro-experiencemust have an Admin. If you are the Admin and you want to "
 "transfer ownership of the course, click <strong>Add admin access</strong> to "
 "make another user the Admin, then ask that user to remove you from the "
 "Course Team list."
@@ -16067,7 +16067,7 @@ msgstr ""
 
 #: cms/templates/manage_users_lib.html:86
 msgid ""
-"Grant other members of your course team access to this library. New library "
+"Grant other members of your Micro-experienceteam access to this library. New library "
 "users must have an active {studio_name} account."
 msgstr ""
 
@@ -16139,8 +16139,8 @@ msgstr ""
 
 #: cms/templates/settings.html:106
 msgid ""
-"The course \"{course_display_name}\", provided by {platform_name}, is open "
-"for enrollment. Please navigate to this course at {link_for_about_page} to "
+"The Micro-experience\"{course_display_name}\", provided by {platform_name}, is open "
+"for enrollment. Please navigate to this Micro-experienceat {link_for_about_page} to "
 "enroll."
 msgstr ""
 
@@ -16153,12 +16153,12 @@ msgid "Invite your students"
 msgstr ""
 
 #: cms/templates/settings.html:122
-msgid "Promoting Your Course with {platform_name}"
+msgid "Promoting Your Micro-experiencewith {platform_name}"
 msgstr ""
 
 #: cms/templates/settings.html:124
 msgid ""
-"Your course summary page will not be viewable until your course has been "
+"Your Micro-experiencesummary page will not be viewable until your Micro-experiencehas been "
 "announced. To provide content for the page and preview it, follow the "
 "instructions provided by your Program Manager."
 msgstr ""
@@ -16166,7 +16166,7 @@ msgstr ""
 #: cms/templates/settings.html:128
 msgid ""
 "Please note that changes here may take up to a business day to appear on "
-"your course summary page."
+"your Micro-experiencesummary page."
 msgstr ""
 
 #: cms/templates/settings.html:141
@@ -16174,7 +16174,7 @@ msgid "Course Credit Requirements"
 msgstr ""
 
 #: cms/templates/settings.html:142
-msgid "Steps required to earn course credit"
+msgid "Steps required to earn Micro-experiencecredit"
 msgstr ""
 
 #: cms/templates/settings.html:150 cms/templates/settings.html:152
@@ -16211,8 +16211,8 @@ msgstr ""
 
 #: cms/templates/settings.html:202
 msgid ""
-"Instructor-paced courses progress at the pace that the course author sets. "
-"You can configure release dates for course content and due dates for "
+"Instructor-paced Micro-experiencesprogress at the pace that the Micro-experienceauthor sets. "
+"You can configure release dates for Micro-experiencecontent and due dates for "
 "assignments."
 msgstr ""
 
@@ -16222,8 +16222,8 @@ msgstr ""
 
 #: cms/templates/settings.html:207
 msgid ""
-"Self-paced courses offer suggested due dates for assignments or exams based "
-"on the learner’s enrollment date and the expected course duration. These "
+"Self-paced Micro-experiencesoffer suggested due dates for assignments or exams based "
+"on the learner’s enrollment date and the expected Micro-experienceduration. These "
 "courses offer learners flexibility to modify the assignment dates as needed."
 msgstr ""
 
@@ -16232,7 +16232,7 @@ msgid "Course Schedule"
 msgstr ""
 
 #: cms/templates/settings.html:218
-msgid "Dates that control when your course can be viewed"
+msgid "Dates that control when your Micro-experiencecan be viewed"
 msgstr ""
 
 #: cms/templates/settings.html:224
@@ -16240,7 +16240,7 @@ msgid "Course Start Date"
 msgstr ""
 
 #: cms/templates/settings.html:227
-msgid "First day the course begins"
+msgid "First day the Micro-experiencebegins"
 msgstr ""
 
 #: cms/templates/settings.html:231
@@ -16258,7 +16258,7 @@ msgid "Course End Date"
 msgstr ""
 
 #: cms/templates/settings.html:242
-msgid "Last day your course is active"
+msgid "Last day your Micro-experienceis active"
 msgstr ""
 
 #: cms/templates/settings.html:246
@@ -16274,11 +16274,11 @@ msgid "End date of course"
 msgstr ""
 
 #: cms/templates/settings.html:261 cms/templates/settings.html:284
-msgid "A date after the course end date"
+msgid "A date after the Micro-experienceend date"
 msgstr ""
 
 #: cms/templates/settings.html:263
-msgid "Certificates are awarded at the end of a course run"
+msgid "Certificates are awarded at the end of a Micro-experiencerun"
 msgstr ""
 
 #: cms/templates/settings.html:270
@@ -16288,25 +16288,25 @@ msgstr ""
 #: cms/templates/settings.html:274
 msgid ""
 "In all configurations of this setting, certificates are generated for "
-"learners as soon as they achieve the passing threshold in the course (which "
-"can occur before a final assignment based on course design)"
+"learners as soon as they achieve the passing threshold in the Micro-experience(which "
+"can occur before a final assignment based on Micro-experiencedesign)"
 msgstr ""
 
 #: cms/templates/settings.html:277
 msgid ""
 "Learners can access their certificate as soon as they achieve a passing "
-"grade above the course grade threshold. Note: learners can achieve a passing "
-"grade before encountering all assignments in some course configurations."
+"grade above the Micro-experiencegrade threshold. Note: learners can achieve a passing "
+"grade before encountering all assignments in some Micro-experienceconfigurations."
 msgstr ""
 
 #: cms/templates/settings.html:280
-msgid "On course end date"
+msgid "On Micro-experienceend date"
 msgstr ""
 
 #: cms/templates/settings.html:281
 msgid ""
 "Learners with passing grades can access their certificate once the end date "
-"of the course has elapsed."
+"of the Micro-experiencehas elapsed."
 msgstr ""
 
 #: cms/templates/settings.html:285
@@ -16369,7 +16369,7 @@ msgstr ""
 
 #: cms/templates/settings.html:377
 msgid ""
-"Identify the course language here. This is used to assist users find courses "
+"Identify the Micro-experiencelanguage here. This is used to assist users find Micro-experiences"
 "that are taught in a specific language. It is also used to localize the "
 "'From:' field in bulk emails."
 msgstr ""
@@ -16387,7 +16387,7 @@ msgid "Course Title"
 msgstr ""
 
 #: cms/templates/settings.html:399
-msgid "Displayed as title on the course details page. Limit to 50 characters."
+msgid "Displayed as title on the Micro-experiencedetails page. Limit to 50 characters."
 msgstr ""
 
 #: cms/templates/settings.html:402
@@ -16396,7 +16396,7 @@ msgstr ""
 
 #: cms/templates/settings.html:404
 msgid ""
-"Displayed as subtitle on the course details page. Limit to 150 characters."
+"Displayed as subtitle on the Micro-experiencedetails page. Limit to 150 characters."
 msgstr ""
 
 #: cms/templates/settings.html:407
@@ -16404,7 +16404,7 @@ msgid "Course Duration"
 msgstr ""
 
 #: cms/templates/settings.html:409
-msgid "Displayed on the course details page. Limit to 50 characters."
+msgid "Displayed on the Micro-experiencedetails page. Limit to 50 characters."
 msgstr ""
 
 #: cms/templates/settings.html:412
@@ -16412,7 +16412,7 @@ msgid "Course Description"
 msgstr ""
 
 #: cms/templates/settings.html:414
-msgid "Displayed on the course details page. Limit to 1000 characters."
+msgid "Displayed on the Micro-experiencedetails page. Limit to 1000 characters."
 msgstr ""
 
 #: cms/templates/settings.html:420
@@ -16421,7 +16421,7 @@ msgstr ""
 
 #: cms/templates/settings.html:422
 msgid ""
-"Appears on the course catalog page when students roll over the course name. "
+"Appears on the Micro-experiencecatalog page when students roll over the Micro-experiencename. "
 "Limit to ~150 characters"
 msgstr ""
 
@@ -16445,7 +16445,7 @@ msgstr ""
 
 #: cms/templates/settings.html:445
 msgid ""
-"Custom sidebar content for {a_link_start}your course summary "
+"Custom sidebar content for {a_link_start}your Micro-experiencesummary "
 "page{a_link_end} (formatted in HTML)"
 msgstr ""
 
@@ -16463,34 +16463,34 @@ msgstr ""
 
 #: cms/templates/settings.html:473
 msgid ""
-"Your course currently does not have an image. Please upload one (JPEG or PNG "
+"Your Micro-experiencecurrently does not have an image. Please upload one (JPEG or PNG "
 "format, and minimum suggested dimensions are 375px wide by 200px tall)"
 msgstr ""
 
 #. Translators: This is the placeholder text for a field that requests the URL
-#. for a course image
+#. for a Micro-experienceimage
 #: cms/templates/settings.html:480
-msgid "Your course image URL"
+msgid "Your Micro-experienceimage URL"
 msgstr ""
 
 #: cms/templates/settings.html:481
 msgid ""
-"Please provide a valid path and name to your course image (Note: only JPEG "
+"Please provide a valid path and name to your Micro-experienceimage (Note: only JPEG "
 "or PNG format supported)"
 msgstr ""
 
 #: cms/templates/settings.html:483
-msgid "Upload Course Card Image"
+msgid "Upload Micro-experienceCard Image"
 msgstr ""
 
 #: cms/templates/settings.html:508
 msgid ""
-"Your course currently does not have an image. Please upload one (JPEG or PNG "
+"Your Micro-experiencecurrently does not have an image. Please upload one (JPEG or PNG "
 "format, and minimum suggested dimensions are 1440px wide by 400px tall)"
 msgstr ""
 
 #. Translators: This is the placeholder text for a field that requests the URL
-#. for a course banner image
+#. for a Micro-experiencebanner image
 #: cms/templates/settings.html:515
 msgid "Your banner image URL"
 msgstr ""
@@ -16502,7 +16502,7 @@ msgid ""
 msgstr ""
 
 #: cms/templates/settings.html:518
-msgid "Upload Course Banner Image"
+msgid "Upload Micro-experienceBanner Image"
 msgstr ""
 
 #: cms/templates/settings.html:527 cms/templates/settings.html:539
@@ -16511,13 +16511,13 @@ msgstr ""
 
 #: cms/templates/settings.html:541
 msgid ""
-"Your course currently does not have a video thumbnail image. Please upload "
+"Your Micro-experiencecurrently does not have a video thumbnail image. Please upload "
 "one (JPEG or PNG format, and minimum suggested dimensions are 375px wide by "
 "200px tall)"
 msgstr ""
 
 #. Translators: This is the placeholder text for a field that requests the URL
-#. for a course video thumbnail image
+#. for a Micro-experiencevideo thumbnail image
 #: cms/templates/settings.html:548
 msgid "Your video thumbnail image URL"
 msgstr ""
@@ -16541,7 +16541,7 @@ msgid "Delete Current Video"
 msgstr ""
 
 #. Translators: This is the placeholder text for a field that requests a
-#. YouTube video ID for a course video
+#. YouTube video ID for a Micro-experiencevideo
 #: cms/templates/settings.html:570
 msgid "your YouTube video's ID"
 msgstr ""
@@ -16589,7 +16589,7 @@ msgid "Hours of Effort per Week"
 msgstr ""
 
 #: cms/templates/settings.html:626
-msgid "Time spent on all course work"
+msgid "Time spent on all Micro-experiencework"
 msgstr ""
 
 #: cms/templates/settings.html:631
@@ -16609,12 +16609,12 @@ msgid "set pre-requisite course"
 msgstr ""
 
 #: cms/templates/settings.html:648
-msgid "Require students to pass an exam before beginning the course."
+msgid "Require students to pass an exam before beginning the Micro-experience."
 msgstr ""
 
 #: cms/templates/settings.html:652
 msgid ""
-"You can now view and author your course entrance exam from the {link_start}"
+"You can now view and author your Micro-experienceentrance exam from the {link_start}"
 "Course Outline{link_end}."
 msgstr ""
 
@@ -16636,14 +16636,14 @@ msgstr ""
 msgid "Course Content License"
 msgstr ""
 
-#. Translators: At the course settings, the editor is able to select the
-#. default course content license.
-#. The course content will have this license set, some assets can override the
+#. Translators: At the Micro-experiencesettings, the editor is able to select the
+#. default Micro-experiencecontent license.
+#. The Micro-experiencecontent will have this license set, some assets can override the
 #. license with their own.
-#. In the form, the license selector for course content is described using the
+#. In the form, the license selector for Micro-experiencecontent is described using the
 #. following string:
 #: cms/templates/settings.html:676
-msgid "Select the default license for course content"
+msgid "Select the default license for Micro-experiencecontent"
 msgstr ""
 
 #: cms/templates/settings.html:690
@@ -16658,10 +16658,10 @@ msgstr ""
 
 #: cms/templates/settings.html:693
 msgid ""
-"Other information from this page appears on the About page for your course. "
-"This information includes the course overview, course image, introduction "
+"Other information from this page appears on the About page for your Micro-experience. "
+"This information includes the Micro-experienceoverview, Micro-experienceimage, introduction "
 "video, and estimated time requirements. Students use About pages to choose "
-"new courses to take."
+"new Micro-experiencesto take."
 msgstr ""
 
 #: cms/templates/settings_advanced.html:46
@@ -16704,9 +16704,9 @@ msgstr ""
 
 #: cms/templates/settings_advanced.html:125
 msgid ""
-"Advanced settings control specific course functionality. On this page, you "
+"Advanced settings control specific Micro-experiencefunctionality. On this page, you "
 "can edit manual policies, which are JSON-based key and value pairs that "
-"control specific course settings."
+"control specific Micro-experiencesettings."
 msgstr ""
 
 #: cms/templates/settings_advanced.html:127
@@ -16744,7 +16744,7 @@ msgid "Credit Eligibility"
 msgstr ""
 
 #: cms/templates/settings_graders.html:98
-msgid "Settings for course credit eligibility"
+msgid "Settings for Micro-experiencecredit eligibility"
 msgstr ""
 
 #: cms/templates/settings_graders.html:103
@@ -16752,7 +16752,7 @@ msgid "Minimum Credit-Eligible Grade:"
 msgstr ""
 
 #: cms/templates/settings_graders.html:106
-msgid "Must be greater than or equal to the course passing grade"
+msgid "Must be greater than or equal to the Micro-experiencepassing grade"
 msgstr ""
 
 #: cms/templates/settings_graders.html:115
@@ -16796,7 +16796,7 @@ msgstr ""
 
 #: cms/templates/settings_graders.html:153
 msgid ""
-"You can specify whether your course offers students a grace period for late "
+"You can specify whether your Micro-experienceoffers students a grace period for late "
 "assignments."
 msgstr ""
 
@@ -16988,28 +16988,28 @@ msgid ""
 msgstr ""
 
 #: cms/templates/emails/course_creator_admin_subject.txt:2
-msgid "{email} has requested {studio_name} course creator privileges on edge"
+msgid "{email} has requested {studio_name} Micro-experiencecreator privileges on edge"
 msgstr ""
 
 #: cms/templates/emails/course_creator_admin_user_pending.txt:2
 msgid ""
-"User '{user}' with e-mail {email} has requested {studio_name} course creator "
+"User '{user}' with e-mail {email} has requested {studio_name} Micro-experiencecreator "
 "privileges."
 msgstr ""
 
 #: cms/templates/emails/course_creator_admin_user_pending.txt:5
-msgid "To grant or deny this request, use the course creator admin table."
+msgid "To grant or deny this request, use the Micro-experiencecreator admin table."
 msgstr ""
 
 #: cms/templates/emails/course_creator_denied.txt:3
 msgid ""
-"Your request for course creation rights to {studio_name} have been denied. "
+"Your request for Micro-experiencecreation rights to {studio_name} have been denied. "
 "If you believe this was in error, please contact {email}"
 msgstr ""
 
 #: cms/templates/emails/course_creator_granted.txt:3
 msgid ""
-"Your request for course creation rights to {studio_name} have been granted. "
+"Your request for Micro-experiencecreation rights to {studio_name} have been granted. "
 "To create your first course, visit\n"
 "\n"
 "{url}"
@@ -17017,12 +17017,12 @@ msgstr ""
 
 #: cms/templates/emails/course_creator_revoked.txt:3
 msgid ""
-"Your course creation rights to {studio_name} have been revoked. If you "
+"Your Micro-experiencecreation rights to {studio_name} have been revoked. If you "
 "believe this was in error, please contact {email}"
 msgstr ""
 
 #: cms/templates/emails/course_creator_subject.txt:2
-msgid "Your course creator status for {studio_name}"
+msgid "Your Micro-experiencecreator status for {studio_name}"
 msgstr ""
 
 #: cms/templates/emails/user_task_complete_email.txt:4
@@ -17038,7 +17038,7 @@ msgid ""
 msgstr ""
 
 #: cms/templates/emails/user_task_complete_email.txt:17
-msgid "Here are some validations we found with your course content."
+msgid "Here are some validations we found with your Micro-experiencecontent."
 msgstr ""
 
 #: cms/templates/emails/user_task_complete_email.txt:20
@@ -17090,7 +17090,7 @@ msgid "next"
 msgstr ""
 
 #: cms/templates/maintenance/_force_publish_course.html:12
-msgid "Required data to force publish course."
+msgid "Required data to force publish Micro-experience."
 msgstr ""
 
 #: cms/templates/maintenance/_force_publish_course.html:17
@@ -17122,7 +17122,7 @@ msgid "This account has already been activated."
 msgstr ""
 
 #: cms/templates/registration/activation_complete.html:28
-msgid "Visit your {link_start}dashboard{link_end} to see your courses."
+msgid "Visit your {link_start}dashboard{link_end} to see your Micro-experiences."
 msgstr ""
 
 #: cms/templates/registration/activation_complete.html:33
@@ -17153,7 +17153,7 @@ msgid "Support will be removed on {expiration_date}."
 msgstr ""
 
 #: cms/templates/widgets/deprecated-course-key-warning.html:37
-msgid "This course uses a legacy storage format."
+msgid "This Micro-experienceuses a legacy storage format."
 msgstr ""
 
 #: cms/templates/widgets/deprecated-course-key-warning.html:41
@@ -17350,7 +17350,7 @@ msgid "Enroll in edX101"
 msgstr ""
 
 #: cms/templates/widgets/sock_links.html:29
-msgid "Enroll in StudioX: Creating a Course with edX Studio"
+msgid "Enroll in StudioX: Creating a Micro-experiencewith edX Studio"
 msgstr ""
 
 #: cms/templates/widgets/sock_links.html:30
@@ -17553,7 +17553,7 @@ msgid "Click to load all enrolled courses"
 msgstr ""
 
 #: lms/templates/dashboard.html:239
-msgid "You are not enrolled in any courses yet."
+msgid "You are not enrolled in any Micro-experiencesyet."
 msgstr ""
 
 #: lms/templates/dashboard.html:245
@@ -17605,7 +17605,7 @@ msgid "Email Settings for {course_number}"
 msgstr ""
 
 #: lms/templates/dashboard.html:363
-msgid "Receive course emails"
+msgid "Receive Micro-experienceemails"
 msgstr ""
 
 #: lms/templates/dashboard.html:365
@@ -17735,7 +17735,7 @@ msgid "Email is incorrect."
 msgstr ""
 
 #: lms/templates/hidden_content.html:10
-msgid "The course has ended."
+msgid "The Micro-experiencehas ended."
 msgstr ""
 
 #: lms/templates/hidden_content.html:12
@@ -17744,7 +17744,7 @@ msgstr ""
 
 #: lms/templates/hidden_content.html:18
 msgid ""
-"Because the course has ended, this assignment is no longer available."
+"Because the Micro-experiencehas ended, this assignment is no longer available."
 "{line_break}If you have completed this assignment, your grade is available "
 "on the {link_start}progress page{link_end}."
 msgstr ""
@@ -17904,7 +17904,7 @@ msgid "Course View"
 msgstr ""
 
 #: lms/templates/preview_menu.html:59
-msgid "View this course as:"
+msgid "View this Micro-experienceas:"
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:170
@@ -17933,7 +17933,7 @@ msgid "Set preview mode"
 msgstr ""
 
 #: lms/templates/preview_menu.html:85
-msgid "You are now viewing the course as {i_start}{user_name}{i_end}."
+msgid "You are now viewing the Micro-experienceas {i_start}{user_name}{i_end}."
 msgstr ""
 
 #: lms/templates/preview_menu.html:101
@@ -18056,7 +18056,7 @@ msgstr ""
 #: lms/templates/secondary_email_change_successful.html:15
 msgid ""
 "Your secondary email has been activated. Please visit {link_start}"
-"dashboard{link_end} for courses."
+"dashboard{link_end} for Micro-experiences."
 msgstr ""
 
 #: lms/templates/seq_block.html:18
@@ -18475,7 +18475,7 @@ msgstr ""
 #. Translators: "platform_name" is the name of this Open edX installation.
 #: lms/templates/api_admin/status.html:21
 msgid ""
-"Your request to access the {platform_name} Course Catalog API is being "
+"Your request to access the {platform_name} Micro-experienceCatalog API is being "
 "processed. You will receive a message at the email address in your profile "
 "when processing is complete. You can also return to this page to see the "
 "status of your API access request."
@@ -18485,14 +18485,14 @@ msgstr ""
 #. "api_support_email_link" is HTML for a link to email the API support staff.
 #: lms/templates/api_admin/status.html:27
 msgid ""
-"Your request to access the {platform_name} Course Catalog API has been "
+"Your request to access the {platform_name} Micro-experienceCatalog API has been "
 "denied. If you think this is an error, or for other questions about using "
 "this API, contact {api_support_email_link}."
 msgstr ""
 
 #: lms/templates/api_admin/status.html:33
 msgid ""
-"Your request to access the {platform_name} Course Catalog API has been "
+"Your request to access the {platform_name} Micro-experienceCatalog API has been "
 "approved."
 msgstr ""
 
@@ -18528,7 +18528,7 @@ msgstr ""
 #. support staff.
 #: lms/templates/api_admin/status.html:62
 msgid ""
-"To learn more about the {platform_name} Course Catalog API, visit "
+"To learn more about the {platform_name} Micro-experienceCatalog API, visit "
 "{link_start}our API documentation page{link_end}. For questions about using "
 "this API, contact {api_support_email_link}."
 msgstr ""
@@ -18547,7 +18547,7 @@ msgstr ""
 
 #: lms/templates/api_admin/terms_of_service.html:15
 msgid ""
-"Welcome to {platform_name}. Thank you for using {platform_name}'s Course "
+"Welcome to {platform_name}. Thank you for using {platform_name}'s Micro-experience"
 "Discovery API, Enterprise API and/or any additional APIs that we may offer "
 "from time to time (collectively, the \"APIs\"). Please read these Terms of "
 "Service prior to accessing or using the APIs. These Terms of Service, any "
@@ -18743,7 +18743,7 @@ msgid ""
 "networks, systems and servers as soon as reasonably possible. "
 "\"{platform_name_capitalized} Participants\" means MIT, Harvard, and the "
 "other entities providing information, API Content or services for the APIs, "
-"the course instructors and their staffs."
+"the Micro-experienceinstructors and their staffs."
 msgstr ""
 
 #: lms/templates/api_admin/terms_of_service.html:56
@@ -19062,7 +19062,7 @@ msgstr ""
 
 #: lms/templates/bulk_email/confirm_unsubscribe.html:35
 msgid ""
-"You will still receive course emails from other courses you are enrolled in."
+"You will still receive Micro-experienceemails from other Micro-experiencesyou are enrolled in."
 msgstr ""
 
 #: lms/templates/bulk_email/unsubscribe_success.html:25
@@ -19249,7 +19249,7 @@ msgid "Name your CCX"
 msgstr ""
 
 #: lms/templates/ccx/coach_dashboard.html:51
-msgid "Create a new Custom Course for {platform_name}"
+msgid "Create a new Custom Micro-experiencefor {platform_name}"
 msgstr ""
 
 #: lms/templates/ccx/coach_dashboard.html:69
@@ -19356,7 +19356,7 @@ msgstr ""
 
 #: lms/templates/ccx/grading_policy.html:12
 msgid ""
-"For advanced users only. Errors in the grading policy can lead to the course "
+"For advanced users only. Errors in the grading policy can lead to the Micro-experience"
 "failing to display. This form does not check the validity of the policy "
 "before saving."
 msgstr ""
@@ -19539,11 +19539,11 @@ msgid "The institution's logo."
 msgstr ""
 
 #: lms/templates/certificates/server-error.html:18
-msgid "The institution that is linked to the course."
+msgid "The institution that is linked to the Micro-experience."
 msgstr ""
 
 #: lms/templates/certificates/server-error.html:19
-msgid "The course information in the Course Administration tool."
+msgid "The Micro-experienceinformation in the Micro-experienceAdministration tool."
 msgstr ""
 
 #: lms/templates/certificates/server-error.html:22
@@ -19613,7 +19613,7 @@ msgstr ""
 #: lms/templates/course_modes/choose.html:106
 #: lms/templates/course_modes/choose.html:147
 msgid ""
-"{b_start}Unlimited Course Access: {b_end}Learn at your own pace, and access "
+"{b_start}Unlimited Micro-experienceAccess: {b_end}Learn at your own pace, and access "
 "materials anytime to brush up on what you've learned."
 msgstr ""
 
@@ -19681,38 +19681,38 @@ msgstr ""
 
 #: lms/templates/course_modes/choose.html:186
 msgid ""
-"Audit this course for free and have complete access to all the course "
+"Audit this Micro-experiencefor free and have complete access to all the Micro-experience"
 "material, activities, tests, and forums."
 msgstr ""
 
 #: lms/templates/course_modes/choose.html:204
-msgid "Audit This Course (No Certificate)"
+msgid "Audit This Micro-experience(No Certificate)"
 msgstr ""
 
 #: lms/templates/course_modes/choose.html:208
 msgid ""
-"Audit this course for free and have access to course materials and "
+"Audit this Micro-experiencefor free and have access to Micro-experiencematerials and "
 "discussions forums. {b_start}This track does not include graded assignments, "
-"or unlimited course access.{b_end}"
+"or unlimited Micro-experienceaccess.{b_end}"
 msgstr ""
 
 #: lms/templates/course_modes/choose.html:210
 msgid ""
-"Audit this course for free and have access to course materials and "
+"Audit this Micro-experiencefor free and have access to Micro-experiencematerials and "
 "discussions forums. {b_start}This track does not include graded assignments."
 "{b_end}"
 msgstr ""
 
 #: lms/templates/course_modes/choose.html:212
 msgid ""
-"Audit this course for free and have access to course materials and "
-"discussions forums. {b_start}This track does not include unlimited course "
+"Audit this Micro-experiencefor free and have access to Micro-experiencematerials and "
+"discussions forums. {b_start}This track does not include unlimited Micro-experience"
 "access.{b_end}"
 msgstr ""
 
 #: lms/templates/course_modes/choose.html:214
 msgid ""
-"Audit this course for free and have complete access to all the course "
+"Audit this Micro-experiencefor free and have complete access to all the Micro-experience"
 "material, activities, tests, and forums.  {b_start}Please note that this "
 "track does not offer a certificate for learners who earn a passing grade."
 "{b_end}"
@@ -19727,7 +19727,7 @@ msgid "Sorry, we were unable to enroll you in"
 msgstr ""
 
 #: lms/templates/course_modes/error.html:29
-msgid "Explore all courses on edX"
+msgid "Explore all Micro-experienceson edX"
 msgstr ""
 
 #: lms/templates/course_modes/error.html:30
@@ -19743,8 +19743,8 @@ msgstr ""
 
 #: lms/templates/course_modes/fbe.html:20
 msgid ""
-"Get {start_bold}access to all course activities{end_bold}, including both "
-"graded and non-graded assignments, while the course is running"
+"Get {start_bold}access to all Micro-experienceactivities{end_bold}, including both "
+"graded and non-graded assignments, while the Micro-experienceis running"
 msgstr ""
 
 #: lms/templates/course_modes/fbe.html:24
@@ -19753,12 +19753,12 @@ msgstr ""
 
 #: lms/templates/course_modes/fbe.html:26
 msgid ""
-"{start_bold}Full access{end_bold} to course content and materials, even "
-"after the course ends"
+"{start_bold}Full access{end_bold} to Micro-experiencecontent and materials, even "
+"after the Micro-experienceends"
 msgstr ""
 
 #: lms/templates/course_modes/fbe.html:35
-msgid "{link_start}Learn more{link_end} about course access"
+msgid "{link_start}Learn more{link_end} about Micro-experienceaccess"
 msgstr ""
 
 #: lms/templates/course_modes/fbe.html:42
@@ -19776,7 +19776,7 @@ msgstr ""
 
 #: lms/templates/course_modes/fbe.html:57
 msgid ""
-"Get {start_bold}temporary access{end_bold} to the course material, including "
+"Get {start_bold}temporary access{end_bold} to the Micro-experiencematerial, including "
 "videos and readings"
 msgstr ""
 
@@ -19793,7 +19793,7 @@ msgid "Enroll In {course_name} | Upgrade Now"
 msgstr ""
 
 #: lms/templates/course_modes/track_selection.html:92
-msgid "Choose a path for your course in"
+msgid "Choose a path for your Micro-experiencein"
 msgstr ""
 
 #: lms/templates/course_modes/track_selection.html:114
@@ -19811,7 +19811,7 @@ msgid "Access this course"
 msgstr ""
 
 #: lms/templates/course_modes/unfbe.html:34
-msgid "Get access to the course material, including videos and readings"
+msgid "Get access to the Micro-experiencematerial, including videos and readings"
 msgstr ""
 
 #: lms/templates/courseware/accordion.html:13
@@ -19850,7 +19850,7 @@ msgid "View Course"
 msgstr ""
 
 #: lms/templates/courseware/course_about.html:89
-msgid "Enrollment in this course is by invitation only"
+msgid "Enrollment in this Micro-experienceis by invitation only"
 msgstr ""
 
 #: lms/templates/courseware/course_about.html:94
@@ -19885,7 +19885,7 @@ msgstr ""
 #: lms/templates/dashboard/_dashboard_course_listing.html:425
 msgid ""
 "You must successfully complete {link_start}{prc_display}{link_end} before "
-"you begin this course."
+"you begin this Micro-experience."
 msgstr ""
 
 #: lms/templates/courseware/course_about.html:251
@@ -19911,7 +19911,7 @@ msgid "I just enrolled in {number} {title} through {platform} {url}"
 msgstr ""
 
 #: lms/templates/courseware/course_about_sidebar_header.html:45
-msgid "Take a course with {platform} online"
+msgid "Take a Micro-experiencewith {platform} online"
 msgstr ""
 
 #: lms/templates/courseware/course_about_sidebar_header.html:52
@@ -19954,7 +19954,7 @@ msgid "Show"
 msgstr ""
 
 #: lms/templates/courseware/course_updates.html:28
-msgid "Show Earlier Course Updates"
+msgid "Show Earlier Micro-experienceUpdates"
 msgstr ""
 
 #: lms/templates/courseware/courses.html:60
@@ -19993,7 +19993,7 @@ msgstr ""
 #: lms/templates/courseware/courseware.html:257
 #, python-format
 msgid ""
-"To access course materials, you must score {required_score}% or higher on "
+"To access Micro-experiencematerials, you must score {required_score}% or higher on "
 "this                     exam. Your current score is {current_score}%."
 msgstr ""
 
@@ -20122,7 +20122,7 @@ msgid "Number of Courses"
 msgstr ""
 
 #: lms/templates/courseware/program_marketing.html:241
-msgid "{number_of_courses} courses in program"
+msgid "{number_of_courses} Micro-experiencesin program"
 msgstr ""
 
 #: lms/templates/courseware/program_marketing.html:249
@@ -20175,17 +20175,17 @@ msgid "Request Certificate"
 msgstr ""
 
 #: lms/templates/courseware/progress.html:102
-msgid "Requirements for Course Credit"
+msgid "Requirements for Micro-experienceCredit"
 msgstr ""
 
 #: lms/templates/courseware/progress.html:105
-msgid "{student_name}, you are no longer eligible for credit in this course."
+msgid "{student_name}, you are no longer eligible for credit in this Micro-experience."
 msgstr ""
 
 #: lms/templates/courseware/progress.html:108
 msgid ""
-"{student_name}, you have met the requirements for credit in this course. "
-"{a_start}Go to your dashboard{a_end} to purchase course credit."
+"{student_name}, you have met the requirements for credit in this Micro-experience. "
+"{a_start}Go to your dashboard{a_end} to purchase Micro-experiencecredit."
 msgstr ""
 
 #: lms/templates/courseware/progress.html:115
@@ -20193,7 +20193,7 @@ msgid "{student_name}, you have not yet met the requirements for credit."
 msgstr ""
 
 #: lms/templates/courseware/progress.html:120
-msgid "Information about course credit requirements"
+msgid "Information about Micro-experiencecredit requirements"
 msgstr ""
 
 #: lms/templates/courseware/progress.html:127
@@ -20271,7 +20271,7 @@ msgid "No problem scores in this section"
 msgstr ""
 
 #: lms/templates/courseware/syllabus.html:14
-msgid "{course.display_number_with_default} Course Info"
+msgid "{course.display_number_with_default} Micro-experienceInfo"
 msgstr ""
 
 #: lms/templates/courseware/welcome-back.html:9
@@ -20292,14 +20292,14 @@ msgstr ""
 
 #: lms/templates/credit_notifications/credit_eligibility_email.html:43
 msgid ""
-"Congratulations! You are now eligible to receive course credit from "
+"Congratulations! You are now eligible to receive Micro-experiencecredit from "
 "{providers} for successfully completing your {platform_name} course! "
 "{link_start}Purchase credit now.{link_end}"
 msgstr ""
 
 #: lms/templates/credit_notifications/credit_eligibility_email.html:52
 msgid ""
-"Congratulations! You are now eligible to receive course credit for "
+"Congratulations! You are now eligible to receive Micro-experiencecredit for "
 "successfully completing your {platform_name} course! {link_start}Purchase "
 "credit now.{link_end}"
 msgstr ""
@@ -20312,20 +20312,20 @@ msgid ""
 msgstr ""
 
 #: lms/templates/credit_notifications/credit_eligibility_email.html:67
-msgid "There are 2 steps to getting course credit."
+msgid "There are 2 steps to getting Micro-experiencecredit."
 msgstr ""
 
 #: lms/templates/credit_notifications/credit_eligibility_email.html:71
 msgid ""
 "Purchase credit by going to your {link_start}{platform_name} "
 "dashboard{link_end} and clicking the {bold_start}Get Credit{bold_end} button "
-"below the course title."
+"below the Micro-experiencetitle."
 msgstr ""
 
 #: lms/templates/credit_notifications/credit_eligibility_email.html:82
 msgid ""
 "When your payment is complete, return to the dashboard and click the "
-"{bold_start}Request Credit{bold_end} button under the course title to "
+"{bold_start}Request Credit{bold_end} button under the Micro-experiencetitle to "
 "request an official academic transcript at the institution that granted the "
 "credit."
 msgstr ""
@@ -20402,7 +20402,7 @@ msgid "View my {cert_name_short}"
 msgstr ""
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:112
-msgid "Complete our course feedback survey"
+msgid "Complete our Micro-experiencefeedback survey"
 msgstr ""
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:123
@@ -20418,7 +20418,7 @@ msgid "You are not yet eligible for a certificate."
 msgstr ""
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:148
-msgid "This link will open the course progress page"
+msgid "This link will open the Micro-experienceprogress page"
 msgstr ""
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:149
@@ -20464,11 +20464,11 @@ msgid "for {course_display_name}"
 msgstr ""
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:170
-msgid "You must select a session by {expiration_date} to access the course."
+msgid "You must select a session by {expiration_date} to access the Micro-experience."
 msgstr ""
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:172
-msgid "You must select a session to access the course."
+msgid "You must select a session to access the Micro-experience."
 msgstr ""
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:185
@@ -20516,7 +20516,7 @@ msgstr ""
 #: lms/templates/dashboard/_dashboard_course_listing.html:292
 msgid ""
 "You are enrolled by your institution and you should reach out to your "
-"institution to drop this course."
+"institution to drop this Micro-experience."
 msgstr ""
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:298
@@ -20535,7 +20535,7 @@ msgstr ""
 #: lms/templates/dashboard/_dashboard_course_listing.html:386
 msgid ""
 "{start_bold}Get the most out of your course!{end_bold} Upgrade to get full "
-"access to the course material, unlock both graded and non-graded "
+"access to the Micro-experiencematerial, unlock both graded and non-graded "
 "assignments, and earn a {link_start}verified certificate{link_end} to "
 "showcase on your resumé."
 msgstr ""
@@ -20558,7 +20558,7 @@ msgstr ""
 #. (e.g. State University)
 #: lms/templates/dashboard/_dashboard_credit_info.html:18
 msgid ""
-"You have completed this course and are eligible to purchase course credit. "
+"You have completed this Micro-experienceand are eligible to purchase Micro-experiencecredit. "
 "Select {strong_start}Get Credit{strong_end} to get started."
 msgstr ""
 
@@ -20575,7 +20575,7 @@ msgstr ""
 #. University' or 'Happy Fun Company'.
 #: lms/templates/dashboard/_dashboard_credit_info.html:38
 msgid ""
-"Thank you for your payment. To receive course credit, you must now request "
+"Thank you for your payment. To receive Micro-experiencecredit, you must now request "
 "credit at the {link_to_provider_site} website. Select {start_bold}Request "
 "Credit{end_bold} to get started."
 msgstr ""
@@ -20586,7 +20586,7 @@ msgstr ""
 
 #: lms/templates/dashboard/_dashboard_credit_info.html:50
 msgid ""
-"{provider_name} has received your course credit request. We will update you "
+"{provider_name} has received your Micro-experiencecredit request. We will update you "
 "when credit processing is complete."
 msgstr ""
 
@@ -20601,7 +20601,7 @@ msgstr ""
 #: lms/templates/dashboard/_dashboard_credit_info.html:57
 msgid ""
 "{start_bold}Congratulations!{end_bold} {provider_name} has approved your "
-"request for course credit. To see your course credit, visit the "
+"request for Micro-experiencecredit. To see your Micro-experiencecredit, visit the "
 "{link_to_provider_site} website."
 msgstr ""
 
@@ -20611,7 +20611,7 @@ msgstr ""
 
 #: lms/templates/dashboard/_dashboard_credit_info.html:69
 msgid ""
-"{provider_name} did not approve your request for course credit. For more "
+"{provider_name} did not approve your request for Micro-experiencecredit. For more "
 "information, contact {link_to_provider_site} directly."
 msgstr ""
 
@@ -20669,7 +20669,7 @@ msgid "I was not satisfied with my experience taking the courses"
 msgstr ""
 
 #: lms/templates/dashboard/_entitlement_reason_survey.html:55
-msgid "Content of the courses was too difficult"
+msgid "Content of the Micro-experienceswas too difficult"
 msgstr ""
 
 #: lms/templates/dashboard/_entitlement_reason_survey.html:78
@@ -20734,11 +20734,11 @@ msgid "I am not happy with the quality of the content"
 msgstr ""
 
 #: lms/templates/dashboard/_reason_survey.html:15
-msgid "The course material was too hard"
+msgid "The Micro-experiencematerial was too hard"
 msgstr ""
 
 #: lms/templates/dashboard/_reason_survey.html:16
-msgid "The course material was too easy"
+msgid "The Micro-experiencematerial was too easy"
 msgstr ""
 
 #: lms/templates/dashboard/_reason_survey.html:17
@@ -20771,7 +20771,7 @@ msgstr ""
 
 #: lms/templates/discussion/_discussion_inline_studio.html:11
 msgid ""
-"The discussion block is disabled for this course as it is not using a "
+"The discussion block is disabled for this Micro-experienceas it is not using a "
 "compatible discussion provider."
 msgstr ""
 
@@ -20857,7 +20857,7 @@ msgid "Student Notes"
 msgstr ""
 
 #: lms/templates/edxnotes/edxnotes.html:28
-msgid "Highlights and notes you've made in course content"
+msgid "Highlights and notes you've made in Micro-experiencecontent"
 msgstr ""
 
 #: lms/templates/edxnotes/edxnotes.html:35
@@ -20874,7 +20874,7 @@ msgstr ""
 
 #: lms/templates/edxnotes/edxnotes.html:71
 msgid ""
-"You have not made any notes in this course yet. Other students in this "
+"You have not made any notes in this Micro-experienceyet. Other students in this "
 "course are using notes to:"
 msgstr ""
 
@@ -20888,7 +20888,7 @@ msgstr ""
 
 #: lms/templates/edxnotes/edxnotes.html:77
 msgid ""
-"Highlight important information to review later in the course or in future "
+"Highlight important information to review later in the Micro-experienceor in future "
 "courses."
 msgstr ""
 
@@ -20994,7 +20994,7 @@ msgid ""
 "template below."
 msgstr ""
 
-#. Translators: This is followed by the instructor or course team name (so
+#. Translators: This is followed by the instructor or Micro-experienceteam name (so
 #. could be singular or plural)
 #: lms/templates/emails/business_order_confirmation_email.txt:73
 msgid "Warm regards,"
@@ -21007,7 +21007,7 @@ msgid "Warm regards,<br>The {platform_name} Team"
 msgstr ""
 
 #. Translators: please translate the text inside [[ ]]. This is meant as a
-#. template for course teams to use.
+#. template for Micro-experienceteams to use.
 #: lms/templates/emails/business_order_confirmation_email.txt:87
 msgid "Dear [[Name]]"
 msgstr ""
@@ -21019,7 +21019,7 @@ msgid ""
 msgstr ""
 
 #. Translators: please translate the text inside [[ ]]. This is meant as a
-#. template for course teams to use.
+#. template for Micro-experienceteams to use.
 #: lms/templates/emails/business_order_confirmation_email.txt:92
 msgid "Your redeem url is: [[Enter Redeem URL here from the attached CSV]]"
 msgstr ""
@@ -21041,16 +21041,16 @@ msgstr ""
 
 #: lms/templates/emails/business_order_confirmation_email.txt:97
 msgid ""
-"(4) You should be able to click on 'view course' button or see your course "
+"(4) You should be able to click on 'view course' button or see your Micro-experience"
 "on your student dashboard at {url}"
 msgstr ""
 
 #: lms/templates/emails/business_order_confirmation_email.txt:100
-msgid "(5) Course materials will not be available until the course start date."
+msgid "(5) Micro-experiencematerials will not be available until the Micro-experiencestart date."
 msgstr ""
 
 #. Translators: please translate the text inside [[ ]]. This is meant as a
-#. template for course teams to use. Please also keep the <p> and </p> HTML
+#. template for Micro-experienceteams to use. Please also keep the <p> and </p> HTML
 #. tags in place.
 #: lms/templates/emails/business_order_confirmation_email.txt:103
 msgid "<p>Sincerely,</p><p>[[Your Signature]]</p>"
@@ -21134,21 +21134,21 @@ msgstr ""
 
 #: lms/templates/emails/reject_name_change.txt:6
 msgid ""
-"We are sorry. Our course staff did not approve your request to change your "
+"We are sorry. Our Micro-experiencestaff did not approve your request to change your "
 "name from {old_name} to {new_name}. If you need further assistance, please e-"
-"mail the course staff at {email}."
+"mail the Micro-experiencestaff at {email}."
 msgstr ""
 
 #: lms/templates/emails/reverification_processed.txt:4
 msgid ""
 "We have successfully verified your identity for the {assessment} assessment "
-"in the {course_name} course."
+"in the {course_name} Micro-experience."
 msgstr ""
 
 #: lms/templates/emails/reverification_processed.txt:8
 msgid ""
 "We could not verify your identity for the {assessment} assessment in the "
-"{course_name} course. You have used {used_attempts} out of "
+"{course_name} Micro-experience. You have used {used_attempts} out of "
 "{allowed_attempts} attempts to verify your identity."
 msgstr ""
 
@@ -21164,7 +21164,7 @@ msgstr ""
 #: lms/templates/emails/reverification_processed.txt:18
 msgid ""
 "We could not verify your identity for the {assessment} assessment in the "
-"{course_name} course. You have used {used_attempts} out of "
+"{course_name} Micro-experience. You have used {used_attempts} out of "
 "{allowed_attempts} attempts to verify your identity, and verification is no "
 "longer possible."
 msgstr ""
@@ -21188,7 +21188,7 @@ msgstr ""
 #: themes/stanford-style/lms/templates/embargo/default_courseware.html:4
 #: themes/stanford-style/lms/templates/embargo/default_enrollment.html:4
 #: themes/stanford-style/lms/templates/static_templates/embargo.html:8
-msgid "This Course Unavailable In Your Country"
+msgid "This Micro-experienceUnavailable In Your Country"
 msgstr ""
 
 #: lms/templates/embargo/default_courseware.html:9
@@ -21209,7 +21209,7 @@ msgstr ""
 
 #: lms/templates/enrollment/course_enrollment_message.html:9
 msgid ""
-"Thank you for enrolling in {course_names}. We hope you enjoy the course."
+"Thank you for enrolling in {course_names}. We hope you enjoy the Micro-experience."
 msgstr ""
 
 #: lms/templates/enrollment/course_enrollment_message.html:11
@@ -21217,7 +21217,7 @@ msgid "Thank you for enrolling in:"
 msgstr ""
 
 #: lms/templates/enrollment/course_enrollment_message.html:13
-msgid "We hope you enjoy the course."
+msgid "We hope you enjoy the Micro-experience."
 msgstr ""
 
 #: lms/templates/financial-assistance/financial-assistance.html:17
@@ -21238,7 +21238,7 @@ msgstr ""
 msgid ""
 "EdX Financial Assistance is a program we created to give learners in all "
 "financial circumstances a chance to earn a Verified Certificate upon "
-"successful completion of an edX course."
+"successful completion of an edX Micro-experience."
 msgstr ""
 
 #. Translators: This string will not be used in Open edX installations.
@@ -21260,7 +21260,7 @@ msgstr ""
 #. Translators: This string will not be used in Open edX installations.
 #: lms/templates/financial-assistance/financial-assistance.html:37
 msgid ""
-"EdX is committed to making it possible for you to take high quality courses "
+"EdX is committed to making it possible for you to take high quality Micro-experiences"
 "from leading institutions regardless of your financial situation, earn a "
 "Verified Certificate, and share your success with others."
 msgstr ""
@@ -21361,7 +21361,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:25
 msgid ""
-"This course is configured to generate PDF certificates and this certificate "
+"This Micro-experienceis configured to generate PDF certificates and this certificate "
 "type is no longer supported. Example certificates cannot be generated."
 msgstr ""
 
@@ -21495,7 +21495,7 @@ msgstr ""
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:189
 msgid ""
 "Set exceptions to generate certificates for learners who did not qualify for "
-"a certificate but have been given an exception by the course team. After you "
+"a certificate but have been given an exception by the Micro-experienceteam. After you "
 "add learners to the exception list, click Generate Exception Certificates "
 "below."
 msgstr ""
@@ -21549,7 +21549,7 @@ msgid "Paid Bootcamp"
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:74
-msgid "Basic Course Information"
+msgid "Basic Micro-experienceInformation"
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:78
@@ -21569,7 +21569,7 @@ msgid "No end date set"
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:111
-msgid "Has the course started?"
+msgid "Has the Micro-experiencestarted?"
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:113
@@ -21583,7 +21583,7 @@ msgid "No"
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:118
-msgid "Has the course ended?"
+msgid "Has the Micro-experienceended?"
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:127
@@ -21600,8 +21600,8 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:13
 msgid ""
-"Click to display the grading configuration for the course. The grading "
-"configuration is the breakdown of graded subsections of the course (such as "
+"Click to display the grading configuration for the Micro-experience. The grading "
+"configuration is the breakdown of graded subsections of the Micro-experience(such as "
 "exams and problem sets), and can be changed on the 'Grading' page (under "
 "'Settings') in Studio."
 msgstr ""
@@ -21665,7 +21665,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:44
 msgid ""
-"Click to generate a CSV file of all proctored exam results in this course."
+"Click to generate a CSV file of all proctored exam results in this Micro-experience."
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:45
@@ -21673,7 +21673,7 @@ msgid "Generate Proctored Exam Results Report"
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:49
-msgid "Click to generate a CSV file of survey results for this course."
+msgid "Click to generate a CSV file of survey results for this Micro-experience."
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:50
@@ -22035,7 +22035,7 @@ msgid "Instructor Dashboard"
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html:120
-msgid "View Course in Studio"
+msgid "View Micro-experiencein Studio"
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/invalidate_registration_code_modal.html:5
@@ -22098,7 +22098,7 @@ msgid ""
 "that contains the following columns in this exact order: email, username, "
 "name, and country. Please include one student per row and do not include any "
 "headers, footers, or blank lines. Optionally, extra columns can be provided: "
-"cohort and course mode, in that order. These extra columns may be blank."
+"cohort and Micro-experiencemode, in that order. These extra columns may be blank."
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:68
@@ -22122,7 +22122,7 @@ msgstr ""
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:112
 msgid ""
 "If this option is {em_start}checked{em_end}, users who have not enrolled in "
-"your course will be automatically enrolled."
+"your Micro-experiencewill be automatically enrolled."
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:114
@@ -22137,16 +22137,16 @@ msgstr ""
 msgid "Remove beta testers"
 msgstr ""
 
-#. Translators: an "Administration List" is a list, such as Course Staff, that
+#. Translators: an "Administration List" is a list, such as Micro-experienceStaff, that
 #. users can be added to.
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:145
 msgid "Course Team Management"
 msgstr ""
 
-#. Translators: an "Administrator Group" is a group, such as Course Staff, that
+#. Translators: an "Administrator Group" is a group, such as Micro-experienceStaff, that
 #. users can be added to.
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:151
-msgid "Select a course team role:"
+msgid "Select a Micro-experienceteam role:"
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:153
@@ -22155,17 +22155,17 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:161
 msgid ""
-"Staff cannot modify these lists. To manage course team membership, a course "
+"Staff cannot modify these lists. To manage Micro-experienceteam membership, a Micro-experience"
 "Admin must give you the Admin role to add Staff or Beta Testers, or the "
 "Discussion Admin role to add discussion moderators and TAs."
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:172
 msgid ""
-"Course team members with the Staff role help you manage your course. Staff "
+"Course team members with the Staff role help you manage your Micro-experience. Staff "
 "can enroll and unenroll learners, as well as modify their grades and access "
-"all course data. Staff also have access to your course in Studio and "
-"Insights. Any users not yet enrolled in the course will be automatically "
+"all Micro-experiencedata. Staff also have access to your Micro-experiencein Studio and "
+"Insights. Any users not yet enrolled in the Micro-experiencewill be automatically "
 "enrolled when added as Staff."
 msgstr ""
 
@@ -22179,10 +22179,10 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:186
 msgid ""
-"Course team members with the Limited Staff role help you manage your course. "
+"Course team members with the Limited Staff role help you manage your Micro-experience. "
 "Limited Staff can enroll and unenroll learners, as well as modify their "
-"grades and access all course data. Limited Staff don't have access to your "
-"course in Studio. Any users not yet enrolled in the course will be "
+"grades and access all Micro-experiencedata. Limited Staff don't have access to your "
+"course in Studio. Any users not yet enrolled in the Micro-experiencewill be "
 "automatically enrolled when added as Limited Staff."
 msgstr ""
 
@@ -22196,10 +22196,10 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:201
 msgid ""
-"Course team members with the Admin role help you manage your course. They "
+"Course team members with the Admin role help you manage your Micro-experience. They "
 "can do all of the tasks that Staff can do, and can also add and remove the "
 "Staff and Admin roles, discussion moderation roles, and the beta tester role "
-"to manage course team membership. Any users not yet enrolled in the course "
+"to manage Micro-experienceteam membership. Any users not yet enrolled in the Micro-experience"
 "will be automatically enrolled when added as Admin."
 msgstr ""
 
@@ -22213,9 +22213,9 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:216
 msgid ""
-"Beta Testers can see course content before other learners. They can make "
+"Beta Testers can see Micro-experiencecontent before other learners. They can make "
 "sure that the content works, but have no additional privileges. Any users "
-"not yet enrolled in the course will be automatically enrolled when added as "
+"not yet enrolled in the Micro-experiencewill be automatically enrolled when added as "
 "Beta Tester."
 msgstr ""
 
@@ -22232,8 +22232,8 @@ msgid ""
 "Discussion Admins can edit or delete any post, clear misuse flags, close and "
 "re-open threads, endorse responses, and see posts from all groups. Their "
 "posts are marked as 'staff'. They can also add and remove the discussion "
-"moderation roles to manage course team membership. Any users not yet "
-"enrolled in the course will be automatically enrolled when added as "
+"moderation roles to manage Micro-experienceteam membership. Any users not yet "
+"enrolled in the Micro-experiencewill be automatically enrolled when added as "
 "Discussion Admin"
 msgstr ""
 
@@ -22248,12 +22248,12 @@ msgstr ""
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:244
 msgid ""
 "Course Data Researchers can access the data download tab. Any users not yet "
-"enrolled in the course will be automatically enrolled when added as Course "
+"enrolled in the Micro-experiencewill be automatically enrolled when added as Micro-experience"
 "Data Researcher."
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:248
-msgid "Add Course Data Researcher"
+msgid "Add Micro-experienceData Researcher"
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:256
@@ -22264,9 +22264,9 @@ msgstr ""
 msgid ""
 "Discussion Moderators can edit or delete any post, clear misuse flags, close "
 "and re-open threads, endorse responses, and see posts from all groups. Their "
-"posts are marked as 'staff'. They cannot manage course team membership by "
+"posts are marked as 'staff'. They cannot manage Micro-experienceteam membership by "
 "adding or removing discussion moderation roles. Any users not yet enrolled "
-"in the course will be automatically enrolled when added as Discussion "
+"in the Micro-experiencewill be automatically enrolled when added as Discussion "
 "Moderator"
 msgstr ""
 
@@ -22280,12 +22280,12 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:272
 msgid ""
-"Group Community TAs are members of the community who help course teams "
+"Group Community TAs are members of the community who help Micro-experienceteams "
 "moderate discussions. Group Community TAs see only posts by learners in "
 "their assigned group. They can edit or delete posts, clear flags, close and "
 "re-open threads, and endorse responses, but only for posts by learners in "
 "their group. Their posts are marked as 'Community TA'. Any users not yet "
-"enrolled in the course will be automatically enrolled when added as Group "
+"enrolled in the Micro-experiencewill be automatically enrolled when added as Group "
 "Community TA"
 msgstr ""
 
@@ -22295,11 +22295,11 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:286
 msgid ""
-"Community TAs are members of the community who help course teams moderate "
+"Community TAs are members of the community who help Micro-experienceteams moderate "
 "discussions. They can see posts by learners in their assigned cohort or "
 "enrollment track, and can edit or delete posts, clear flags, close or re-"
 "open threads, and endorse responses. Their posts are marked as 'Community "
-"TA'. Any users not yet enrolled in the course will be automatically enrolled "
+"TA'. Any users not yet enrolled in the Micro-experiencewill be automatically enrolled "
 "when added as Community TA"
 msgstr ""
 
@@ -22313,9 +22313,9 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:301
 msgid ""
-"CCX Coaches are able to create their own Custom Courses based on this "
+"CCX Coaches are able to create their own Custom Micro-experiencesbased on this "
 "course, which they can use to provide personalized instruction to their own "
-"students based in this course material."
+"students based in this Micro-experiencematerial."
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:306
@@ -22433,11 +22433,11 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/set_course_mode_price_modal.html:7
 #: lms/templates/instructor/instructor_dashboard_2/set_course_mode_price_modal.html:19
-msgid "Set Course Mode Price"
+msgid "Set Micro-experienceMode Price"
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/set_course_mode_price_modal.html:24
-msgid "Please enter Course Mode detail below"
+msgid "Please enter Micro-experienceMode detail below"
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/set_course_mode_price_modal.html:34
@@ -22483,7 +22483,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:12
 msgid ""
-"Note: This feature is available only to courses with a small number of "
+"Note: This feature is available only to Micro-experienceswith a small number of "
 "enrolled learners."
 msgstr ""
 
@@ -22710,7 +22710,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/reports.html:70
 msgid ""
-"Click to display the grading configuration for the                 course. "
+"Click to display the grading configuration for the                 Micro-experience. "
 "The grading configuration is the breakdown of graded subsections of the "
 "course                 (such as exams and problem sets), and can be changed "
 "on the 'Grading'                 page (under 'Settings') in Studio."
@@ -22752,13 +22752,13 @@ msgstr ""
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/reports.html:95
 msgid ""
 "Click to generate a CSV file                 that lists learners who can "
-"enroll in the course but have not yet done so."
+"enroll in the Micro-experiencebut have not yet done so."
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/reports.html:98
 msgid ""
 "Click to generate a CSV file                 of all proctored exam results "
-"in this course."
+"in this Micro-experience."
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/reports.html:101
@@ -22836,7 +22836,7 @@ msgid ""
 "{ul_tag}\n"
 "{li_tag}You need to have submitted a response to a peer grading problem."
 "{end_li_tag}\n"
-"{li_tag}The course team needs to score the essays that are used to help you "
+"{li_tag}The Micro-experienceteam needs to score the essays that are used to help you "
 "better understand the grading\n"
 "criteria.{end_li_tag}\n"
 "{li_tag}There must be submissions that are waiting for grading.{end_li_tag}\n"
@@ -22851,7 +22851,7 @@ msgid "Peer Grading"
 msgstr ""
 
 #: lms/templates/peer_grading/peer_grading.html:26
-msgid "Here is a list of problems that need to be peer graded for this course."
+msgid "Here is a list of problems that need to be peer graded for this Micro-experience."
 msgstr ""
 
 #: lms/templates/peer_grading/peer_grading.html:36
@@ -23057,7 +23057,7 @@ msgid ""
 "Our system indicates that you are trying to access this {platform_name} "
 "course from a country or region currently subject to U.S. economic and trade "
 "sanctions. Unfortunately, because {platform_name} is required to comply with "
-"export controls, we cannot allow you to access this course at this time."
+"export controls, we cannot allow you to access this Micro-experienceat this time."
 msgstr ""
 
 #: lms/templates/static_templates/faq.html:5
@@ -23175,7 +23175,7 @@ msgstr ""
 
 #: lms/templates/survey/survey.html:37
 msgid ""
-"You can begin your course as soon as you complete the following form. "
+"You can begin your Micro-experienceas soon as you complete the following form. "
 "Required fields are marked with an asterisk (*). This information is for the "
 "use of {platform_name} only. It will not be linked to your public profile in "
 "any way."
@@ -23195,9 +23195,9 @@ msgstr ""
 
 #: lms/templates/survey/survey.html:60
 msgid ""
-"We use the information you provide to improve our course for both current "
+"We use the information you provide to improve our Micro-experiencefor both current "
 "and future students. The more we know about your specific needs, the better "
-"we can make your course experience."
+"we can make your Micro-experienceexperience."
 msgstr ""
 
 #: lms/templates/survey/survey.html:65
@@ -23206,7 +23206,7 @@ msgstr ""
 
 #: lms/templates/survey/survey.html:67
 msgid ""
-"If you have any questions about this course or this form, you can contact "
+"If you have any questions about this Micro-experienceor this form, you can contact "
 "{link_start}{mail_to_link}{link_end}."
 msgstr ""
 
@@ -23252,7 +23252,7 @@ msgstr ""
 
 #: lms/templates/verify_student/missed_deadline.html:34
 msgid ""
-"The deadline to upgrade to a verified certificate for this course has passed."
+"The deadline to upgrade to a verified certificate for this Micro-experiencehas passed."
 msgstr ""
 
 #: lms/templates/verify_student/pay_and_verify.html:16
@@ -23382,7 +23382,7 @@ msgid "Upcoming Dates"
 msgstr ""
 
 #: openedx/features/course_experience/templates/course_experience/course-dates-fragment.html:18
-msgid "View all course dates"
+msgid "View all Micro-experiencedates"
 msgstr ""
 
 #: openedx/features/course_experience/templates/course_experience/course-sock-fragment.html:20
@@ -23463,7 +23463,7 @@ msgid "Upgrade ({course_price})"
 msgstr ""
 
 #: openedx/features/course_experience/templates/course_experience/course-updates-fragment.html:49
-msgid "This course does not have any updates."
+msgid "This Micro-experiencedoes not have any updates."
 msgstr ""
 
 #. Translators: this section lists all the third-party authentication providers
@@ -23697,7 +23697,7 @@ msgid ""
 "You will receive an activation email.  You must click on the activation link "
 "to complete the process.  Don't see the email?  Check your spam folder and "
 "mark emails from class.stanford.edu as 'not spam', since you'll want to be "
-"able to receive email from your courses."
+"able to receive email from your Micro-experiences."
 msgstr ""
 
 #: themes/stanford-style/lms/templates/register-sidebar.html:32
@@ -23714,7 +23714,7 @@ msgstr ""
 
 #: themes/stanford-style/lms/templates/register-sidebar.html:37
 msgid ""
-"Once registered, most questions can be answered in the course specific "
+"Once registered, most questions can be answered in the Micro-experiencespecific "
 "discussion forums or through the FAQs."
 msgstr ""
 
@@ -23734,7 +23734,7 @@ msgstr ""
 msgid ""
 "If you didn't request this, you don't need to do anything; you won't receive "
 "any more email from us. Please do not reply to this e-mail; if you require "
-"assistance, check the about section of the {platform_name} Courses web site."
+"assistance, check the about section of the {platform_name} Micro-experiencesweb site."
 msgstr ""
 
 #: themes/stanford-style/lms/templates/emails/confirm_email_change.txt:2
@@ -23753,7 +23753,7 @@ msgstr ""
 
 #: themes/stanford-style/lms/templates/emails/reject_name_change.txt:5
 msgid ""
-"We are sorry. Our course staff did not approve your request to change your "
+"We are sorry. Our Micro-experiencestaff did not approve your request to change your "
 "name from {old_name} to {new_name}. If you need further assistance, please e-"
 "mail the tech support at {email}"
 msgstr ""

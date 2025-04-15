@@ -239,12 +239,12 @@ msgid "Your export has failed."
 msgstr ""
 
 #: cms/static/js/factories/manage_users.js:11
-msgid "Already a course team member"
+msgid "Already a Micro-experience team member"
 msgstr ""
 
 #: cms/static/js/factories/manage_users.js:13
 msgid ""
-"Are you sure you want to delete {email} from the course team for "
+"Are you sure you want to delete {email} from the Micro-experience team for "
 "“{container}”?"
 msgstr ""
 
@@ -309,7 +309,7 @@ msgid "There was an error while importing the new library to our database."
 msgstr ""
 
 #: cms/static/js/features/import/factories/import.js:58
-msgid "There was an error while importing the new course to our database."
+msgid "There was an error while importing the new Micro-experience to our database."
 msgstr ""
 
 #: cms/static/js/features/import/factories/import.js:121
@@ -405,15 +405,15 @@ msgid "All groups must have a unique name."
 msgstr ""
 
 #: cms/static/js/models/settings/course_details.js:59
-msgid "The course must have an assigned start date."
+msgid "The Micro-experience must have an assigned start date."
 msgstr ""
 
 #: cms/static/js/models/settings/course_details.js:63
-msgid "The course end date must be later than the course start date."
+msgid "The Micro-experience end date must be later than the Micro-experience start date."
 msgstr ""
 
 #: cms/static/js/models/settings/course_details.js:68
-msgid "The course start date must be later than the enrollment start date."
+msgid "The Micro-experience start date must be later than the enrollment start date."
 msgstr ""
 
 #: cms/static/js/models/settings/course_details.js:74
@@ -421,11 +421,11 @@ msgid "The enrollment start date cannot be after the enrollment end date."
 msgstr ""
 
 #: cms/static/js/models/settings/course_details.js:78
-msgid "The enrollment end date cannot be after the course end date."
+msgid "The enrollment end date cannot be after the Micro-experience end date."
 msgstr ""
 
 #: cms/static/js/models/settings/course_details.js:83
-msgid "The certificate available date must be later than the course end date."
+msgid "The certificate available date must be later than the Micro-experience end date."
 msgstr ""
 
 #: cms/static/js/models/settings/course_details.js:94
@@ -726,7 +726,7 @@ msgstr ""
 #: cms/static/js/views/pages/container.js:336
 #: cms/static/js/views/utils/xblock_utils.js:109
 msgid ""
-"The following files already exist in this course but don't match the version "
+"The following files already exist in this Micro-experience but don't match the version "
 "used by the component you pasted:"
 msgstr ""
 
@@ -865,13 +865,13 @@ msgstr ""
 
 #: cms/static/js/views/export.js:341
 msgid ""
-"Your course could not be exported to XML. There is not enough information to "
-"identify the failed component. Inspect your course to identify any "
+"Your Micro-experience could not be exported to XML. There is not enough information to "
+"identify the failed component. Inspect your Micro-experience to identify any "
 "problematic components and try again."
 msgstr ""
 
 #: cms/static/js/views/export.js:344
-msgid "Take me to the main course page"
+msgid "Take me to the main Micro-experience page"
 msgstr ""
 
 #: cms/static/js/views/export.js:346
@@ -1112,7 +1112,7 @@ msgid "Highlights for {display_name}"
 msgstr ""
 
 #: cms/static/js/views/modals/course_outline_modals.js:279
-msgid "Enable Course Highlight Emails"
+msgid "Enable Micro-experience Highlight Emails"
 msgstr ""
 
 #: cms/static/js/views/modals/course_outline_modals.js:297
@@ -1403,7 +1403,7 @@ msgstr ""
 
 #: cms/static/js/views/previous_video_upload.js:77
 msgid ""
-"Removing a video from this list does not affect course content. Any content "
+"Removing a video from this list does not affect Micro-experience content. Any content "
 "that uses a previously uploaded video ID continues to display in the course."
 msgstr ""
 
@@ -1440,11 +1440,11 @@ msgid "Course Credit Requirements"
 msgstr ""
 
 #: cms/static/js/views/settings/main.js:63
-msgid "The minimum grade for course credit is not set."
+msgid "The minimum grade for Micro-experience credit is not set."
 msgstr ""
 
 #: cms/static/js/views/settings/main.js:155
-msgid "Course pacing cannot be changed once a course has started."
+msgid "Course pacing cannot be changed once a Micro-experience has started."
 msgstr ""
 
 #: cms/static/js/views/settings/main.js:223
@@ -1452,7 +1452,7 @@ msgid "{hours}:{minutes} (current UTC time)"
 msgstr ""
 
 #: cms/static/js/views/settings/main.js:460
-msgid "Upload your course image."
+msgid "Upload your Micro-experience image."
 msgstr ""
 
 #: cms/static/js/views/settings/main.js:466
@@ -1494,7 +1494,7 @@ msgstr ""
 
 #: cms/static/js/views/utils/create_course_utils.js:9
 msgid ""
-"The combined length of the organization, course number, and course run "
+"The combined length of the organization, Micro-experience number, and Micro-experience run "
 "fields cannot be more than <%- limit %> characters."
 msgstr ""
 
@@ -2306,7 +2306,7 @@ msgstr ""
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:20
 msgid ""
 "For inquiries regarding assignments, grades, or structure of a specific "
-"course, please post in the discussion forums for that course directly."
+"course, please post in the discussion forums for that Micro-experience directly."
 msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:30
@@ -2371,10 +2371,10 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:90
 msgid ""
-"While our support team is happy to assist with the edX platform, the course "
+"While our support team is happy to assist with the edX platform, the Micro-experience "
 "staff has the expertise for specific assignment questions, grading or the "
-"proper procedures in each course. Please post all course related questions "
-"within the Discussion Forum where the Course Staff can directly respond."
+"proper procedures in each course. Please post all Micro-experience related questions "
+"within the Discussion Forum where the Micro-experience Staff can directly respond."
 msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/logged_out_user.jsx:15
@@ -2383,7 +2383,7 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:47
 msgid ""
-"Select a course or select \"Not specific to a course\" for your support "
+"Select a Micro-experience or select \"Not specific to a course\" for your support "
 "request."
 msgstr ""
 
@@ -3069,25 +3069,25 @@ msgstr ""
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:134
 msgid ""
-" learners are not enrolled in this course and have not added to the "
+" learners are not enrolled in this Micro-experience and have not added to the "
 "exception list"
 msgstr ""
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:136
 msgid ""
-" learner is not enrolled in this course and has not been added to the "
+" learner is not enrolled in this Micro-experience and has not been added to the "
 "exception list"
 msgstr ""
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:142
 msgid ""
-" learners have an active certificate invalidation in this course and have "
+" learners have an active certificate invalidation in this Micro-experience and have "
 "not been added to the exception list"
 msgstr ""
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:144
 msgid ""
-" learner has an active certificate invalidation in this course and has not "
+" learner has an active certificate invalidation in this Micro-experience and has not "
 "been added to the exception list"
 msgstr ""
 
@@ -3179,7 +3179,7 @@ msgstr ""
 
 #: lms/static/js/dashboard/legacy.js:97
 msgid ""
-"Are you sure you want to unenroll from the purchased course {courseName} "
+"Are you sure you want to unenroll from the purchased Micro-experience {courseName} "
 "({courseNumber})?"
 msgstr ""
 
@@ -3201,7 +3201,7 @@ msgstr ""
 
 #: lms/static/js/dashboard/legacy.js:112
 msgid ""
-"The refund deadline for this course has passed, so you will not receive a "
+"The refund deadline for this Micro-experience has passed, so you will not receive a "
 "refund."
 msgstr ""
 
@@ -3263,7 +3263,7 @@ msgid ""
 msgstr ""
 
 #: lms/static/js/discussions_management/views/discussions.js:182
-msgid "Discussion topics in the course are not divided."
+msgid "Discussion topics in the Micro-experience are not divided."
 msgstr ""
 
 #: lms/static/js/discussions_management/views/discussions.js:185
@@ -3808,7 +3808,7 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/membership.js:863
 msgid ""
-"These users were not affiliated with the course so could not be unenrolled:"
+"These users were not affiliated with the Micro-experience so could not be unenrolled:"
 msgstr ""
 
 #: lms/static/js/instructor_dashboard/send_email.js:68
@@ -3851,7 +3851,7 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/send_email.js:98
 msgid ""
-"Your email message was successfully queued for sending. In courses with a "
+"Your email message was successfully queued for sending. In Micro-experiences with a "
 "large number of learners, email messages to learners might take up to an "
 "hour to be sent."
 msgstr ""
@@ -4207,7 +4207,7 @@ msgstr ""
 
 #: lms/static/js/learner_dashboard/EnterpriseLearnerPortalModal.jsx:132
 msgid ""
-"To access the courses available to you through {enterpriseName}, visit the "
+"To access the Micro-experiences available to you through {enterpriseName}, visit the "
 "{enterpriseName} dashboard."
 msgstr ""
 
@@ -4275,7 +4275,7 @@ msgstr ""
 
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:324
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:327
-msgid "Any course progress or grades from your current session will be lost."
+msgid "Any Micro-experience progress or grades from your current session will be lost."
 msgstr ""
 
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:326
@@ -4416,7 +4416,7 @@ msgstr ""
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:87
 msgid ""
-"Once your account is deleted, you cannot use it to take courses on the "
+"Once your account is deleted, you cannot use it to take Micro-experiences on the "
 "{platformName} app, {siteName}, or any other site hosted by {platformName}."
 msgstr ""
 
@@ -4467,7 +4467,7 @@ msgstr ""
 
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:107
 msgid ""
-"If you proceed, you will be unable to use this account to take courses on "
+"If you proceed, you will be unable to use this account to take Micro-experiences on "
 "the {platformName} app, {siteName}, or any other site hosted by "
 "{platformName}."
 msgstr ""
@@ -4506,7 +4506,7 @@ msgid "Enrolling you in the selected course"
 msgstr ""
 
 #: lms/static/js/student_account/views/FinishAuthView.js:159
-msgid "Adding the selected course to your cart"
+msgid "Adding the selected Micro-experience to your cart"
 msgstr ""
 
 #: lms/static/js/student_account/views/FinishAuthView.js:172
@@ -4610,7 +4610,7 @@ msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js:78
 msgid ""
-"You receive messages from {platform_name} and course teams at this address."
+"You receive messages from {platform_name} and Micro-experience teams at this address."
 msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js:95
@@ -4679,8 +4679,8 @@ msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_factory.js:203
 msgid ""
-"Select the time zone for displaying course dates. If you do not specify a "
-"time zone, course dates, including assignment deadlines, will be displayed "
+"Select the time zone for displaying Micro-experience dates. If you do not specify a "
+"time zone, Micro-experience dates, including assignment deadlines, will be displayed "
 "in your browser's local time zone."
 msgstr ""
 
@@ -5047,7 +5047,7 @@ msgstr ""
 
 #: lms/static/lms/js/preview/preview_factory.js:24
 msgid ""
-"You cannot view the course as a student or beta tester before the course "
+"You cannot view the Micro-experience as a student or beta tester before the Micro-experience "
 "release date."
 msgstr ""
 
@@ -6557,7 +6557,7 @@ msgstr ""
 #: xmodule/js/src/sequence/display.js:330
 msgid ""
 "Sequence error! Cannot navigate to %(tab_name)s in the current "
-"SequenceModule. Please contact the course staff."
+"SequenceModule. Please contact the Micro-experience staff."
 msgstr ""
 
 #: xmodule/js/src/video/00_i18n.js:15
@@ -6909,7 +6909,7 @@ msgid "Actions"
 msgstr ""
 
 #: cms/templates/js/asset-library.underscore:67
-msgid "You haven't added any assets to this course yet."
+msgid "You haven't added any assets to this Micro-experience yet."
 msgstr ""
 
 #: cms/templates/js/asset-library.underscore:67
@@ -7014,8 +7014,8 @@ msgstr ""
 
 #: cms/templates/js/certificate-editor.underscore:32
 msgid ""
-"Specify an alternative to the official course title to display on "
-"certificates. Leave blank to use the official course title."
+"Specify an alternative to the official Micro-experience title to display on "
+"certificates. Leave blank to use the official Micro-experience title."
 msgstr ""
 
 #: cms/templates/js/certificate-editor.underscore:41
@@ -7102,7 +7102,7 @@ msgid "Learners see the published subsection and can access its content."
 msgstr ""
 
 #: cms/templates/js/content-visibility-editor.underscore:19
-msgid "Hide content after course end date"
+msgid "Hide content after Micro-experience end date"
 msgstr ""
 
 #: cms/templates/js/content-visibility-editor.underscore:21
@@ -7127,7 +7127,7 @@ msgstr ""
 
 #: cms/templates/js/content-visibility-editor.underscore:36
 msgid ""
-"Learners do not see the subsection in the course outline. The subsection is "
+"Learners do not see the subsection in the Micro-experience outline. The subsection is "
 "not included in grade calculations."
 msgstr ""
 
@@ -7239,7 +7239,7 @@ msgstr ""
 
 #: cms/templates/js/course-outline.underscore:60
 msgid ""
-"Hidden in the course outline, but sections are accessible for your learners "
+"Hidden in the Micro-experience outline, but sections are accessible for your learners "
 "through their separate link."
 msgstr ""
 
@@ -7377,7 +7377,7 @@ msgid "Due:"
 msgstr ""
 
 #: cms/templates/js/course-outline.underscore:410
-msgid "Subsection is hidden after course end date"
+msgid "Subsection is hidden after Micro-experience end date"
 msgstr ""
 
 #: cms/templates/js/course-outline.underscore:412
@@ -7397,7 +7397,7 @@ msgstr ""
 
 #: cms/templates/js/course-outline.underscore:457
 #: cms/templates/js/xblock-outline.underscore:57
-msgid "You haven't added any content to this course yet."
+msgid "You haven't added any content to this Micro-experience yet."
 msgstr ""
 
 #: cms/templates/js/course-outline.underscore:461
@@ -7447,11 +7447,11 @@ msgid "Press discard changes to discard changes."
 msgstr ""
 
 #: cms/templates/js/course-video-settings-update-settings-footer.underscore:7
-msgid "Press update settings to update course video settings"
+msgid "Press update settings to update Micro-experience video settings"
 msgstr ""
 
 #: cms/templates/js/course-video-settings.underscore:7
-msgid "Press close to hide course video settings"
+msgid "Press close to hide Micro-experience video settings"
 msgstr ""
 
 #: cms/templates/js/course-video-settings.underscore:13
@@ -7545,7 +7545,7 @@ msgstr ""
 
 #: cms/templates/js/course_grade_policy.underscore:23
 msgid ""
-"The number of subsections in the course that contain problems of this "
+"The number of subsections in the Micro-experience that contain problems of this "
 "assignment type."
 msgstr ""
 
@@ -7579,7 +7579,7 @@ msgstr ""
 
 #: cms/templates/js/course_grade_policy.underscore:71
 msgid ""
-"The number of {type} assignments in the course matches the number defined "
+"The number of {type} assignments in the Micro-experience matches the number defined "
 "here."
 msgstr ""
 
@@ -7900,7 +7900,7 @@ msgid "Currently selected"
 msgstr ""
 
 #: cms/templates/js/no-textbooks.underscore:2
-msgid "You haven't added any textbooks to this course yet."
+msgid "You haven't added any textbooks to this Micro-experience yet."
 msgstr ""
 
 #: cms/templates/js/no-textbooks.underscore:2
@@ -8225,7 +8225,7 @@ msgid ""
 msgstr ""
 
 #: cms/templates/js/staff-lock-editor.underscore:22
-msgid "Hide in Course Outline, accessible via Link"
+msgid "Hide in Micro-experience Outline, accessible via Link"
 msgstr ""
 
 #: cms/templates/js/staff-lock-editor.underscore:24
@@ -8242,7 +8242,7 @@ msgstr ""
 
 #: cms/templates/js/staff-lock-editor.underscore:40
 msgid ""
-"It is intentionally hidden from learners, ensuring that only the course "
+"It is intentionally hidden from learners, ensuring that only the Micro-experience "
 "staff can view its contents."
 msgstr ""
 
@@ -8508,7 +8508,7 @@ msgstr ""
 #: cms/templates/js/maintenance/force-published-course-response.underscore:3
 msgid ""
 "You have done a dry run of force publishing the course. Nothing has changed. "
-"Had you run it, the following course versions would have been change."
+"Had you run it, the following Micro-experience versions would have been change."
 msgstr ""
 
 #: cms/templates/js/maintenance/force-published-course-response.underscore:7
@@ -9790,7 +9790,7 @@ msgid ""
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:131
-msgid "Only the parent course staff of a CCX can create content groups."
+msgid "Only the parent Micro-experience staff of a CCX can create content groups."
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:133
@@ -9847,7 +9847,7 @@ msgstr ""
 #: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:44
 msgid ""
 "To review learner cohort assignments or see the results of uploading a CSV "
-"file, download course profile information or cohort results on the "
+"file, download Micro-experience profile information or cohort results on the "
 "{link_start}Data Download{link_end} page."
 msgstr ""
 
@@ -9987,7 +9987,7 @@ msgstr ""
 
 #: lms/templates/learner_dashboard/explore_new_programs.underscore:2
 msgid ""
-"Browse recently launched courses and see what\\'s new in your favorite "
+"Browse recently launched Micro-experiences and see what\\'s new in your favorite "
 "subjects"
 msgstr ""
 
@@ -10087,7 +10087,7 @@ msgstr ""
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:52
 #: lms/templates/learner_dashboard/program_details_view.underscore:28
-msgid "Upgrade All Remaining Courses ("
+msgid "Upgrade All Remaining Micro-experiences ("
 msgstr ""
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:56
@@ -10123,7 +10123,7 @@ msgstr ""
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:98
 #: lms/templates/learner_dashboard/program_details_view.underscore:74
 msgid ""
-"Complete courses on your schedule to ensure you stand out in your field!"
+"Complete Micro-experiences on your schedule to ensure you stand out in your field!"
 msgstr ""
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:122
@@ -10142,7 +10142,7 @@ msgstr ""
 #: lms/templates/learner_dashboard/program_details_view.underscore:18
 #, python-format
 msgid ""
-"Track and plan your progress through the %(count)s courses in this program. "
+"Track and plan your progress through the %(count)s Micro-experiences in this program. "
 "To complete the program, you must earn a verified certificate for each "
 "course."
 msgstr ""
@@ -10371,7 +10371,7 @@ msgid "You are now enrolled as a verified student for:"
 msgstr ""
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:12
-msgid "A list of courses you have just enrolled in as a verified student"
+msgid "A list of Micro-experiences you have just enrolled in as a verified student"
 msgstr ""
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:31
@@ -10390,7 +10390,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Thank you for submitting your photos. We will review them shortly. You can "
-"now sign up for any %(platformName)s course that offers verified "
+"now sign up for any %(platformName)s Micro-experience that offers verified "
 "certificates. Verification is good for one year. After one year, you must "
 "submit photos for verification again."
 msgstr ""
@@ -10725,7 +10725,7 @@ msgstr ""
 
 #: lms/templates/verify_student/make_payment_step.underscore:93
 msgid ""
-"All professional education courses are fee-based, and require payment to "
+"All professional education Micro-experiences are fee-based, and require payment to "
 "complete the enrollment process."
 msgstr ""
 
@@ -10804,7 +10804,7 @@ msgid ""
 "We have received your information and are verifying your identity. You will "
 "see a message on your dashboard when the verification process is complete "
 "(usually within 5-7 days). In the meantime, you can still access all "
-"available course content."
+"available Micro-experience content."
 msgstr ""
 
 #: lms/templates/verify_student/reverify_success_step.underscore:9
