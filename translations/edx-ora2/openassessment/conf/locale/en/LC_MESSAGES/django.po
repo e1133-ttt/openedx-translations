@@ -500,7 +500,7 @@ msgstr ""
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:53
 msgid ""
-"This feature is being enabled by the Micro-experience-level setting. It can be found "
+"This feature is being enabled by the course-level setting. It can be found "
 "under the Open Response Assessment Settings card on the Pages & Resources "
 "studio page."
 msgstr ""
@@ -628,7 +628,7 @@ msgid "Match deadlines to the subsection due date"
 msgstr ""
 
 #: templates/legacy/edit/oa_edit_schedule.html:27
-msgid "Match deadlines to the Micro-experience end date"
+msgid "Match deadlines to the course end date"
 msgstr ""
 
 #: templates/legacy/edit/oa_edit_schedule.html:30
@@ -739,7 +739,7 @@ msgid "Block ID"
 msgstr ""
 
 #: templates/legacy/edit/oa_rubric_reuse.html:21
-msgid "No other Open Response Assessments found in Micro-experiences"
+msgid "No other Open Response Assessments found in course"
 msgstr ""
 
 #: templates/legacy/edit/oa_rubric_reuse.html:31
@@ -888,14 +888,14 @@ msgstr ""
 
 #: templates/legacy/grade/oa_grade_complete.html:134
 msgid ""
-"Your feedback has been submitted. Micro-experience staff will be able to see this "
-"feedback when they review Micro-experience records."
+"Your feedback has been submitted. Course staff will be able to see this "
+"feedback when they review course records."
 msgstr ""
 
 #: templates/legacy/grade/oa_grade_complete.html:140
 msgid ""
-"Micro-experience staff will be able to see any feedback that you provide here when "
-"they review Micro-experience records."
+"Course staff will be able to see any feedback that you provide here when "
+"they review course records."
 msgstr ""
 
 #: templates/legacy/grade/oa_grade_complete.html:146
@@ -1012,14 +1012,14 @@ msgstr ""
 #: templates/legacy/message/oa_message_cancelled.html:8
 msgid ""
 "Your team’s submission has been cancelled. Your team will receive a grade of "
-"zero unless Micro-experience staff resets your assessment to allow the team to "
+"zero unless course staff resets your assessment to allow the team to "
 "resubmit a response."
 msgstr ""
 
 #: templates/legacy/message/oa_message_cancelled.html:10
 msgid ""
 "Your submission has been cancelled. You will receive a grade of zero unless "
-"Micro-experience staff resets your assessment to allow you to resubmit a response."
+"course staff resets your assessment to allow you to resubmit a response."
 msgstr ""
 
 #: templates/legacy/message/oa_message_closed.html:8
@@ -1220,7 +1220,7 @@ msgstr ""
 
 #: templates/legacy/oa_uploaded_file.html:48
 msgid ""
-"Caution: These files were uploaded by another Micro-experience learner and have not "
+"Caution: These files were uploaded by another course learner and have not "
 "been verified, screened, approved, reviewed, or endorsed by the site "
 "administrator. If you access the files, you do so at your own risk.)"
 msgstr ""
@@ -1435,7 +1435,7 @@ msgstr ""
 #: templates/legacy/response/oa_response.html:94
 msgid ""
 "Your work will save automatically and you can return to complete your "
-"response at any time before the Micro-experience ends "
+"response at any time before the course ends "
 msgstr ""
 
 #: templates/legacy/response/oa_response.html:96
@@ -1669,7 +1669,7 @@ msgid ""
 "The due date for this step has passed. This step is now closed. You can no "
 "longer submit a response or continue with this problem, and you will receive "
 "a grade of Incomplete. If you saved but did not submit a response, the "
-"response appears in the Micro-experience records."
+"response appears in the course records."
 msgstr ""
 
 #: templates/legacy/response/oa_response_graded.html:20
@@ -1745,7 +1745,7 @@ msgid ""
 "                            and you will not receive a grade for their "
 "response. You have also not previously submitted\n"
 "                            a response to this assignment with another team. "
-"Please contact Micro-experience staff to discuss your\n"
+"Please contact course staff to discuss your\n"
 "                            options for this assignment.\n"
 "                        "
 msgstr ""
@@ -2100,7 +2100,7 @@ msgstr ""
 
 #: templates/legacy/staff_area/oa_student_info.html:207
 msgid ""
-"Grades are frozen. Grades are automatically frozen 30 days after the Micro-experience "
+"Grades are frozen. Grades are automatically frozen 30 days after the course "
 "end date."
 msgstr ""
 

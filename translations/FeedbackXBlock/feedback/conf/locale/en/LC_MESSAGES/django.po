@@ -35,7 +35,7 @@ msgstr ""
 msgid ""
 "Take a little bit of time to reflect here. Research shows that a meaningful "
 "synthesis will help you better understand and remember material from this "
-"Micro-experience."
+"course."
 msgstr ""
 
 #: feedback.py:43 feedback.py:164
@@ -111,12 +111,12 @@ msgid "Show aggregate to students"
 msgstr ""
 
 #: feedback.py:159
-msgid "Please reflect on this Micro-experience material"
+msgid "Please reflect on this course material"
 msgstr ""
 
 #: feedback.py:160
 msgid ""
-"Please take time to meaningfully reflect on your experience with this Micro-experience"
+"Please take time to meaningfully reflect on your experience with this course"
 " material."
 msgstr ""
 
@@ -166,8 +166,8 @@ msgstr ""
 
 #: templates/html/studio_view.html:5
 msgid ""
-"This XBlock allows you to collect student feedback on pieces of the Micro-experience. "
-"This may be helpful either for Micro-experience improvement, or to give students a "
+"This XBlock allows you to collect student feedback on pieces of the course. "
+"This may be helpful either for course improvement, or to give students a "
 "chance to reflect on what they have done."
 msgstr ""
 
