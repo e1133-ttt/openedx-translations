@@ -17561,7 +17561,7 @@ msgstr ""
 #: lms/templates/navigation/bootstrap/navbar-authenticated.html:32
 #: lms/templates/navigation/navbar-authenticated.html:16
 msgid "Explore courses"
-msgstr ""
+msgstr "Explore Micro-experiences"
 
 #: lms/templates/dashboard.html:249
 #: lms/templates/registration/account_activation_sidebar_notice.html:16
@@ -22822,7 +22822,7 @@ msgstr ""
 
 #: lms/templates/navigation/navbar-not-authenticated.html:33
 msgid "Explore Courses"
-msgstr ""
+msgstr "Explore Micro-experiences"
 
 #: lms/templates/navigation/navigation.html:44
 msgid "Global"
